@@ -55,7 +55,7 @@ export default function RootLayout({
               "@type": "SoftwareApplication",
               name: "Pawlo",
               description:
-                "Shared pet care tracker for households. Never wonder if someone fed the pet.",
+                "The shared pet checklist for multi-person households.",
               applicationCategory: "LifestyleApplication",
               operatingSystem: "iOS",
               offers: {

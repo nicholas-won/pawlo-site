@@ -10,7 +10,7 @@ export default function Footer() {
             <span>Pawlo</span>
           </a>
           <p className={styles.tagline}>
-            Never wonder if someone fed the pet.
+            The shared pet checklist for multi-person households.
           </p>
         </div>
 

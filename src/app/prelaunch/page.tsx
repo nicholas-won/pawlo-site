@@ -62,7 +62,7 @@ export default function PrelaunchPage() {
                     <div className={styles.successMessage}>
                       <span className={styles.successIcon}>🎉</span>
                       <p>
-                        <strong>You&apos;re on the list!</strong> We&apos;ll email
+                        <strong>You&apos;re on the list!</strong>{" "}We&apos;ll email
                         you on launch day.
                       </p>
                     </div>
