@@ -1,0 +1,120 @@
+.conflict {
+  background: linear-gradient(135deg, #FEF9EE 0%, #FEF3C7 50%, #FDE68A 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.conflict::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 50%, rgba(245, 158, 11, 0.1) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+  position: relative;
+  z-index: 2;
+}
+
+.imageWrap {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.mockupFrame {
+  position: relative;
+}
+
+.mockup {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  border-radius: var(--border-radius-lg);
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15));
+}
+
+.content {
+  flex: 1;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: var(--border-radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: #92400E;
+  margin-bottom: var(--space-6);
+}
+
+.headline {
+  font-size: var(--font-size-4xl);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: var(--space-6);
+  color: var(--color-navy);
+}
+
+.highlight {
+  color: #D97706;
+}
+
+.desc {
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-600);
+  line-height: 1.7;
+  margin-bottom: var(--space-3);
+}
+
+.descEmphasis {
+  font-size: var(--font-size-lg);
+  color: var(--color-navy);
+  font-weight: 600;
+  margin-bottom: var(--space-8);
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-navy);
+}
+
+.featureIcon {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .inner {
+    flex-direction: column;
+  }
+
+  .headline {
+    font-size: var(--font-size-3xl);
+  }
+
+  .mockup {
+    max-width: 280px;
+  }
+}
