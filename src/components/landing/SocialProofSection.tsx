@@ -1,66 +1,60 @@
 import AnimatedSection from "@/components/AnimatedSection";
 import styles from "./SocialProofSection.module.css";
 
-const stats = [
-  { number: "94M", label: "US households own a pet" },
-  { number: "1 in 3", label: "have multiple pets" },
-  { number: "67%", label: "of US households include a pet" },
-];
-
 const testimonials = [
   {
-    quote: "We stopped arguing about who feeds the dog. Seriously, this app fixed our morning routine.",
-    author: "Sarah & Mike",
-    detail: "Beta testers",
+    quote:
+      "Pawlo saved our lab from getting three breakfasts every single morning. The conflict alerts are literal lifesavers.",
+    name: "Sarah Jenkins",
+    role: "Human to Buster",
+    avatar: "👩",
   },
   {
-    quote: "As a dog walker, knowing the pup was already fed before I arrive is a game-changer.",
-    author: "Jess T.",
-    detail: "Pet sitter",
+    quote:
+      "The cleanest UI I've ever seen for a pet app. It doesn't feel like a chore to use—it feels like part of our morning ritual.",
+    name: "David Chen",
+    role: "Human to Mochi",
+    avatar: "👨",
+    offset: true,
   },
   {
-    quote: "My roommate and I finally have a system. No more 'I thought you did it' moments.",
-    author: "Alex R.",
-    detail: "Cat household",
+    quote:
+      "Finally, I can see exactly when the dog was walked without having to text my roommate three times. Absolute game changer.",
+    name: "Alex Rivera",
+    role: "Human to Duke",
+    avatar: "🧔",
   },
 ];
 
 export default function SocialProofSection() {
   return (
-    <section className={`section ${styles.social}`}>
-      <div className="container">
+    <section className={styles.section} id="testimonials">
+      <div className={styles.inner}>
         <AnimatedSection>
-          <div className="section-header">
-            <h2>Built for pet households everywhere</h2>
-            <p>Trusted by multi-person households who share pet care responsibilities.</p>
+          <div className={styles.header}>
+            <h2 className={styles.heading}>
+              What pet parents{" "}
+              <span className={styles.accent}>are saying</span>
+            </h2>
+            <p className={styles.subtitle}>
+              Trusted by families who treat pets like royalty.
+            </p>
           </div>
         </AnimatedSection>
 
-        <div className={styles.stats}>
-          {stats.map((s, i) => (
-            <AnimatedSection key={i} delay={i * 150}>
-              <div className={styles.stat}>
-                <span className={styles.statNumber}>{s.number}</span>
-                <span className={styles.statLabel}>{s.label}</span>
-              </div>
-            </AnimatedSection>
-          ))}
-        </div>
-
-        <div className={styles.testimonials}>
+        <div className={styles.grid}>
           {testimonials.map((t, i) => (
-            <AnimatedSection key={i} delay={i * 150}>
-              <div className={styles.testimonialCard}>
-                <div className={styles.stars}>★★★★★</div>
-                <p className={styles.quote}>&ldquo;{t.quote}&rdquo;</p>
-                <div className={styles.author}>
-                  <div className={styles.avatar}>
-                    {t.author.charAt(0)}
-                  </div>
-                  <div>
-                    <p className={styles.authorName}>{t.author}</p>
-                    <p className={styles.authorDetail}>{t.detail}</p>
-                  </div>
+            <AnimatedSection
+              key={i}
+              delay={i * 100}
+              className={`${styles.card} ${t.offset ? styles.cardOffset : ""}`}
+            >
+              <p className={styles.quote}>&ldquo;{t.quote}&rdquo;</p>
+              <div className={styles.author}>
+                <div className={styles.avatar}>{t.avatar}</div>
+                <div>
+                  <p className={styles.name}>{t.name}</p>
+                  <p className={styles.role}>{t.role}</p>
                 </div>
               </div>
             </AnimatedSection>

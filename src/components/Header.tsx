@@ -16,27 +16,24 @@ export default function Header() {
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <div className={styles.inner}>
-        <a href="/" className={styles.logo}>
-          <span className={styles.logoIcon}>🐾</span>
-          <span className={styles.logoText}>Pawlo</span>
-        </a>
+        <a href="/" className={styles.logo}>Pawlo</a>
 
         <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ""}`}>
-          <a href="/#how-it-works" onClick={() => setMenuOpen(false)}>
-            How It Works
-          </a>
           <a href="/#features" onClick={() => setMenuOpen(false)}>
             Features
           </a>
-          <a href="/#pricing" onClick={() => setMenuOpen(false)}>
-            Pricing
+          <a href="/#testimonials" onClick={() => setMenuOpen(false)}>
+            Testimonials
           </a>
-          <a href="/creators" className={styles.creatorsLink}>
+          <a href="/#waitlist" onClick={() => setMenuOpen(false)}>
+            Waitlist
+          </a>
+          <a href="/creators" className={styles.creatorsLink} onClick={() => setMenuOpen(false)}>
             Creators
           </a>
           <a
             href="/#download"
-            className={`btn btn--primary ${styles.headerCta}`}
+            className={styles.headerCta}
             onClick={() => setMenuOpen(false)}
           >
             Download
