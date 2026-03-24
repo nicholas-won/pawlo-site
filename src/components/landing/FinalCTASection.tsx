@@ -1,3 +1,4 @@
+"use client";
 import AnimatedSection from "@/components/AnimatedSection";
 import styles from "./FinalCTASection.module.css";
 
