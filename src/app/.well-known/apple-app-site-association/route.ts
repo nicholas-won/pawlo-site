@@ -17,6 +17,7 @@ export async function GET() {
             { "/": "/creators/*", exclude: true, comment: "Creators sub-pages - web only" },
             { "/": "/launch", exclude: true, comment: "Launch page - web only" },
             { "/": "/prelaunch", exclude: true, comment: "Prelaunch page - web only" },
+            { "/": "/delete-account", exclude: true, comment: "Account deletion page - web only" },
 
             // --- App deep link paths ---
             // Add specific patterns here as the app grows, e.g.:

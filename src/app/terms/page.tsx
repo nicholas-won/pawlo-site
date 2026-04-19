@@ -15,7 +15,7 @@ export default function TermsPage() {
       <main className={styles.main}>
         <div className={`container container--narrow ${styles.content}`}>
           <h1>Terms of Service</h1>
-          <p className={styles.updated}>Last updated: March 18, 2026</p>
+          <p className={styles.updated}>Last updated: April 19, 2026</p>
 
           <section>
             <h2>Agreement to Terms</h2>
@@ -48,10 +48,14 @@ export default function TermsPage() {
               You must notify us immediately of any unauthorized use of your
               account.
             </p>
+            <p>
+              You may request deletion of your account at any time by visiting our{" "}
+              <a href="/delete-account">Account Deletion page</a>.
+            </p>
           </section>
 
           <section>
-            <h2>Subscriptions & Billing</h2>
+            <h2>Subscriptions &amp; Billing</h2>
             <p>
               Pawlo offers both free and premium subscription plans. Premium
               subscriptions are billed through Apple&apos;s App Store and are subject
@@ -62,6 +66,7 @@ export default function TermsPage() {
               <li>You can manage and cancel subscriptions through your Apple ID settings.</li>
               <li>Refunds are handled by Apple according to their refund policy.</li>
               <li>Free trial periods, if offered, convert to paid subscriptions unless canceled before the trial ends.</li>
+              <li>Price changes to subscription plans will be communicated with at least 30 days&apos; notice.</li>
             </ul>
           </section>
 
@@ -79,7 +84,7 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2>User Content & Data</h2>
+            <h2>User Content &amp; Data</h2>
             <p>
               You retain ownership of any content you create within the Service,
               including pet profiles, task logs, and household data. By using the
@@ -88,7 +93,7 @@ export default function TermsPage() {
             </p>
             <p>
               You can export or delete your data at any time through the app
-              settings or by contacting us.
+              settings or by visiting our <a href="/delete-account">Account Deletion page</a>.
             </p>
           </section>
 
@@ -102,6 +107,16 @@ export default function TermsPage() {
           </section>
 
           <section>
+            <h2>Disclaimer of Warranties</h2>
+            <p>
+              The Service is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis
+              without warranties of any kind, either express or implied, including
+              but not limited to implied warranties of merchantability, fitness for
+              a particular purpose, or non-infringement.
+            </p>
+          </section>
+
+          <section>
             <h2>Limitation of Liability</h2>
             <p>
               Pawlo is a pet care coordination tool and is not a substitute for
@@ -111,7 +126,9 @@ export default function TermsPage() {
             <p>
               In no event shall Pawlo, its directors, employees, or agents be
               liable for any indirect, incidental, special, consequential, or
-              punitive damages arising out of your use of the Service.
+              punitive damages arising out of your use of the Service. Our total
+              liability shall not exceed the amount you paid us in the twelve
+              months preceding the claim.
             </p>
           </section>
 
@@ -127,6 +144,17 @@ export default function TermsPage() {
               Upon termination, your right to use the Service will cease
               immediately. You may request a copy of your data before termination
               by contacting us.
+            </p>
+          </section>
+
+          <section>
+            <h2>Governing Law</h2>
+            <p>
+              These Terms shall be governed by and construed in accordance with
+              the laws of the State of California, United States, without regard
+              to its conflict of law provisions. Any disputes arising under these
+              Terms shall be subject to the exclusive jurisdiction of the courts
+              located in California.
             </p>
           </section>
 
