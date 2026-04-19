@@ -41,17 +41,13 @@
   color: var(--on-surface);
 }
 
-.logoPaw {
+.logoPawImg {
   width: 36px;
   height: 36px;
   border-radius: 10px;
-  background: linear-gradient(135deg, var(--primary), var(--primary-container));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  box-shadow: var(--shadow-glow-primary);
+  object-fit: cover;
   flex-shrink: 0;
+  box-shadow: var(--shadow-soft);
 }
 
 .nav {

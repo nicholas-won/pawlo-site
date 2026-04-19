@@ -17,7 +17,7 @@ export default function Header() {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <div className={styles.inner}>
         <a href="/" className={styles.logo}>
-          <div className={styles.logoPaw}>🐾</div>
+          <img src="/logo.png" alt="Pawlo" className={styles.logoPawImg} />
           Pawlo
         </a>
 
