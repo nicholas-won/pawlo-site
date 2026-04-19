@@ -1,48 +1,227 @@
 .problem {
-  position: relative;
+  background: var(--surface-container-low);
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-6);
-  max-width: 900px;
-  margin: 0 auto;
+  gap: 1.75rem;
+  align-items: start;
 }
 
-.card {
+.grid > *:nth-child(2) {
+  margin-top: 2rem;
+}
+
+.grid > *:nth-child(3) {
+  margin-top: 0.8rem;
+}
+
+/* iMessage card */
+.imsg {
+  background: #fff;
+  border-radius: 28px;
+  box-shadow: var(--shadow-editorial);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  transition: transform 300ms var(--ease);
+}
+
+.imsg:hover {
+  transform: translateY(-5px);
+}
+
+.imsgHeader {
+  background: rgba(246, 246, 246, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 14px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.imsgBack {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #007aff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.imsgFacetime {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  line-height: 1;
+}
+
+.imsgAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #c7c7cc, #8e8e93);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.imsgName {
+  font-size: 11px;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.imsgName::after {
+  content: "›";
+  color: #8e8e93;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 1px;
+}
+
+.imsgBody {
+  padding: 14px 12px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background: #fff;
+  min-height: 220px;
+}
+
+.imsgTime {
   text-align: center;
-  padding: var(--space-8) var(--space-6);
-  background: var(--color-white);
-  border: 1px solid var(--color-gray-200);
+  font-size: 10px;
+  font-weight: 500;
+  color: #8e8e93;
+  margin: 4px 0 10px;
+  letter-spacing: -0.01em;
 }
 
-.card:hover {
-  border-color: var(--color-primary);
+.bubble {
+  max-width: 78%;
+  padding: 7px 12px;
+  font-size: 14.5px;
+  line-height: 1.28;
+  letter-spacing: -0.01em;
+  position: relative;
+  border-radius: 18px;
+  word-wrap: break-word;
 }
 
-.emoji {
-  font-size: 3rem;
-  display: block;
-  margin-bottom: var(--space-4);
+.gap {
+  margin-top: 6px;
 }
 
-.title {
-  font-size: var(--font-size-lg);
+.bubbleIn {
+  background: #e9e9eb;
+  color: #000;
+  align-self: flex-start;
+  border-bottom-left-radius: 5px;
+}
+
+.bubbleIn.tail::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  bottom: 0;
+  width: 18px;
+  height: 18px;
+  background: #e9e9eb;
+  border-bottom-right-radius: 15px;
+  z-index: -1;
+}
+
+.bubbleIn.tail::after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  bottom: 0;
+  width: 10px;
+  height: 18px;
+  background: #fff;
+  border-bottom-right-radius: 10px;
+}
+
+.bubbleOut {
+  background: #007aff;
+  color: #fff;
+  align-self: flex-end;
+  border-bottom-right-radius: 5px;
+}
+
+.bubbleOut.tail::before {
+  content: "";
+  position: absolute;
+  right: -6px;
+  bottom: 0;
+  width: 18px;
+  height: 18px;
+  background: #007aff;
+  border-bottom-left-radius: 15px;
+  z-index: -1;
+}
+
+.bubbleOut.tail::after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  width: 10px;
+  height: 18px;
+  background: #fff;
+  border-bottom-left-radius: 10px;
+}
+
+.imsgDelivered {
+  align-self: flex-end;
+  font-size: 9.5px;
+  font-weight: 500;
+  color: #8e8e93;
+  letter-spacing: 0.02em;
+  margin-top: 3px;
+  margin-right: 2px;
+}
+
+.imsgCaption {
+  background: var(--tertiary-fixed);
+  color: var(--on-tertiary-fixed);
+  padding: 0.85rem 1rem;
+  font-family: var(--font-primary);
+  font-size: 0.88rem;
   font-weight: 700;
-  color: var(--color-navy);
-  margin-bottom: var(--space-2);
-  font-style: italic;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.desc {
-  font-size: var(--font-size-base);
-  color: var(--color-gray-500);
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .grid {
     grid-template-columns: 1fr;
-    max-width: 400px;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .grid > *:nth-child(2),
+  .grid > *:nth-child(3) {
+    margin-top: 0;
   }
 }

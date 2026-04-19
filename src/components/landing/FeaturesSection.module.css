@@ -55,7 +55,7 @@
 }
 
 .cardBlue {
-  background: var(--surface-container-highest);
+  background: var(--primary-fixed-dim);
 }
 
 .cardPrimary {

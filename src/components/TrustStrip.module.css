@@ -1,0 +1,43 @@
+.strip {
+  background: var(--primary);
+  padding: 1.1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.itemGroup {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.sep {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .strip {
+    gap: 1.25rem;
+    padding: 1rem 1.25rem;
+  }
+
+  .sep {
+    display: none;
+  }
+}

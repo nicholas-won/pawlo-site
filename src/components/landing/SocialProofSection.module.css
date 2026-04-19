@@ -51,6 +51,15 @@
   transform: translateY(var(--space-8));
 }
 
+.stars {
+  display: flex;
+  gap: 2px;
+  margin-bottom: var(--space-4);
+  color: #f59e0b;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
 .quote {
   font-size: var(--font-size-xl);
   line-height: 1.6;
