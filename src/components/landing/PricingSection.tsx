@@ -20,9 +20,9 @@ const freePlan = {
 
 const premiumPlan = {
   name: "Premium",
-  price: "$3.99",
+  price: "$2.99",
   period: "/month",
-  yearlyPrice: "$24.99/year",
+  yearlyPrice: "$24.99/year — billed annually",
   description: "Unlock the full Pawlo experience.",
   features: [
     "Everything in Free, plus:",
@@ -81,7 +81,7 @@ export default function PricingSection() {
                   <span className={styles.price}>{premiumPlan.price}</span>
                   <span className={styles.period}>{premiumPlan.period}</span>
                 </div>
-                <p className={styles.yearlyPrice}>{premiumPlan.yearlyPrice} — save 48%</p>
+                <p className={styles.yearlyPrice}>{premiumPlan.yearlyPrice} — save 30%</p>
                 <p className={styles.planDesc}>{premiumPlan.description}</p>
               </div>
               <ul className={styles.featureList}>

@@ -58,7 +58,7 @@ const categories = [
       },
       {
         question: "What does Premium include?",
-        answer: "Premium ($3.99/month or $24.99/year) adds: unlimited pet profiles, home screen widgets, smart reminders, full care history, custom task types, and priority support. You can try Premium free for 7 days.",
+        answer: "Premium ($2.99/month or $24.99/year billed annually) adds: unlimited pet profiles, home screen widgets, smart reminders, full care history, custom task types, and priority support. You can try Premium free for 7 days.",
       },
       {
         question: "How do I cancel my subscription?",

@@ -56,7 +56,7 @@ export default function CreatorsPage() {
 
   const monthlyDownloads = Math.round((followers * downloadRate) / 100);
   const monthlySubscribers = Math.round((monthlyDownloads * subscribeRate) / 100);
-  const monthlyEarnings = (monthlySubscribers * 3.99 * 0.3).toFixed(2);
+  const monthlyEarnings = (monthlySubscribers * 2.99 * 0.3).toFixed(2);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
