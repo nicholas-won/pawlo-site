@@ -9,6 +9,7 @@ export async function GET() {
           components: [
             // --- Excluded web-only pages ---
             // These paths should open in the browser, not the app
+            { "/": "/", exclude: true, comment: "Homepage - web only" },
             { "/": "/privacy", exclude: true, comment: "Privacy policy - web only" },
             { "/": "/terms", exclude: true, comment: "Terms of service - web only" },
             { "/": "/support", exclude: true, comment: "Support page - web only" },
@@ -23,6 +24,9 @@ export async function GET() {
             // Uncomment and add specific patterns as the app grows:
             // { "/": "/invite/*", comment: "Household invite links" },
             // { "/": "/pet/*", comment: "Pet profile deep links" },
+
+            // Explicitly exclude everything else so the app NEVER hijacks the website
+            { "/": "/*", exclude: true, comment: "Catch-all exclude" },
           ],
         },
       ],
