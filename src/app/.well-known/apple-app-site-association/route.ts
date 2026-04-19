@@ -20,12 +20,9 @@ export async function GET() {
             { "/": "/delete-account", exclude: true, comment: "Account deletion page - web only" },
 
             // --- App deep link paths ---
-            // Add specific patterns here as the app grows, e.g.:
+            // Uncomment and add specific patterns as the app grows:
             // { "/": "/invite/*", comment: "Household invite links" },
             // { "/": "/pet/*", comment: "Pet profile deep links" },
-
-            // Catch-all for any other paths
-            { "/": "/*", comment: "Match all remaining paths" },
           ],
         },
       ],
