@@ -1,36 +1,39 @@
 .pricing {
   position: relative;
+  background: var(--surface);
 }
 
 .cards {
   display: flex;
   justify-content: center;
   gap: var(--space-6);
-  max-width: 800px;
+  max-width: 820px;
   margin: 0 auto;
   align-items: stretch;
 }
 
 .card {
   flex: 1;
-  background: var(--color-white);
-  border: 1px solid var(--color-gray-200);
+  background: var(--surface-container-lowest);
+  border: 1px solid var(--outline-variant);
   border-radius: var(--border-radius-lg);
   padding: var(--space-8);
   display: flex;
   flex-direction: column;
   transition: all var(--transition-base);
   position: relative;
+  box-shadow: var(--shadow-soft);
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-xl);
+  box-shadow: var(--shadow-editorial);
 }
 
 .cardHighlight {
-  border: 2px solid var(--color-primary);
-  box-shadow: var(--shadow-lg), var(--shadow-glow);
+  border: 2px solid var(--primary);
+  box-shadow: var(--shadow-editorial), var(--shadow-glow-primary);
+  background: var(--surface-container-lowest);
 }
 
 .popularBadge {
@@ -38,8 +41,8 @@
   top: -14px;
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
-  color: white;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 100%);
+  color: var(--on-primary);
   padding: var(--space-1) var(--space-4);
   border-radius: var(--border-radius-full);
   font-size: var(--font-size-xs);
@@ -52,13 +55,13 @@
 .cardHeader {
   margin-bottom: var(--space-6);
   padding-bottom: var(--space-6);
-  border-bottom: 1px solid var(--color-gray-200);
+  border-bottom: 1px solid var(--outline-variant);
 }
 
 .planName {
   font-size: var(--font-size-xl);
   font-weight: 700;
-  color: var(--color-navy);
+  color: var(--on-surface);
   margin-bottom: var(--space-2);
 }
 
@@ -72,25 +75,25 @@
 .price {
   font-size: var(--font-size-4xl);
   font-weight: 800;
-  color: var(--color-navy);
+  color: var(--on-surface);
   letter-spacing: -0.02em;
 }
 
 .period {
   font-size: var(--font-size-base);
-  color: var(--color-gray-500);
+  color: var(--on-surface-variant);
 }
 
 .yearlyPrice {
   font-size: var(--font-size-sm);
-  color: var(--color-success);
+  color: var(--tertiary);
   font-weight: 600;
   margin-bottom: var(--space-2);
 }
 
 .planDesc {
   font-size: var(--font-size-sm);
-  color: var(--color-gray-500);
+  color: var(--on-surface-variant);
 }
 
 .featureList {
@@ -107,13 +110,14 @@
   align-items: center;
   gap: var(--space-3);
   font-size: var(--font-size-sm);
-  color: var(--color-gray-700);
+  color: var(--on-surface-variant);
 }
 
 .check {
-  color: var(--color-success);
+  color: var(--primary);
   font-weight: 700;
   font-size: var(--font-size-base);
+  flex-shrink: 0;
 }
 
 .planCta {
@@ -121,6 +125,11 @@
   text-align: center;
   padding: var(--space-3) var(--space-6) !important;
   font-size: var(--font-size-base) !important;
+  border-radius: var(--border-radius-lg) !important;
+}
+
+.cardHighlight .planCta {
+  box-shadow: var(--shadow-glow-primary);
 }
 
 @media (max-width: 768px) {
