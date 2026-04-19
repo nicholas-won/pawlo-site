@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Pawlo — Shared Pet Care Tracker for Households",
     description:
       "Keep your whole household in sync on pet care. One tap to mark it done — everyone sees it instantly.",
-    url: "https://pawlo.app",
+    url: "https://getpawlo.app",
     siteName: "Pawlo",
     type: "website",
     locale: "en_US",

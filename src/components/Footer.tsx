@@ -64,7 +64,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="mailto:hello@pawlo.app">hello@pawlo.app</a>
+              <a href="mailto:hello@getpawlo.app">hello@getpawlo.app</a>
             </li>
           </ul>
         </div>

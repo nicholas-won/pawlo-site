@@ -109,7 +109,7 @@ export default function PrivacyPage() {
             </ul>
             <p>
               To exercise any of these rights, please contact us at{" "}
-              <a href="mailto:hello@pawlo.app">hello@pawlo.app</a>.
+              <a href="mailto:hello@getpawlo.app">hello@getpawlo.app</a>.
             </p>
           </section>
 
@@ -139,7 +139,7 @@ export default function PrivacyPage() {
               practices, please contact us at:
             </p>
             <p>
-              <a href="mailto:hello@pawlo.app">hello@pawlo.app</a>
+              <a href="mailto:hello@getpawlo.app">hello@getpawlo.app</a>
             </p>
           </section>
         </div>

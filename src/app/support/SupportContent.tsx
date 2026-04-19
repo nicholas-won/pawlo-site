@@ -76,7 +76,7 @@ const categories = [
     items: [
       {
         question: "Tasks aren't syncing across devices",
-        answer: "Make sure all devices are connected to the internet. Try pulling down on the task list to force a refresh. If the issue persists, try signing out and back in. If you're still having trouble, contact us at hello@pawlo.app.",
+        answer: "Make sure all devices are connected to the internet. Try pulling down on the task list to force a refresh. If the issue persists, try signing out and back in. If you're still having trouble, contact us at hello@getpawlo.app.",
       },
       {
         question: "I'm not receiving notifications",
@@ -112,7 +112,7 @@ export default function SupportContent() {
           We&apos;re here for you. Send us an email and we&apos;ll get back to you within
           48 hours.
         </p>
-        <a href="mailto:hello@pawlo.app" className="btn btn--primary">
+        <a href="mailto:hello@getpawlo.app" className="btn btn--primary">
           Contact Support
         </a>
       </div>
