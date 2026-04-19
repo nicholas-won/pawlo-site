@@ -32,6 +32,7 @@ export default function SocialProofSection() {
       <div className={styles.inner}>
         <AnimatedSection>
           <div className={styles.header}>
+            <span className="label-tag">Real households</span>
             <h2 className={styles.heading}>
               What pet parents{" "}
               <span className={styles.accent}>are saying</span>
@@ -49,6 +50,7 @@ export default function SocialProofSection() {
               delay={i * 100}
               className={`${styles.card} ${t.offset ? styles.cardOffset : ""}`}
             >
+              <div className={styles.stars}>★★★★★</div>
               <p className={styles.quote}>&ldquo;{t.quote}&rdquo;</p>
               <div className={styles.author}>
                 <div className={styles.avatar}>{t.avatar}</div>

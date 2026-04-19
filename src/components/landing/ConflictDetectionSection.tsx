@@ -47,6 +47,7 @@ export default function ConflictDetectionSection() {
           {/* Text content */}
           <div className={styles.textCol}>
             <AnimatedSection delay={200}>
+              <span className="label-tag">Conflict Detection</span>
               <h2 className={styles.heading}>
                 The only pet app that{" "}
                 <span className={styles.headingAccent}>stops you</span> from

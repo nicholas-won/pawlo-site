@@ -5,9 +5,16 @@ const features = [
   {
     title: "Real-time Sync",
     description:
-      "Whether you're at work or in the yard, know exactly what's happening. Every paw-print update is shared instantly with the whole family.",
+      "Whether you're at work or in the yard, know exactly what's happening. Every update is shared instantly with the whole family — no refreshing, no texting.",
     icon: "🔄",
     span: "wide",
+  },
+  {
+    title: "Healthy Streaks",
+    description:
+      "Gamify your pet's wellness. Maintain streaks for consistent walks and medication schedules — and never break the chain.",
+    icon: "🔥",
+    span: "normal",
   },
   {
     title: "Conflict Detection",
@@ -16,20 +23,12 @@ const features = [
     icon: "🛡️",
     span: "normal",
     variant: "blue",
-    footer: "Family Security",
-  },
-  {
-    title: "Healthy Streaks",
-    description:
-      "Gamify your pet's wellness. Maintain streaks for consistent walks and medication schedules.",
-    icon: "🔥",
-    span: "normal",
-    variant: "primary",
+    footer: "Only in Pawlo",
   },
   {
     title: "Multi-Pet Support",
     description:
-      "Manage all your furry friends from a single editorial dashboard. Custom profiles for each personality.",
+      "Manage all your furry friends from a single dashboard. Custom profiles for each personality — one dog, two cats, three chaos agents, no problem.",
     icon: "🐾",
     span: "wide",
     hasImage: true,

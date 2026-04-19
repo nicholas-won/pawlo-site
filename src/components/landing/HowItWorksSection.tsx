@@ -27,9 +27,9 @@ export default function HowItWorksSection() {
     <section className={`section ${styles.howItWorks}`} id="how-it-works">
       <div className="container">
         <AnimatedSection>
-          <div className="section-header">
-            <h2>Simple. Shared. Done.</h2>
-            <p>Get your whole household in sync in under 60 seconds.</p>
+          <div className={`section-header ${styles.sectionHeader}`}>
+            <span className={styles.labelTag}>Simple. Shared. Done.</span>
+            <h2 className={styles.heading}>Get your whole household<br/>in sync in under 60 seconds.</h2>
           </div>
         </AnimatedSection>
         <div className={styles.steps}>
@@ -46,8 +46,8 @@ export default function HowItWorksSection() {
         </div>
         <AnimatedSection delay={700}>
           <div className={styles.ctaWrap}>
-            <a href="#download" className="btn btn--primary btn--large" id="how-it-works-cta">
-              Download on the App Store
+            <a href="#waitlist" className={styles.ctaBtn} id="how-it-works-cta">
+              📱 Join the Waitlist
             </a>
           </div>
         </AnimatedSection>

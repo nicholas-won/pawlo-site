@@ -1,71 +1,97 @@
 .howItWorks {
-  background: var(--color-white);
+  background: var(--tertiary-fixed);
+}
+
+.sectionHeader h2,
+.heading {
+  color: var(--on-tertiary-fixed);
+}
+
+.labelTag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--on-tertiary-fixed);
+  opacity: 0.5;
+  display: block;
+  margin-bottom: 0.75rem;
 }
 
 .steps {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: var(--space-4);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
   margin-bottom: var(--space-12);
 }
 
 .step {
   text-align: center;
-  max-width: 280px;
   padding: var(--space-4);
 }
 
 .stepNumber {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
-  color: white;
-  font-size: var(--font-size-sm);
-  font-weight: 700;
-  margin-bottom: var(--space-4);
+  background: var(--on-tertiary-fixed);
+  color: var(--tertiary-fixed);
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin: 0 auto var(--space-4);
 }
 
 .stepIcon {
-  font-size: 2.5rem;
-  margin-bottom: var(--space-4);
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  display: block;
 }
 
 .stepTitle {
-  font-size: var(--font-size-lg);
-  font-weight: 700;
-  color: var(--color-navy);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--on-tertiary-fixed);
   margin-bottom: var(--space-2);
 }
 
 .stepDesc {
-  font-size: var(--font-size-base);
-  color: var(--color-gray-500);
+  font-size: 0.95rem;
+  color: rgba(34, 27, 0, 0.65);
   line-height: 1.6;
-}
-
-.connector {
-  display: flex;
-  align-items: center;
-  padding-top: var(--space-12);
 }
 
 .ctaWrap {
   text-align: center;
 }
 
+.ctaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--on-tertiary-fixed);
+  color: var(--tertiary-fixed);
+  font-family: var(--font-primary);
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: 1.1rem 2.5rem;
+  border-radius: var(--border-radius-lg);
+  text-decoration: none;
+  transition: all 300ms var(--ease);
+}
+
+.ctaBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(34, 27, 0, 0.2);
+}
+
 @media (max-width: 768px) {
   .steps {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     align-items: center;
-  }
-
-  .connector {
-    transform: rotate(90deg);
-    padding-top: 0;
+    max-width: 360px;
+    margin: 0 auto var(--space-12);
   }
 }
