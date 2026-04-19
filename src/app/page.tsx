@@ -22,8 +22,8 @@ export default function Home() {
         <ProblemSection />
         <FeaturesSection />
         <ConflictDetectionSection />
-        <HowItWorksSection />
         <PricingSection />
+        <HowItWorksSection />
         <SocialProofSection />
         <FinalCTASection />
       </main>
