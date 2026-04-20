@@ -176,7 +176,6 @@ export default function TermsPage() {
 
           <section>
             <h2>Dispute Resolution &amp; Arbitration</h2>
-            <p><strong>Please read this section carefully — it affects your legal rights.</strong></p>
             <p>
               You and Pawlo agree that any dispute, claim, or controversy arising out of or relating to these Terms or your use of the Service will be resolved by binding individual arbitration rather than in court, except that either party may bring claims in small claims court if they qualify.
             </p>
