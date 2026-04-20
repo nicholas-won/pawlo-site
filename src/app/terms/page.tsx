@@ -37,6 +37,16 @@ export default function TermsPage() {
           </section>
 
           <section>
+            <h2>Eligibility</h2>
+            <p>
+              You must be at least 13 years of age to create an account or use Pawlo. By using the app, you represent that you meet this requirement. If you are between 13 and 18 years of age, you represent that your parent or legal guardian has reviewed and agreed to these Terms on your behalf.
+            </p>
+            <p>
+              Pawlo is not directed at children under the age of 13, and we do not knowingly collect personal information from anyone under 13. If we become aware that a user is under 13, we will promptly delete their account and associated data. If you believe a child under 13 has created an account, please contact us at <a href="mailto:contact@getpawlo.app">contact@getpawlo.app</a>.
+            </p>
+          </section>
+
+          <section>
             <h2>User Accounts</h2>
             <p>
               You are responsible for maintaining the security of your account and
