@@ -56,7 +56,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://tiktok.com/@pawloapp"
+                href="https://www.tiktok.com/@pawlohq"
                 target="_blank"
                 rel="noopener noreferrer"
               >
