@@ -132,7 +132,7 @@ export default function PrivacyPage() {
             </ul>
             <p>
               To exercise any of these rights, please contact us at{" "}
-              <a href="mailto:hello@getpawlo.app">hello@getpawlo.app</a>.
+              <a href="mailto:contact@getpawlo.app">contact@getpawlo.app</a>.
             </p>
           </section>
 
@@ -144,7 +144,7 @@ export default function PrivacyPage() {
               If we learn that we have collected personal information from a child
               under 13, we will take steps to delete such information promptly.
               If you believe we have collected information from a child under 13,
-              please contact us at <a href="mailto:hello@getpawlo.app">hello@getpawlo.app</a>.
+              please contact us at <a href="mailto:contact@getpawlo.app">contact@getpawlo.app</a>.
             </p>
           </section>
 
@@ -165,7 +165,7 @@ export default function PrivacyPage() {
               practices, please contact us at:
             </p>
             <p>
-              <a href="mailto:hello@getpawlo.app">hello@getpawlo.app</a>
+              <a href="mailto:contact@getpawlo.app">contact@getpawlo.app</a>
             </p>
           </section>
         </div>

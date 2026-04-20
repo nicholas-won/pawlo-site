@@ -47,7 +47,7 @@ export default function Footer() {
           <ul className={styles.linkList}>
             <li>
               <a
-                href="https://instagram.com/pawloapp"
+                href="https://www.instagram.com/pawlohq"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -64,7 +64,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="mailto:hello@getpawlo.app">hello@getpawlo.app</a>
+              <a href="mailto:contact@getpawlo.app">contact@getpawlo.app</a>
             </li>
           </ul>
         </div>

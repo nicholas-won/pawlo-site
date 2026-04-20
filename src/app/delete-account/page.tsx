@@ -58,8 +58,8 @@ export default function DeleteAccountPage() {
             <h3>Option 2: Email Request</h3>
             <p>
               Send an email to{" "}
-              <a href="mailto:hello@getpawlo.app?subject=Account%20Deletion%20Request&body=Please%20delete%20my%20Pawlo%20account%20associated%20with%20this%20email%20address.">
-                hello@getpawlo.app
+              <a href="mailto:contact@getpawlo.app?subject=Account%20Deletion%20Request&body=Please%20delete%20my%20Pawlo%20account%20associated%20with%20this%20email%20address.">
+                contact@getpawlo.app
               </a>{" "}
               with the subject line <strong>&quot;Account Deletion Request&quot;</strong> from the email address associated with your account. We will process your request within 30 days and send a confirmation when complete.
             </p>
@@ -76,7 +76,7 @@ export default function DeleteAccountPage() {
             <h2>Questions?</h2>
             <p>
               If you have any questions about the deletion process, contact us at{" "}
-              <a href="mailto:hello@getpawlo.app">hello@getpawlo.app</a>.
+              <a href="mailto:contact@getpawlo.app">contact@getpawlo.app</a>.
             </p>
           </section>
         </div>

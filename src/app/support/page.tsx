@@ -17,7 +17,7 @@ export default function SupportPage() {
         <div className="container">
           <div className={styles.header}>
             <h1>Support & FAQ</h1>
-            <p>Find answers to common questions. Need more help? Contact us at <a href="mailto:hello@getpawlo.app">hello@getpawlo.app</a>.</p>
+            <p>Find answers to common questions. Need more help? Contact us at <a href="mailto:contact@getpawlo.app">contact@getpawlo.app</a>.</p>
           </div>
           <SupportContent />
         </div>

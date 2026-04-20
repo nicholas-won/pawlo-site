@@ -174,7 +174,7 @@ export default function TermsPage() {
               If you have any questions about these Terms, please contact us at:
             </p>
             <p>
-              <a href="mailto:hello@getpawlo.app">hello@getpawlo.app</a>
+              <a href="mailto:contact@getpawlo.app">contact@getpawlo.app</a>
             </p>
           </section>
         </div>
