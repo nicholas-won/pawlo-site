@@ -37,9 +37,11 @@ export default function PrivacyPage() {
             <p>We may collect the following personal information:</p>
             <ul>
               <li><strong>Account Information:</strong> Your name, email address, and profile information when you create an account.</li>
+              <li><strong>Apple Sign-In Data:</strong> If you sign in using Apple Sign-In, we receive a name and email address from Apple. If you choose Apple&apos;s &quot;Hide My Email&quot; option, we receive an Apple-generated relay email address instead of your real address. We store whichever email address Apple provides solely for account identification and communication purposes. We do not store your Apple ID credentials.</li>
               <li><strong>Pet Information:</strong> Names, types, and care details about your pets that you choose to enter.</li>
-              <li><strong>Task Logs:</strong> Records of pet care activities you log in the app, including timestamps and which household member completed each task.</li>
+              <li><strong>Task Logs:</strong> Records of pet care activities you log in the app, including timestamps, which household member completed each task (&quot;Last fed by ___&quot; attribution), and streak data. This information is visible to all members of your household and is retained for the duration of your household membership. Streak history and contribution summaries (Premium) are stored and shared within your household.</li>
               <li><strong>Household Membership:</strong> Information about which users belong to which households.</li>
+              <li><strong>Device Tokens:</strong> When you grant permission for push notifications, we store a device token provided by Apple (APNs) to deliver notifications to your device. This token is associated with your account and deleted when you disable notifications or delete your account.</li>
               <li><strong>Email Address (Waitlist):</strong> If you join our waitlist, we collect your email address to notify you about the app launch and product updates.</li>
             </ul>
 
@@ -77,6 +79,10 @@ export default function PrivacyPage() {
             <p>We use the following third-party services to operate the Service. Each has its own privacy policy governing their use of your data:</p>
             <ul>
               <li><strong>Vercel</strong> — Website and API hosting. Collects usage analytics and performance data. <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Vercel Privacy Policy</a></li>
+              <li><strong>Supabase</strong> — Backend infrastructure provider. Handles user authentication, database storage, real-time data synchronization, file storage (including pet photos), and server-side logic. Data is stored on Supabase-managed servers in the United States. Supabase Privacy Policy</li>
+              <li><strong>RevenueCat</strong> — Subscription management platform. Processes subscription status, receipt validation, and offer code redemptions. RevenueCat Privacy Policy</li>
+              <li><strong>[PostHog / Mixpanel]</strong> — In-app analytics platform. Collects behavioral data about how you interact with the Service, including feature usage, session data, and conversion events. This data is used solely to improve the Service and is not shared with third parties for marketing purposes. [PostHog Privacy Policy / Mixpanel Privacy Policy]</li>
+              <li><strong>GoMarketMe</strong> — Affiliate tracking platform. If you download or subscribe to Pawlo through an affiliate link, GoMarketMe may collect device identifiers to attribute the referral. GoMarketMe Privacy Policy</li>
               <li><strong>Kit (ConvertKit)</strong> — Email marketing platform used to manage our waitlist and send launch announcements. <a href="https://kit.com/privacy" target="_blank" rel="noopener noreferrer">Kit Privacy Policy</a></li>
               <li><strong>Apple</strong> — Manages in-app purchases, subscriptions, and payment processing via the App Store. <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a></li>
             </ul>
@@ -103,6 +109,9 @@ export default function PrivacyPage() {
               measures to protect your personal information. However, no method of
               electronic storage is 100% secure, and we cannot guarantee absolute
               security.
+            </p>
+            <p>
+              Your personal information is stored and processed in the United States. If you are accessing the Service from outside the United States, please be aware that your information may be transferred to, stored, and processed in the US, where data protection laws may differ from those in your country.
             </p>
           </section>
 
@@ -151,10 +160,7 @@ export default function PrivacyPage() {
           <section>
             <h2>Changes to This Policy</h2>
             <p>
-              We may update this privacy policy from time to time. We will notify
-              you of any changes by posting the new privacy policy on this page
-              and updating the &quot;Last updated&quot; date. For material changes, we will
-              provide additional notice such as an in-app notification or email.
+              We may update this privacy policy from time to time. For material changes, we will notify you via email to the address associated with your account, an in-app notification, or both, at least 30 days before the change takes effect. The &quot;Last updated&quot; date at the top of this page will always reflect the most recent revision. Continued use of the Service after changes take effect constitutes acceptance of the updated policy.
             </p>
           </section>
 
