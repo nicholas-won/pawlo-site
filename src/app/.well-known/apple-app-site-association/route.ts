@@ -21,6 +21,8 @@ export async function GET() {
             { "/": "/delete-account", exclude: true, comment: "Account deletion page - web only" },
 
             // --- App deep link paths ---
+            { "/": "/join", "?": { "code": "*" } },
+            { "/": "/paywall" },
             // Uncomment and add specific patterns as the app grows:
             // { "/": "/invite/*", comment: "Household invite links" },
             // { "/": "/pet/*", comment: "Pet profile deep links" },

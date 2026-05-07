@@ -20,7 +20,7 @@ const freePlan = {
 
 const premiumPlan = {
   name: "Premium",
-  price: "$2.99",
+  price: "$3.99",
   period: "/month",
   yearlyPrice: "$24.99/year — billed annually",
   description: "Unlock the full Pawlo experience.",
