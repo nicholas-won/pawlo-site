@@ -43,6 +43,7 @@ export default function Header() {
           <a href="/#features" onClick={() => setMenuOpen(false)}>Features</a>
           <a href="/#how-it-works" onClick={() => setMenuOpen(false)}>How it works</a>
           <a href="/#pricing" onClick={() => setMenuOpen(false)}>Pricing</a>
+          <a href="/blog" onClick={() => setMenuOpen(false)}>Blog</a>
           <a href="/#waitlist" className={styles.headerCta} onClick={() => setMenuOpen(false)}>
             Join the Beta
           </a>

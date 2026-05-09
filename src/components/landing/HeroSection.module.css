@@ -200,7 +200,8 @@
 
 .phoneWrap {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .phoneMockup {
@@ -209,145 +210,21 @@
   padding: 12px;
   box-shadow: 0 40px 80px rgba(7, 27, 57, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.08);
   position: relative;
+  width: 260px;
+  flex-shrink: 0;
 }
 
 .phoneScreen {
-  background: var(--surface);
   border-radius: 36px;
   overflow: hidden;
   aspect-ratio: 9 / 19.5;
 }
 
-.phoneNotch {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  height: 28px;
-  background: var(--on-surface);
-  border-radius: 0 0 18px 18px;
-  z-index: 2;
-}
-
-.phoneUi {
-  padding: 42px 16px 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.phoneScreenImg {
+  width: 100%;
   height: 100%;
-}
-
-.puiHeader {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 2px;
-}
-
-.puiTitle {
-  font-size: 16px;
-  font-weight: 800;
-  color: var(--on-surface);
-  letter-spacing: -0.03em;
-}
-
-.puiDate {
-  font-size: 10px;
-  font-weight: 600;
-  color: var(--outline);
-  margin-top: 2px;
-}
-
-.puiStreak {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  background: var(--tertiary-fixed);
-  padding: 4px 10px;
-  border-radius: 9999px;
-  font-size: 11px;
-  font-weight: 800;
-  color: var(--on-tertiary-fixed);
-}
-
-.puiTask {
-  background: var(--surface-container-lowest);
-  border-radius: 16px;
-  padding: 12px 14px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  box-shadow: var(--shadow-soft);
-}
-
-.puiCheck {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-}
-
-.puiCheckDone {
-  background: linear-gradient(135deg, #0059b8, #1171e3);
-  color: #fff;
-}
-
-.puiCheckOpen {
-  border: 2.5px solid var(--outline-variant);
-}
-
-.puiTaskBody {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.puiTaskName {
-  font-size: 12px;
-  font-weight: 800;
-  color: var(--on-surface);
-}
-
-.puiTaskDone {
-  text-decoration: line-through;
-  color: var(--outline);
-  font-weight: 600;
-}
-
-.puiTaskWho {
-  font-size: 10px;
-  font-weight: 600;
-  color: var(--outline);
-}
-
-.puiAvt {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: var(--surface-container);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  font-weight: 800;
-  color: var(--primary);
-}
-
-.puiConflict {
-  background: #fff3cd;
-  border-radius: 12px;
-  padding: 10px 14px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 11px;
-  font-weight: 800;
-  color: #856404;
+  object-fit: cover;
+  display: block;
 }
 
 /* Floating notification card */

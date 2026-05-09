@@ -17,13 +17,11 @@ const features = [
     span: "normal",
   },
   {
-    title: "Conflict Detection",
+    title: "Home Screen Widget",
     description:
-      "Proprietary logic that flags duplicate actions before they happen. No more second dinners.",
-    icon: "🛡️",
+      "Stay on top of tasks without opening the app. See your next due task and current streak right on your home screen.",
+    icon: "📱",
     span: "normal",
-    variant: "blue",
-    footer: "Only in Pawlo",
   },
   {
     title: "Multi-Pet Support",
@@ -55,19 +53,14 @@ export default function FeaturesSection() {
               delay={i * 100}
               className={`${styles.card} ${
                 feature.span === "wide" ? styles.cardWide : ""
-              } ${
-                feature.variant === "blue"
-                  ? styles.cardBlue
-                  : feature.variant === "primary"
-                  ? styles.cardPrimary
-                  : ""
               }`}
             >
               {feature.hasImage && (
                 <div className={styles.cardImage}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/mockup-hero.png"
-                    alt="Two pets"
+                    src="/screenshots/task-done.png"
+                    alt="Pawlo task list showing multiple pets"
                     className={styles.featureImg}
                   />
                 </div>
@@ -78,12 +71,6 @@ export default function FeaturesSection() {
                 </div>
                 <h3 className={styles.cardTitle}>{feature.title}</h3>
                 <p className={styles.cardDesc}>{feature.description}</p>
-                {feature.footer && (
-                  <div className={styles.cardFooter}>
-                    <span className={styles.footerLabel}>{feature.footer}</span>
-                    <span className={styles.footerIcon}>🛡️</span>
-                  </div>
-                )}
               </div>
             </AnimatedSection>
           ))}

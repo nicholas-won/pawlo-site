@@ -52,9 +52,9 @@ export default function HeroSection() {
           </AnimatedSection>
           <AnimatedSection delay={200}>
             <p className={styles.subheadline}>
-              The curated sanctuary for your pet&apos;s schedule. Pawlo
-              coordinates feeding, walks, and meds so your best friend
-              never gets double-dosed.
+              Pawlo is the shared pet care app for couples, families, and
+              roommates. Track feeding, walks, and medication across your whole
+              household — so your pet is never double-fed or missed.
             </p>
           </AnimatedSection>
           <AnimatedSection delay={300}>
@@ -104,64 +104,21 @@ export default function HeroSection() {
           <div className={styles.phoneWrap}>
             <div className={styles.phoneMockup}>
               <div className={styles.phoneScreen}>
-                <div className={styles.phoneNotch} />
-                <div className={styles.phoneUi}>
-                  <div className={styles.puiHeader}>
-                    <div>
-                      <div className={styles.puiTitle}>Luna&apos;s Day 🐕</div>
-                      <div className={styles.puiDate}>Friday, Apr 18</div>
-                    </div>
-                    <div className={styles.puiStreak}>🔥 12</div>
-                  </div>
-
-                  <div className={styles.puiTask}>
-                    <div className={`${styles.puiCheck} ${styles.puiCheckDone}`}>✓</div>
-                    <div className={styles.puiTaskBody}>
-                      <span className={`${styles.puiTaskName} ${styles.puiTaskDone}`}>Morning Feed</span>
-                      <span className={styles.puiTaskWho}>by Mom · 7:00 AM</span>
-                    </div>
-                    <div className={styles.puiAvt}>M</div>
-                  </div>
-
-                  <div className={styles.puiTask}>
-                    <div className={`${styles.puiCheck} ${styles.puiCheckDone}`}>✓</div>
-                    <div className={styles.puiTaskBody}>
-                      <span className={`${styles.puiTaskName} ${styles.puiTaskDone}`}>Morning Walk</span>
-                      <span className={styles.puiTaskWho}>by Dad · 8:10 AM</span>
-                    </div>
-                    <div className={styles.puiAvt}>D</div>
-                  </div>
-
-                  <div className={styles.puiConflict}>
-                    <span>⚠️</span>
-                    <span>Conflict: Dad about to double-feed!</span>
-                  </div>
-
-                  <div className={styles.puiTask}>
-                    <div className={`${styles.puiCheck} ${styles.puiCheckOpen}`} />
-                    <div className={styles.puiTaskBody}>
-                      <span className={styles.puiTaskName}>Evening Feed</span>
-                      <span className={styles.puiTaskWho}>not done yet</span>
-                    </div>
-                  </div>
-
-                  <div className={styles.puiTask}>
-                    <div className={`${styles.puiCheck} ${styles.puiCheckOpen}`} />
-                    <div className={styles.puiTaskBody}>
-                      <span className={styles.puiTaskName}>Flea Medication</span>
-                      <span className={styles.puiTaskWho}>monthly · due today</span>
-                    </div>
-                  </div>
-                </div>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/screenshots/home.png"
+                  alt="Pawlo home screen showing pet care tasks"
+                  className={styles.phoneScreenImg}
+                />
               </div>
             </div>
 
-            {/* Floating notification card */}
+            {/* Floating streak card */}
             <div className={styles.floatingCard}>
-              <div className={styles.floatingIcon}>🐾</div>
+              <div className={styles.floatingIcon}>🔥</div>
               <div>
-                <div className={styles.floatingTitle}>Luna was just fed!</div>
-                <div className={styles.floatingMeta}>By Dad · 2 mins ago</div>
+                <div className={styles.floatingTitle}>7-day streak!</div>
+                <div className={styles.floatingMeta}>Max · Keep it up!</div>
               </div>
             </div>
           </div>
