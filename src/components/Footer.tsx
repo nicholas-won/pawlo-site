@@ -22,6 +22,9 @@ export default function Footer() {
               <a href="/#pricing">Pricing</a>
             </li>
             <li>
+              <a href="/blog">Blog</a>
+            </li>
+            <li>
               <a href="/support">Support</a>
             </li>
           </ul>

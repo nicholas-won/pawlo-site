@@ -4,21 +4,33 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Pawlo — Shared Pet Care Tracker for Households | Never Double-Feed Again",
+  title: "Pawlo — Shared Pet Care App for Couples, Families & Roommates",
   description:
-    "Pawlo is a free iOS app that keeps your whole household in sync on pet care. One tap to mark feeding, walking, or medication done — everyone sees it instantly. The only app with Conflict Detection to prevent double-feeding.",
+    "Pawlo is the free shared pet care app that keeps your whole household in sync. Track feeding, walks, and medication together — so your pet is never double-fed or missed. Perfect for couples, families, and roommates. iOS — coming soon.",
   keywords: [
-    "pet feeding tracker",
     "shared pet care app",
-    "did someone feed the dog",
-    "pet routine tracker",
+    "pet care tracker for couples",
+    "pet care app for roommates",
+    "dog feeding tracker",
+    "did someone feed the dog app",
+    "who fed the dog app",
+    "household pet schedule app",
     "pet medication tracker",
-    "family pet care",
+    "family pet care app",
+    "shared dog care app",
+    "pet chore tracker",
+    "pet routine tracker",
+    "coordinate pet care with partner",
+    "dog walking tracker multiple people",
+    "pet care coordination app",
   ],
+  alternates: {
+    canonical: "https://getpawlo.app",
+  },
   openGraph: {
-    title: "Pawlo — Shared Pet Care Tracker for Households",
+    title: "Pawlo — Shared Pet Care App for Couples, Families & Roommates",
     description:
-      "Keep your whole household in sync on pet care. One tap to mark it done — everyone sees it instantly.",
+      "Never wonder if someone fed the pet again. Pawlo keeps your whole household in sync on feeding, walks, and meds — in real time.",
     url: "https://getpawlo.app",
     siteName: "Pawlo",
     type: "website",
@@ -26,14 +38,51 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pawlo — Shared Pet Care Tracker for Households",
+    title: "Pawlo — Shared Pet Care App for Couples, Families & Roommates",
     description:
-      "Keep your whole household in sync on pet care. One tap to mark it done — everyone sees it instantly.",
+      "Never wonder if someone fed the pet again. Pawlo keeps your whole household in sync on feeding, walks, and meds — in real time.",
+    site: "@pawlohq",
   },
-  other: {
-    // "apple-itunes-app": "app-id=YOUR_APP_ID",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+    },
   },
 };
+
+const schemaOrg = [
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "Pawlo",
+    description:
+      "Pawlo is a shared pet care tracker for multi-person households. Couples, families, and roommates use Pawlo to coordinate feeding, walks, and medication so pets are never double-fed or missed.",
+    applicationCategory: "LifestyleApplication",
+    operatingSystem: "iOS",
+    url: "https://getpawlo.app",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+      description: "Free plan available. Premium plan at $3.99/month.",
+    },
+    featureList: [
+      "Real-time household sync",
+      "Dog and cat feeding tracker",
+      "Pet medication tracker",
+      "Shared pet care for couples and roommates",
+      "Streak and habit tracking",
+      "Home screen widget",
+      "Multi-pet support",
+    ],
+    screenshot: "https://getpawlo.app/screenshots/home.png",
+  },
+];
 
 export default function RootLayout({
   children,
@@ -49,25 +98,13 @@ export default function RootLayout({
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "SoftwareApplication",
-              name: "Pawlo",
-              description:
-                "The shared pet checklist for multi-person households.",
-              applicationCategory: "LifestyleApplication",
-              operatingSystem: "iOS",
-              offers: {
-                "@type": "Offer",
-                price: "0",
-                priceCurrency: "USD",
-              },
-            }),
-          }}
-        />
+        {schemaOrg.map((schema, i) => (
+          <script
+            key={i}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          />
+        ))}
       </head>
       <body>
         {children}

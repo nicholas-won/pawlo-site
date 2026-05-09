@@ -6,10 +6,11 @@ import TrustStrip from "@/components/TrustStrip";
 import HeroSection from "@/components/landing/HeroSection";
 import ProblemSection from "@/components/landing/ProblemSection";
 import FeaturesSection from "@/components/landing/FeaturesSection";
-import ConflictDetectionSection from "@/components/landing/ConflictDetectionSection";
+import StreaksSection from "@/components/landing/StreaksSection";
 import HowItWorksSection from "@/components/landing/HowItWorksSection";
 import PricingSection from "@/components/landing/PricingSection";
 import SocialProofSection from "@/components/landing/SocialProofSection";
+import FAQSection from "@/components/landing/FAQSection";
 import FinalCTASection from "@/components/landing/FinalCTASection";
 
 export default function Home() {
@@ -21,10 +22,11 @@ export default function Home() {
         <TrustStrip />
         <ProblemSection />
         <FeaturesSection />
-        <ConflictDetectionSection />
+        <StreaksSection />
         <PricingSection />
         <HowItWorksSection />
         <SocialProofSection />
+        <FAQSection />
         <FinalCTASection />
       </main>
       <Footer />
