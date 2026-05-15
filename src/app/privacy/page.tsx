@@ -15,7 +15,7 @@ export default function PrivacyPage() {
       <main className={styles.main}>
         <div className={`container container--narrow ${styles.content}`}>
           <h1>Privacy Policy</h1>
-          <p className={styles.updated}>Last updated: April 19, 2026</p>
+          <p className={styles.updated}>Last updated: May 15, 2026</p>
 
           <section>
             <h2>Introduction</h2>
@@ -42,7 +42,7 @@ export default function PrivacyPage() {
               <li><strong>Task Logs:</strong> Records of pet care activities you log in the app, including timestamps, which household member completed each task (&quot;Last fed by ___&quot; attribution), and streak data. This information is visible to all members of your household and is retained for the duration of your household membership. Streak history and contribution summaries (Premium) are stored and shared within your household.</li>
               <li><strong>Household Membership:</strong> Information about which users belong to which households.</li>
               <li><strong>Device Tokens:</strong> When you grant permission for push notifications, we store a device token provided by Apple (APNs) to deliver notifications to your device. This token is associated with your account and deleted when you disable notifications or delete your account.</li>
-              <li><strong>Email Address (Waitlist):</strong> If you join our waitlist, we collect your email address to notify you about the app launch and product updates.</li>
+              <li><strong>Email Address (Newsletter):</strong> If you subscribe to our newsletter, we collect your email address to send you pet care tips and product updates.</li>
             </ul>
 
             <h3>Automatically Collected Information</h3>
@@ -69,7 +69,7 @@ export default function PrivacyPage() {
               <li>Detect and prevent duplicate task completion (Conflict Detection)</li>
               <li>Process subscription payments (handled by Apple)</li>
               <li>Respond to your support requests</li>
-              <li>Send email updates about the app launch and product news (waitlist subscribers only, with the ability to unsubscribe)</li>
+              <li>Send email updates about pet care tips and product news (newsletter subscribers only, with the ability to unsubscribe)</li>
               <li>Analyze usage trends to improve the app</li>
             </ul>
           </section>
@@ -83,7 +83,7 @@ export default function PrivacyPage() {
               <li><strong>RevenueCat</strong> — Subscription management platform. Processes subscription status, receipt validation, and offer code redemptions. RevenueCat Privacy Policy</li>
               <li><strong>[PostHog / Mixpanel]</strong> — In-app analytics platform. Collects behavioral data about how you interact with the Service, including feature usage, session data, and conversion events. This data is used solely to improve the Service and is not shared with third parties for marketing purposes. [PostHog Privacy Policy / Mixpanel Privacy Policy]</li>
               <li><strong>GoMarketMe</strong> — Affiliate tracking platform. If you download or subscribe to Pawlo through an affiliate link, GoMarketMe may collect device identifiers to attribute the referral. GoMarketMe Privacy Policy</li>
-              <li><strong>Kit (ConvertKit)</strong> — Email marketing platform used to manage our waitlist and send launch announcements. <a href="https://kit.com/privacy" target="_blank" rel="noopener noreferrer">Kit Privacy Policy</a></li>
+              <li><strong>Kit (ConvertKit)</strong> — Email marketing platform used to manage our newsletter and send product updates. <a href="https://kit.com/privacy" target="_blank" rel="noopener noreferrer">Kit Privacy Policy</a></li>
               <li><strong>Apple</strong> — Manages in-app purchases, subscriptions, and payment processing via the App Store. <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a></li>
             </ul>
           </section>
@@ -124,7 +124,7 @@ export default function PrivacyPage() {
               <a href="/delete-account">Account Deletion page</a>.
             </p>
             <p>
-              Waitlist email addresses are retained until you unsubscribe or request removal.
+              Newsletter email addresses are retained until you unsubscribe or request removal.
             </p>
           </section>
 

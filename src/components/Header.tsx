@@ -3,6 +3,9 @@
 import { useState, useEffect } from "react";
 import styles from "./Header.module.css";
 
+const APP_STORE_URL =
+  "https://apps.apple.com/us/app/pawlo-pet-care-tracker/id6762538892";
+
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,8 +47,14 @@ export default function Header() {
           <a href="/#how-it-works" onClick={() => setMenuOpen(false)}>How it works</a>
           <a href="/#pricing" onClick={() => setMenuOpen(false)}>Pricing</a>
           <a href="/blog" onClick={() => setMenuOpen(false)}>Blog</a>
-          <a href="/#waitlist" className={styles.headerCta} onClick={() => setMenuOpen(false)}>
-            Join the Beta
+          <a
+            href={APP_STORE_URL}
+            className={styles.headerCta}
+            onClick={() => setMenuOpen(false)}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download
           </a>
         </nav>
 

@@ -4,7 +4,7 @@ const items = [
   { icon: "🆓", text: "Free forever plan" },
   { icon: "⚡", text: "Real-time sync" },
   { icon: "👨‍👩‍👧", text: "Unlimited household members" },
-  { icon: "📱", text: "iOS — coming soon" },
+  { icon: "📱", text: "Available on iOS" },
 ];
 
 export default function TrustStrip() {

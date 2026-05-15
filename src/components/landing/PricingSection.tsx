@@ -1,6 +1,9 @@
 import AnimatedSection from "@/components/AnimatedSection";
 import styles from "./PricingSection.module.css";
 
+const APP_STORE_URL =
+  "https://apps.apple.com/us/app/pawlo-pet-care-tracker/id6762538892";
+
 const freePlan = {
   name: "Free",
   price: "$0",
@@ -66,7 +69,7 @@ export default function PricingSection() {
                   </li>
                 ))}
               </ul>
-              <a href="#download" className={`btn btn--secondary ${styles.planCta}`} id="pricing-free-cta">
+              <a href={APP_STORE_URL} className={`btn btn--secondary ${styles.planCta}`} id="pricing-free-cta" target="_blank" rel="noopener noreferrer">
                 {freePlan.cta}
               </a>
             </div>
@@ -92,7 +95,7 @@ export default function PricingSection() {
                   </li>
                 ))}
               </ul>
-              <a href="#download" className={`btn btn--primary ${styles.planCta}`} id="pricing-premium-cta">
+              <a href={APP_STORE_URL} className={`btn btn--primary ${styles.planCta}`} id="pricing-premium-cta" target="_blank" rel="noopener noreferrer">
                 {premiumPlan.cta}
               </a>
             </div>

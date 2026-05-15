@@ -1,6 +1,9 @@
 import AnimatedSection from "@/components/AnimatedSection";
 import styles from "./HowItWorksSection.module.css";
 
+const APP_STORE_URL =
+  "https://apps.apple.com/us/app/pawlo-pet-care-tracker/id6762538892";
+
 const steps = [
   {
     number: "1",
@@ -46,8 +49,8 @@ export default function HowItWorksSection() {
         </div>
         <AnimatedSection delay={700}>
           <div className={styles.ctaWrap}>
-            <a href="#waitlist" className={styles.ctaBtn} id="how-it-works-cta">
-              📱 Join the Waitlist
+            <a href={APP_STORE_URL} className={styles.ctaBtn} id="how-it-works-cta" target="_blank" rel="noopener noreferrer">
+              📱 Download Free on iOS
             </a>
           </div>
         </AnimatedSection>

@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Pawlo — Shared Pet Care App for Couples, Families & Roommates",
   description:
-    "Pawlo is the free shared pet care app that keeps your whole household in sync. Track feeding, walks, and medication together — so your pet is never double-fed or missed. Perfect for couples, families, and roommates. iOS — coming soon.",
+    "Pawlo is the free shared pet care app that keeps your whole household in sync. Track feeding, walks, and medication together — so your pet is never double-fed or missed. Perfect for couples, families, and roommates. Available now on iOS.",
   keywords: [
     "shared pet care app",
     "pet care tracker for couples",
@@ -65,6 +65,10 @@ const schemaOrg = [
     applicationCategory: "LifestyleApplication",
     operatingSystem: "iOS",
     url: "https://getpawlo.app",
+    downloadUrl:
+      "https://apps.apple.com/us/app/pawlo-pet-care-tracker/id6762538892",
+    installUrl:
+      "https://apps.apple.com/us/app/pawlo-pet-care-tracker/id6762538892",
     offers: {
       "@type": "Offer",
       price: "0",
