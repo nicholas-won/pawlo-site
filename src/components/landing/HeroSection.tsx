@@ -1,33 +1,12 @@
 "use client";
 
-import { useState } from "react";
 import AnimatedSection from "@/components/AnimatedSection";
 import styles from "./HeroSection.module.css";
 
+const APP_STORE_URL =
+  "https://apps.apple.com/us/app/pawlo-pet-care-tracker/id6762538892";
+
 export default function HeroSection() {
-  const [email, setEmail] = useState("");
-  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setStatus("loading");
-    try {
-      const res = await fetch("/api/subscribe", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
-      });
-      if (res.ok) {
-        setStatus("success");
-        setEmail("");
-      } else {
-        setStatus("error");
-      }
-    } catch {
-      setStatus("error");
-    }
-  };
-
   return (
     <section className={styles.hero} id="hero">
       <div className={styles.blob1} />
@@ -41,7 +20,7 @@ export default function HeroSection() {
                 <div className={styles.avatar}>🐈</div>
                 <div className={styles.avatar}>🐾</div>
               </div>
-              <span className={styles.badgeText}>Join 500+ pet parents on the waitlist</span>
+              <span className={styles.badgeText}>Now available on the App Store</span>
             </div>
           </AnimatedSection>
           <AnimatedSection delay={100}>
@@ -58,44 +37,26 @@ export default function HeroSection() {
             </p>
           </AnimatedSection>
           <AnimatedSection delay={300}>
-            {status === "success" ? (
-              <div className={styles.successMessage}>
-                <span className={styles.successIcon}>🎉</span>
-                <p>
-                  <strong>You&apos;re on the list!</strong>{" "}We&apos;ll email
-                  you on launch day.
-                </p>
-              </div>
-            ) : (
-              <div>
-                <form onSubmit={handleSubmit} className={styles.emailForm}>
-                  <input
-                    type="email"
-                    required
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Enter your email"
-                    className={styles.emailInput}
-                    disabled={status === "loading"}
-                    id="prelaunch-email"
-                  />
-                  <button
-                    type="submit"
-                    className={styles.submitBtn}
-                    disabled={status === "loading"}
-                    id="prelaunch-submit"
-                  >
-                    {status === "loading" ? "Sending..." : "Join Waitlist"}
-                  </button>
-                </form>
-                {status === "error" && (
-                  <p className={styles.errorText}>
-                    Something went wrong. Please try again.
-                  </p>
-                )}
-                <p className={styles.formNote}>Free forever plan available. iOS launch coming soon.</p>
-              </div>
-            )}
+            <div className={styles.ctaStack}>
+              <a
+                href={APP_STORE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.appStoreBadge}
+                id="hero-appstore-cta"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/appstore-badge-black.svg"
+                  alt="Download on the App Store"
+                  className={styles.appStoreImg}
+                />
+              </a>
+
+              <p className={styles.formNote}>
+                Free to download. No credit card required.
+              </p>
+            </div>
           </AnimatedSection>
         </div>
 

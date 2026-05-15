@@ -108,12 +108,17 @@ export default async function PostPage({ params }: Props) {
                   Ready to stop wondering who fed the pet?
                 </p>
                 <p className={styles.ctaText}>
-                  Pawlo is free to download. Join the waitlist for early access
-                  to the iOS app.
+                  Pawlo is free to download on the App Store. Get your whole
+                  household in sync today.
                 </p>
-                <Link href="/#waitlist" className={styles.ctaBtn}>
-                  Join the Waitlist →
-                </Link>
+                <a
+                  href="https://apps.apple.com/us/app/pawlo-pet-care-tracker/id6762538892"
+                  className={styles.ctaBtn}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download on the App Store →
+                </a>
               </div>
             </div>
           </div>
