@@ -348,6 +348,175 @@ const posts: Post[] = [
 <p>A shared pet medication tracker isn't a luxury. For households with multiple caregivers, it's basic risk management. Pawlo makes it take ten seconds per dose — which is about nine seconds more effort than it currently takes to accidentally create the "did someone give it?" problem.</p>
     `.trim(),
   },
+  {
+    slug: "new-pet-tips-couples-roommates",
+    title: "Just Got a Pet Together? How to Set Up Shared Care Before It Becomes a Problem",
+    description:
+      "The first few weeks with a new pet are exciting — and surprisingly easy to mess up if you and your household aren't coordinated from day one. Here's how to start right.",
+    date: "2026-05-14",
+    readTime: "5 min read",
+    category: "Pet Care Tips",
+    image: "/screenshots/home.png",
+    imageAlt: "Pawlo app showing a new household set up for a puppy named Bruno",
+    content: `
+<p>Getting a pet together is one of those milestones that sounds straightforward until you're standing in your kitchen at 7am, both of you holding a bag of dog food, each absolutely certain the other one forgot to feed him.</p>
+
+<p>Welcome to shared pet ownership. It's great. It is also, without a system, a reliable source of low-grade household friction.</p>
+
+<h2>The Problem Starts on Day One</h2>
+
+<p>New pet owners make one consistent mistake: they assume coordination will happen naturally. It doesn't. Two people with good intentions and different schedules will double-feed a dog, miss medication doses, and have the "I thought you walked her" conversation more times than they'd like to count.</p>
+
+<p>This isn't a trust problem. It's an information problem. When one person takes care of a task and doesn't tell the other — not out of negligence, but just because it didn't occur to them — the other person has no way to know it's done.</p>
+
+<h2>The Setup That Actually Works</h2>
+
+<p>Before your first week together is over, agree on three things:</p>
+
+<p><strong>1. A shared task list, not a verbal agreement.</strong> "We'll just let each other know" works until both of you are exhausted, running late, or simply forget. A shared, real-time list removes the need to communicate every individual task.</p>
+
+<p><strong>2. Clear task attribution.</strong> It's not enough to see that a task is done — you need to know who did it and when. This prevents both double-tasking and the "I thought you were handling it" situation.</p>
+
+<p><strong>3. A morning and evening rhythm.</strong> Most pet care falls into morning tasks (feeding, morning walk) and evening tasks (dinner, medication, last walk). Establishing which person usually owns which session reduces the number of decisions you have to make every day.</p>
+
+<h2>What to Track From the Start</h2>
+
+<p>For a new dog or puppy, your daily task list typically includes:</p>
+
+<ul>
+  <li>Morning feeding</li>
+  <li>Evening feeding</li>
+  <li>Fresh water (more important than people realize)</li>
+  <li>Morning walk</li>
+  <li>Evening walk or outdoor time</li>
+  <li>Monthly flea and tick prevention</li>
+  <li>Any prescribed medications</li>
+</ul>
+
+<p>For a new cat, the list is shorter but the coordination problem is the same: feeding twice daily, fresh water, litter box, monthly preventatives, medications.</p>
+
+<h2>Using an App Built for This</h2>
+
+<p><strong>Pawlo</strong> is a shared pet care app designed exactly for this situation. You set up a household, add your pet, choose which daily tasks you want to track, and invite whoever shares pet care with you. From that point on, both of you see the same real-time task list: what's been done, who did it, and when.</p>
+
+<p>When one person feeds the dog, the task is marked done with their name and a timestamp. The other person opens the app and instantly knows — no text needed. The double-feed problem disappears on day one.</p>
+
+<p>Pawlo also tracks a household streak: the number of consecutive days you've completed all your pet's tasks together. For new pet owners building a routine, that streak becomes surprisingly motivating.</p>
+
+<h2>The First Habit Is the Most Important</h2>
+
+<p>The easiest time to build a coordination habit is before you've built any bad ones. If you set up a shared tracking system in your first week, it becomes invisible infrastructure — something you just do, automatically, without thinking about it.</p>
+
+<p>If you wait until after the first argument about who forgot to refill the water bowl, you're retrofitting a solution onto an already-established pattern of non-communication. That's harder.</p>
+
+<p>Start coordinated. It takes ten minutes to set up and saves a surprising amount of daily friction.</p>
+    `.trim(),
+  },
+  {
+    slug: "who-walked-the-dog-app",
+    title: "Who Walked the Dog? The App That Ends the Daily Guessing Game",
+    description:
+      "If your household has ever stood in the hallway asking who last walked the dog, there's a better solution than texting. Here's why a shared pet care app is the answer.",
+    date: "2026-05-11",
+    readTime: "4 min read",
+    category: "Pet Care Tips",
+    image: "/screenshots/streak.png",
+    imageAlt: "Pawlo app showing a completed walk task with attribution and timestamp",
+    content: `
+<p>"Who walked the dog?" is one of the most reliably annoying questions in a shared household. Not because anyone is being irresponsible — but because a ten-minute walk leaves no trace, and memory in a busy household is unreliable.</p>
+
+<p>By the time you're both home in the evening, neither of you can confidently say whether the dog's midday walk happened, who did it, or when. So one of you takes him out again to be safe. Or you assume it's handled and it wasn't.</p>
+
+<h2>Why This Keeps Happening</h2>
+
+<p>Walking a dog is a completable task that leaves no evidence. Unlike dishes (still in the drying rack) or laundry (pile on the bed), a completed walk is invisible. The only way to know it happened is to have been there or to have been told.</p>
+
+<p>In a single-person household, this isn't a problem. In any household with two or more people sharing pet responsibilities, it's a daily source of uncertainty — and occasionally, a very tired dog who has walked four miles before noon.</p>
+
+<h2>What "Just Text Me" Actually Looks Like</h2>
+
+<p>Most households try the text solution first. "Walked Max at noon!" goes into the group chat. It works until:</p>
+
+<ul>
+  <li>Someone forgets to send the text</li>
+  <li>The message gets buried under other conversations</li>
+  <li>The person who needs to know has their phone on silent</li>
+  <li>You want to check the history and realize it's 600 messages deep</li>
+</ul>
+
+<p>Texting is great for communication. It's a terrible system for tracking.</p>
+
+<h2>An App Built for This Exact Problem</h2>
+
+<p><strong>Pawlo</strong> turns walk tracking into a one-tap action with a shared real-time result. When someone walks the dog, they open Pawlo, tap the walk task, and mark it done. That's it. Every other member of the household immediately sees: "Sarah walked Max · 12:04pm."</p>
+
+<p>No text to send. No chat to dig through. Anyone in the household can open the app at any moment and see the exact status of every care task — including when it last happened and who did it.</p>
+
+<h2>The Broader Benefit</h2>
+
+<p>Walk tracking is usually where people start, but the same problem exists for feeding, medications, water, and litter. Once your household has a shared real-time task list, the question "did someone handle X?" essentially stops being asked. The answer is always a tap away.</p>
+
+<p>Pawlo also surfaces something most households don't track: who is actually doing the most. The built-in contribution tracker and weekly leaderboard make the invisible labor visible. That turns out to be useful for more than just competitive reasons — it prevents resentment from building up in one direction when the workload is genuinely unbalanced.</p>
+
+<h2>Free to Start</h2>
+
+<p>Pawlo's free plan covers one pet with unlimited household members — which is everything most households need to solve the walk-tracking problem. Premium adds unlimited pets, home screen widgets, and full care history.</p>
+
+<p>Setup takes under two minutes. If "who walked the dog?" is a question your household asks more than once a week, the math is pretty simple.</p>
+    `.trim(),
+  },
+  {
+    slug: "pet-care-invisible-labor-households",
+    title: "The Invisible Labor Problem in Pet Care (And How to Fix It)",
+    description:
+      "In most households, one person does significantly more pet care than the other — and neither of them has receipts to prove it. Here's why that happens and what actually helps.",
+    date: "2026-05-08",
+    readTime: "5 min read",
+    category: "Household Tips",
+    image: "/screenshots/task-done.png",
+    imageAlt: "Pawlo app showing weekly contribution summary between two household members",
+    content: `
+<p>In most households that share a pet, one person does more of the day-to-day care than the other. This is almost universal — and it almost never gets acknowledged until it becomes a problem.</p>
+
+<p>It's not usually that one person doesn't care. It's that pet care tasks are small, frequent, and invisible. They happen in the margins of the day — before someone's out the door, when they come home, during a quick break. Nobody's tracking them. Nobody has receipts.</p>
+
+<h2>Why Invisible Labor Creates Visible Problems</h2>
+
+<p>The person who consistently handles more pet care knows they're doing it. They feel it in the small accumulation of tasks — the morning feeds, the extra walks, the medication they track in their head because nobody else is. But they often can't articulate the gap precisely, because there's no record.</p>
+
+<p>The person doing less often genuinely doesn't know the imbalance exists. From their perspective, things seem roughly shared. They helped with the walk on Saturday. They fed the cat twice last week. The information gap between what's actually happening and what each person perceives is the source of most of the friction.</p>
+
+<h2>The Accountability Gap</h2>
+
+<p>Unlike household chores with visible outputs — dishes, vacuuming, laundry — pet care leaves almost no trace. A fed dog looks exactly like an unfed dog for at least a few hours. A completed walk is invisible thirty minutes later. There's no signal to the other person that a task happened unless someone explicitly says so.</p>
+
+<p>When both people are busy, that communication gets skipped. Over time, patterns develop invisibly. One person becomes the default handler for morning feeding. The other quietly assumes the first person "has it." Neither conversation ever happens explicitly.</p>
+
+<h2>What Shared Tracking Actually Changes</h2>
+
+<p>Shared task tracking doesn't solve the underlying imbalance by itself — but it makes the imbalance visible. When both people can see a weekly summary of who completed what tasks, the data replaces the argument.</p>
+
+<p><strong>Pawlo</strong> includes a contribution tracker that shows exactly who did what, how many tasks each person completed over a given period, and who's currently leading the household leaderboard. This sounds like a game mechanic. In practice, it functions more like a mirror.</p>
+
+<p>Households that start tracking often find one of two things: either the workload is more balanced than the higher-contributor thought (and the resentment dissolves), or the data confirms the imbalance and gives both people a shared, inarguable starting point for a real conversation.</p>
+
+<h2>Building a More Equitable System</h2>
+
+<p>A few things that help, once you have visibility:</p>
+
+<p><strong>Split by time of day, not by individual task.</strong> Assigning "morning tasks" to one person and "evening tasks" to another is cleaner than negotiating individual tasks. It's fewer decisions and more predictable.</p>
+
+<p><strong>Build in explicit coverage for disruptions.</strong> Travel, late nights, and illness all break routines. Having a default "if I'm not around, you're handling it" agreement prevents the gap.</p>
+
+<p><strong>Track medication separately.</strong> Medication is the highest-stakes task in pet care — a missed or doubled dose can mean a vet visit. It should be tracked with attribution and timestamps regardless of how you handle other tasks.</p>
+
+<h2>The Point Isn't Competition</h2>
+
+<p>The Pawlo leaderboard is designed to be lighthearted — most households use it for gentle trash-talk, not genuine conflict. But the underlying tracking it's built on is genuinely useful: it gives both people a shared, accurate picture of what's happening, so the conversation starts from facts instead of feelings.</p>
+
+<p>Invisible labor is hard to address when it's invisible. The first step is making it visible.</p>
+    `.trim(),
+  },
 ];
 
 export function getAllPosts(): Post[] {
