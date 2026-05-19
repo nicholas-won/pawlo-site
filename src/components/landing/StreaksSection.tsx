@@ -1,3 +1,4 @@
+import Image from "next/image";
 import AnimatedSection from "@/components/AnimatedSection";
 import styles from "./StreaksSection.module.css";
 
@@ -12,11 +13,13 @@ export default function StreaksSection() {
               <div className={styles.phoneMockupWrap}>
                 <div className={styles.phoneMockup}>
                   <div className={styles.phoneScreen}>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                    <Image
                       src="/screenshots/streak.png"
                       alt="Pawlo streak milestone screen"
                       className={styles.phoneImg}
+                      width={390}
+                      height={844}
+                      sizes="(max-width: 768px) 260px, 300px"
                     />
                   </div>
                 </div>

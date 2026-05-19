@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -89,8 +90,7 @@ export default async function PostPage({ params }: Props) {
 
           {/* Hero image */}
           <div className={styles.heroImg}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={post.image} alt={post.imageAlt} />
+            <Image src={post.image} alt={post.imageAlt} fill style={{ objectFit: "cover" }} sizes="(max-width: 768px) 100vw, 800px" priority />
           </div>
 
           {/* Body */}
@@ -133,8 +133,7 @@ export default async function PostPage({ params }: Props) {
                 {related.map((p) => (
                   <Link key={p.slug} href={`/blog/${p.slug}`} className={styles.relatedCard}>
                     <div className={styles.relatedImg}>
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={p.image} alt={p.imageAlt} />
+                      <Image src={p.image} alt={p.imageAlt} fill style={{ objectFit: "cover" }} sizes="(max-width: 768px) 100vw, 33vw" />
                     </div>
                     <div className={styles.relatedBody}>
                       <span className={styles.categoryTag}>{p.category}</span>

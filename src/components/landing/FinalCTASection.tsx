@@ -1,3 +1,4 @@
+import Image from "next/image";
 import AnimatedSection from "@/components/AnimatedSection";
 import styles from "./FinalCTASection.module.css";
 
@@ -25,11 +26,12 @@ export default function FinalCTASection() {
                   className={styles.appStoreBadge}
                   id="final-cta-appstore"
                 >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <Image
                     src="/appstore-badge-white.svg"
                     alt="Download on the App Store"
                     className={styles.appStoreImg}
+                    width={156}
+                    height={52}
                   />
                 </a>
 

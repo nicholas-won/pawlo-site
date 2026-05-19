@@ -67,6 +67,7 @@
 }
 
 .featuredImg {
+  position: relative;
   height: 320px;
   overflow: hidden;
 }
@@ -142,6 +143,7 @@
 }
 
 .cardImg {
+  position: relative;
   height: 200px;
   overflow: hidden;
 }

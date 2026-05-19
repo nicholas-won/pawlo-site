@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -46,8 +47,7 @@ export default function BlogPage() {
           {/* Featured post */}
           <Link href={`/blog/${featured.slug}`} className={styles.featured}>
             <div className={styles.featuredImg}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={featured.image} alt={featured.imageAlt} />
+              <Image src={featured.image} alt={featured.imageAlt} fill style={{ objectFit: "cover" }} sizes="(max-width: 768px) 100vw, 50vw" />
             </div>
             <div className={styles.featuredBody}>
               <span className={styles.categoryTag}>{featured.category}</span>
@@ -66,8 +66,7 @@ export default function BlogPage() {
             {rest.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className={styles.card}>
                 <div className={styles.cardImg}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={post.image} alt={post.imageAlt} />
+                  <Image src={post.image} alt={post.imageAlt} fill style={{ objectFit: "cover" }} sizes="(max-width: 768px) 100vw, 33vw" />
                 </div>
                 <div className={styles.cardBody}>
                   <span className={styles.categoryTag}>{post.category}</span>

@@ -69,11 +69,9 @@
 
 /* Hero image */
 .heroImg {
-  max-height: 400px;
+  position: relative;
+  height: 400px;
   overflow: hidden;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
   background: var(--surface-container-highest);
 }
 
@@ -232,6 +230,7 @@
 }
 
 .relatedImg {
+  position: relative;
   height: 160px;
   overflow: hidden;
 }

@@ -1,5 +1,4 @@
-"use client";
-
+import Image from "next/image";
 import AnimatedSection from "@/components/AnimatedSection";
 import styles from "./HeroSection.module.css";
 
@@ -45,14 +44,14 @@ export default function HeroSection() {
                 className={styles.appStoreBadge}
                 id="hero-appstore-cta"
               >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src="/appstore-badge-black.svg"
                   alt="Download on the App Store"
+                  width={156}
+                  height={52}
                   className={styles.appStoreImg}
                 />
               </a>
-
               <p className={styles.formNote}>
                 Free to download. No credit card required.
               </p>
@@ -60,16 +59,19 @@ export default function HeroSection() {
           </AnimatedSection>
         </div>
 
-        {/* Live Phone Mockup */}
-        <AnimatedSection delay={400} className={styles.heroVisual}>
+        {/* Phone Mockup — no animation wrapper so LCP image is immediately visible */}
+        <div className={styles.heroVisual}>
           <div className={styles.phoneWrap}>
             <div className={styles.phoneMockup}>
               <div className={styles.phoneScreen}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src="/screenshots/home.png"
                   alt="Pawlo home screen showing pet care tasks"
                   className={styles.phoneScreenImg}
+                  width={390}
+                  height={844}
+                  priority
+                  sizes="(max-width: 768px) 280px, 320px"
                 />
               </div>
             </div>
@@ -83,7 +85,7 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-        </AnimatedSection>
+        </div>
       </div>
     </section>
   );

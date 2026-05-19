@@ -1,3 +1,4 @@
+import Image from "next/image";
 import AnimatedSection from "@/components/AnimatedSection";
 import styles from "./FeaturesSection.module.css";
 
@@ -57,11 +58,13 @@ export default function FeaturesSection() {
             >
               {feature.hasImage && (
                 <div className={styles.cardImage}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <Image
                     src="/screenshots/task-done.png"
                     alt="Pawlo task list showing multiple pets"
                     className={styles.featureImg}
+                    width={390}
+                    height={844}
+                    sizes="(max-width: 768px) 100vw, 480px"
                   />
                 </div>
               )}
