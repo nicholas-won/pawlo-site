@@ -12,30 +12,31 @@ export default function HeroSection() {
       <div className={styles.blob2} />
       <div className={styles.inner}>
         <div className={styles.content}>
-          <AnimatedSection>
-            <div className={styles.badge}>
-              <div className={styles.avatarStack}>
-                <div className={styles.avatar}>🐕</div>
-                <div className={styles.avatar}>🐈</div>
-                <div className={styles.avatar}>🐾</div>
-              </div>
-              <span className={styles.badgeText}>Now available on the App Store</span>
+          {/* Badge — no animation wrapper, renders immediately */}
+          <div className={styles.badge}>
+            <div className={styles.avatarStack}>
+              <div className={styles.avatar}>🐕</div>
+              <div className={styles.avatar}>🐈</div>
+              <div className={styles.avatar}>🐾</div>
             </div>
-          </AnimatedSection>
-          <AnimatedSection delay={100}>
-            <h1 className={styles.headline}>
-              Never wonder if someone{" "}
-              <span className={styles.highlight}>fed the pet.</span>
-            </h1>
-          </AnimatedSection>
-          <AnimatedSection delay={200}>
-            <p className={styles.subheadline}>
-              Pawlo is the shared pet care app for couples, families, and
-              roommates. Track feeding, walks, and medication across your whole
-              household — so your pet is never double-fed or missed.
-            </p>
-          </AnimatedSection>
-          <AnimatedSection delay={300}>
+            <span className={styles.badgeText}>Now available on the App Store</span>
+          </div>
+
+          {/* H1 — no animation wrapper, renders immediately (LCP element on mobile) */}
+          <h1 className={styles.headline}>
+            Never wonder if someone{" "}
+            <span className={styles.highlight}>fed the pet.</span>
+          </h1>
+
+          {/* Subheadline — no animation wrapper */}
+          <p className={styles.subheadline}>
+            Pawlo is the shared pet care app for couples, families, and
+            roommates. Track feeding, walks, and medication across your whole
+            household — so your pet is never double-fed or missed.
+          </p>
+
+          {/* CTA — subtle animation is fine here */}
+          <AnimatedSection delay={150}>
             <div className={styles.ctaStack}>
               <a
                 href={APP_STORE_URL}
@@ -59,7 +60,7 @@ export default function HeroSection() {
           </AnimatedSection>
         </div>
 
-        {/* Phone Mockup — no animation wrapper so LCP image is immediately visible */}
+        {/* Phone Mockup — no AnimatedSection (LCP image, must be immediately visible) */}
         <div className={styles.heroVisual}>
           <div className={styles.phoneWrap}>
             <div className={styles.phoneMockup}>
@@ -76,7 +77,6 @@ export default function HeroSection() {
               </div>
             </div>
 
-            {/* Floating streak card */}
             <div className={styles.floatingCard}>
               <div className={styles.floatingIcon}>🔥</div>
               <div>

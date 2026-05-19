@@ -2,7 +2,7 @@
    PAWLO — Design System V2: "The Compassionate Editorial"
    ============================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+/* Font loaded via next/font/google in layout.tsx — no external @import needed */
 
 /* --- CSS Custom Properties --- */
 :root {
@@ -65,7 +65,7 @@
   --inverse-on-surface: #edf0ff;
 
   /* Typography */
-  --font-primary: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-primary: var(--font-plus-jakarta-sans), 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
   --font-size-base: 1rem;
