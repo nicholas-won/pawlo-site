@@ -6,6 +6,7 @@ import styles from "../privacy/privacy.module.css";
 export const metadata: Metadata = {
   title: "Delete Your Account — Pawlo",
   description: "Request deletion of your Pawlo account and all associated data.",
+  robots: { index: false, follow: false },
 };
 
 export default function DeleteAccountPage() {
