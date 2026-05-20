@@ -53,12 +53,12 @@ const categories = [
     emoji: "💳",
     items: [
       {
-        question: "What's included in the free plan?",
-        answer: "The free plan includes: 1 pet profile, unlimited household members, daily task tracking, Conflict Detection, household streaks, and 'Last fed by' history. It's fully functional for households with one pet.",
+        question: "What does Pawlo include?",
+        answer: "All Pawlo plans include full access to every feature: unlimited pet profiles, unlimited household members, daily task tracking, Conflict Detection, household streaks, home screen widgets, smart reminders, full care history, custom task types, and priority support. Start with a 7-day free trial.",
       },
       {
-        question: "What does Premium include?",
-        answer: "Premium ($3.99/month or $24.99/year billed annually) adds: unlimited pet profiles, home screen widgets, smart reminders, full care history, custom task types, and priority support. You can try Premium free for 7 days.",
+        question: "How much does Pawlo cost?",
+        answer: "Pawlo offers three plans: Monthly ($3.99/month), Yearly ($24.99/year — save 48%), and Lifetime ($199.99 one-time — limited launch offer). All plans include full access to every feature. Every plan starts with a 7-day free trial.",
       },
       {
         question: "How do I cancel my subscription?",

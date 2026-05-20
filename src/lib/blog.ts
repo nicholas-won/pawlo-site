@@ -12,6 +12,83 @@ export type Post = {
 
 const posts: Post[] = [
   {
+    slug: "best-pet-care-apps-2026",
+    title: "The 5 Best Pet Care Apps in 2026 (Tested & Compared)",
+    description:
+      "We tested the most popular pet care apps to find the best options for tracking feeding, walks, medication, and shared household coordination.",
+    date: "2026-05-20",
+    readTime: "8 min read",
+    category: "App Reviews",
+    image: "/blog/best-pet-care-apps-2026.png",
+    imageAlt: "Comparison of pet care apps on iPhone screens",
+    content: `
+<p>There are dozens of pet care apps on the App Store in 2026, but most of them solve the wrong problem. They're great for storing digital copies of vet records, but terrible at answering the daily question: <em>"Did someone feed the dog?"</em></p>
+
+<p>We tested the top apps available today. Here is how they stack up, starting with the clear winner for shared households.</p>
+
+<h2>1. Pawlo — Best for Shared Households</h2>
+
+<p>If you share pet care duties with a partner, roommate, or family member, Pawlo is the clear winner. Unlike other apps that focus on single-user record keeping, Pawlo is built entirely around real-time household coordination.</p>
+
+<p><strong>The good:</strong></p>
+<ul>
+<li><strong>Real-time sync:</strong> When you tap "Morning Walk" done, everyone in your household sees it instantly. No more double-feeding or forgotten medications.</li>
+<li><strong>Conflict Detection:</strong> Actively prevents two people from accidentally completing the same task at the same time.</li>
+<li><strong>Household Streaks:</strong> A surprisingly motivating way to build consistent habits together.</li>
+<li><strong>All Pets Supported:</strong> Dogs, cats, rabbits — it works for any pet.</li>
+</ul>
+
+<p><strong>Pricing:</strong> 7-day free trial, then $3.99/mo, $24.99/yr, or $199.99 for lifetime access (limited launch offer).</p>
+<p><strong>The verdict:</strong> The most polished, effective app for multi-person households. The shared visibility completely eliminates the friction of coordinating daily care.</p>
+
+<h2>2. DogLog — Best for Dog-Focused Families</h2>
+
+<p>DogLog is Pawlo's closest competitor. It also focuses on shared "Pack" management and activity logging, but with a few key differences.</p>
+
+<p><strong>The good:</strong> Good for puppy owners and dogs with medical needs. Includes a photo social feed and AI pet care Q&A.</p>
+<p><strong>The bad:</strong> Dogs-only focus makes it useless for cat owners. The interface is somewhat dated, and multi-pet switching can be cumbersome. Some users report occasional sync bugs.</p>
+
+<p><strong>Pricing:</strong> Free with ads, Premium ~$3.99-7.49/mo.</p>
+<p><strong>The verdict:</strong> A solid option if you only have dogs and don't mind a slightly clunkier interface.</p>
+
+<h2>3. 11pets — Most Comprehensive Feature Set</h2>
+
+<p>11pets is the "kitchen sink" of pet apps. It tries to do everything, with over 50 features including deep medical records and document storage.</p>
+
+<p><strong>The good:</strong> Excellent for managing chronic health conditions and archiving x-rays or lab results.</p>
+<p><strong>The bad:</strong> The interface is confusing and non-intuitive — there are simply too many screens for simple tasks. Recent updates have introduced bugs, and some features were moved behind a paywall without notice.</p>
+
+<p><strong>Pricing:</strong> Freemium, Premium ~$4.99/mo.</p>
+<p><strong>The verdict:</strong> Choose this only if your primary need is complex medical record storage.</p>
+
+<h2>4. Dog Daily — Best Offline Experience</h2>
+
+<p>Dog Daily is a clean, modern tracker with a unique advantage: it works completely offline and syncs when you reconnect.</p>
+
+<p><strong>The good:</strong> Clean interface, predictive potty scheduling, and habit streaks. Great for areas with spotty internet.</p>
+<p><strong>The bad:</strong> Dogs only. It has a very small user base, which makes long-term developer support uncertain. Privacy practices have not been independently verified.</p>
+
+<p><strong>Pricing:</strong> $7.99/mo or $29.99/yr.</p>
+<p><strong>The verdict:</strong> A nice indie app, but the small user base makes it a risky long-term choice for your data.</p>
+
+<h2>5. Pet Diary — Best for Solo Record-Keeping</h2>
+
+<p>Pet Diary is a digital notebook for your pet's life, focusing on health records, expense tracking, and journaling moments.</p>
+
+<p><strong>The good:</strong> Great for single owners who want to keep a comprehensive digital diary and track expenses.</p>
+<p><strong>The bad:</strong> No shared household features. No real-time sync. It's not a coordination tool at all.</p>
+
+<p><strong>Pricing:</strong> Freemium, Premium ~$4.99-9.99/mo.</p>
+<p><strong>The verdict:</strong> Use this if you live alone and just want a digital scrapbook for your pet.</p>
+
+<h2>Conclusion</h2>
+
+<p>If you're managing a pet on your own and want a digital scrapbook, Pet Diary works well. If you have a dog with complex medical needs, 11pets has the deepest features.</p>
+
+<p>But if you share pet care with <em>anyone</em> else — a partner, a roommate, or kids — <strong>Pawlo is in a class of its own.</strong> The real-time sync and focus on accountability makes it the only app that actually solves the daily "did someone feed the dog?" problem.</p>
+    `.trim(),
+  },
+  {
     slug: "did-someone-feed-the-dog-app",
     title: "Did Someone Feed the Dog? Here's the App That Finally Solves It",
     description:
@@ -66,9 +143,9 @@ const posts: Post[] = [
 
 <p>With Pawlo Premium, you can also add <strong>smart reminders</strong> — push notifications that fire if a task hasn't been completed by a certain time. If the evening feed hasn't been marked done by 7 PM, everyone in the household gets a nudge.</p>
 
-<h2>Free to Start</h2>
+<h2>Try It Free</h2>
 
-<p>Pawlo is free to download with support for one pet and unlimited household members. Premium ($3.99/month or $24.99/year) unlocks unlimited pets, home screen widgets, full care history, and smart reminders.</p>
+<p>Pawlo offers a 7-day free trial with full access to every feature — unlimited pets, unlimited household members, widgets, smart reminders, and more. After the trial, plans start at $3.99/month, $24.99/year, or $199.99 for lifetime access.</p>
 
 <p>If you've ever sent a text that just says "did you feed him?" — Pawlo is the app you've been waiting for.</p>
     `.trim(),
@@ -99,7 +176,7 @@ const posts: Post[] = [
 <li><strong>Task attribution:</strong> You need to see <em>who</em> completed a task, not just that it was completed.</li>
 <li><strong>No member limit:</strong> Life changes. Dog walkers, family members, and house-sitters may need to join.</li>
 <li><strong>Multi-pet support:</strong> Even if you only have one pet now, plan for the future.</li>
-<li><strong>Free tier that's actually useful:</strong> You shouldn't have to pay before you know the app fits your routine.</li>
+<li><strong>Generous free trial:</strong> You shouldn't have to pay before you know the app fits your routine. Look for a 7-day trial.</li>
 </ul>
 
 <h2>The Options in 2026</h2>
@@ -108,14 +185,14 @@ const posts: Post[] = [
 
 <p>Pawlo was designed from the ground up for multi-person pet care. The core mechanic is exactly what couples need: a shared task list where every completion is visible in real time, tagged with the name of whoever did it. No more "I thought you fed her."</p>
 
-<p>Setup is genuinely fast — you can have a household running in under two minutes, invite your partner via a link, and be tracking tasks before your coffee finishes brewing. The free plan covers one pet with unlimited household members, which is perfect for most couples starting out.</p>
+<p>Setup is genuinely fast — you can have a household running in under two minutes, invite your partner via a link, and be tracking tasks before your coffee finishes brewing. The 7-day free trial gives you full access to every feature, which is perfect for most couples starting out.</p>
 
 <p>What sets Pawlo apart is the <strong>streak system</strong>: your household earns consecutive-day streaks for completing all tasks. It sounds trivial until your partner refuses to let a 21-day streak die over a forgotten evening walk. That's real accountability with zero nagging.</p>
 
 <p>Premium ($3.99/month or $24.99/year) adds unlimited pets, home screen widgets, smart reminders, and full care history. The free trial is seven days — long enough to actually evaluate it.</p>
 
 <p><strong>Best for:</strong> Couples, roommates, and families who want a purpose-built solution with real-time visibility.<br/>
-<strong>Free plan:</strong> Yes — 1 pet, unlimited members.<br/>
+<strong>Free trial:</strong> 7 days, full access.<br/>
 <strong>Platform:</strong> iOS</p>
 
 <h3>2. Petable</h3>
@@ -146,7 +223,7 @@ const posts: Post[] = [
 
 <p>If your primary goal is coordinating daily pet care tasks between two or more people, <strong>Pawlo is the clear choice in 2026</strong>. It's the only app on this list actually designed for household-level coordination — not reminders for one person, not health records, not a repurposed task manager.</p>
 
-<p>The free plan is genuinely functional, setup takes minutes, and the real-time sync is fast enough to prevent the scenarios that cause 90% of pet-household arguments.</p>
+<p>The 7-day trial gives you full access, setup takes minutes, and the real-time sync is fast enough to prevent the scenarios that cause 90% of pet-household arguments.</p>
     `.trim(),
   },
   {
@@ -206,9 +283,9 @@ const posts: Post[] = [
 <li><strong>Enable smart reminders (Premium).</strong> If a task hasn't been marked done by a certain time, everyone in the household gets a nudge. No more "I assumed you'd do it."</li>
 </ul>
 
-<h2>The Free Plan Works Well for Roommates</h2>
+<h2>Try Pawlo Free for 7 Days</h2>
 
-<p>Pawlo's free plan covers one pet with unlimited household members — which covers the typical roommate scenario completely. If you have more than one pet, Pawlo Premium ($3.99/month or $24.99/year) is what you'd want, and it adds home screen widgets so you can check task status without even opening the app.</p>
+<p>Pawlo offers a 7-day free trial with full access to every feature — unlimited pets, unlimited household members, home screen widgets, and smart reminders. After the trial, plans start at $3.99/month or $24.99/year.</p>
 
 <p>Pet care coordination with a roommate doesn't have to be a source of friction. It just needs a system — and two minutes to set one up.</p>
     `.trim(),
@@ -458,9 +535,9 @@ const posts: Post[] = [
 
 <p>Pawlo also surfaces something most households don't track: who is actually doing the most. The built-in contribution tracker and weekly leaderboard make the invisible labor visible. That turns out to be useful for more than just competitive reasons — it prevents resentment from building up in one direction when the workload is genuinely unbalanced.</p>
 
-<h2>Free to Start</h2>
+<h2>Try It Free</h2>
 
-<p>Pawlo's free plan covers one pet with unlimited household members — which is everything most households need to solve the walk-tracking problem. Premium adds unlimited pets, home screen widgets, and full care history.</p>
+<p>Pawlo offers a 7-day free trial with full access to every feature — unlimited pets, unlimited household members, widgets, smart reminders, and more. After the trial, plans start at $3.99/month, $24.99/year, or $199.99 for lifetime access.</p>
 
 <p>Setup takes under two minutes. If "who walked the dog?" is a question your household asks more than once a week, the math is pretty simple.</p>
     `.trim(),

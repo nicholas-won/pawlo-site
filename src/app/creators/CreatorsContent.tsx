@@ -29,9 +29,9 @@ const faqItems = [
       "No, the affiliate program is completely free to join. There are no hidden fees or requirements to purchase anything.",
   },
   {
-    question: "Can I use the app for free?",
+    question: "Do affiliates get free access?",
     answer:
-      "Yes! All approved affiliates receive lifetime Premium access for free. This lets you showcase all features to your audience.",
+      "Yes! All approved affiliates receive complimentary lifetime access to Pawlo. This lets you showcase all features to your audience.",
   },
   {
     question: "How does tracking work?",
@@ -290,7 +290,7 @@ export default function CreatorsPage() {
               {[
                 { icon: "🔗", title: "Unique affiliate link + QR code" },
                 { icon: "🏷️", title: "Custom offer code for your audience" },
-                { icon: "👑", title: "Free lifetime Premium" },
+                { icon: "👑", title: "Complimentary lifetime access" },
                 { icon: "📊", title: "Real-time earnings dashboard" },
                 { icon: "🎨", title: "Content ideas + asset pack" },
                 { icon: "🚀", title: "Priority feature access" },

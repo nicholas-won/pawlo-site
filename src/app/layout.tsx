@@ -14,7 +14,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Pawlo — Shared Pet Care App for Couples, Families & Roommates",
   description:
-    "Pawlo is the free shared pet care app that keeps your whole household in sync. Track feeding, walks, and medication together — so your pet is never double-fed or missed. Perfect for couples, families, and roommates. Available now on iOS.",
+    "Pawlo is the shared pet care app that keeps your whole household in sync. Track feeding, walks, and medication together — so your pet is never double-fed or missed. Perfect for couples, families, and roommates. Available now on iOS.",
   keywords: [
     "shared pet care app",
     "pet care tracker for couples",
@@ -79,9 +79,9 @@ const schemaOrg = [
       "https://apps.apple.com/us/app/pawlo-pet-care-tracker/id6762538892",
     offers: {
       "@type": "Offer",
-      price: "0",
+      price: "3.99",
       priceCurrency: "USD",
-      description: "Free plan available. Premium plan at $3.99/month.",
+      description: "7-day free trial. Plans start at $3.99/month.",
     },
     featureList: [
       "Real-time household sync",

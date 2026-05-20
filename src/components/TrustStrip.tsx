@@ -1,7 +1,7 @@
 import styles from "./TrustStrip.module.css";
 
 const items = [
-  { icon: "🆓", text: "Free forever plan" },
+  { icon: "🎁", text: "7-day free trial" },
   { icon: "⚡", text: "Real-time sync" },
   { icon: "👨‍👩‍👧", text: "Unlimited household members" },
   { icon: "📱", text: "Available on iOS" },

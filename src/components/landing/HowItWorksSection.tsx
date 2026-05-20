@@ -50,7 +50,7 @@ export default function HowItWorksSection() {
         <AnimatedSection delay={700}>
           <div className={styles.ctaWrap}>
             <a href={APP_STORE_URL} className={styles.ctaBtn} id="how-it-works-cta" target="_blank" rel="noopener noreferrer">
-              📱 Download Free on iOS
+              📱 Try Free for 7 Days
             </a>
           </div>
         </AnimatedSection>

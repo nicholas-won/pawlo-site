@@ -108,8 +108,7 @@ export default async function PostPage({ params }: Props) {
                   Ready to stop wondering who fed the pet?
                 </p>
                 <p className={styles.ctaText}>
-                  Pawlo is free to download on the App Store. Get your whole
-                  household in sync today.
+                  Try Pawlo free for 7 days. Get your whole household in sync today.
                 </p>
                 <a
                   href="https://apps.apple.com/us/app/pawlo-pet-care-tracker/id6762538892"

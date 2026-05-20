@@ -4,41 +4,51 @@ import styles from "./PricingSection.module.css";
 const APP_STORE_URL =
   "https://apps.apple.com/us/app/pawlo-pet-care-tracker/id6762538892";
 
-const freePlan = {
-  name: "Free",
-  price: "$0",
-  period: "forever",
-  description: "Everything you need for one pet.",
-  features: [
-    "1 pet profile",
-    "Unlimited household members",
-    "Daily task tracking",
-    "Conflict Detection",
-    "Household streaks",
-    "\"Last fed by\" history",
-  ],
-  cta: "Start Free",
-  highlight: false,
-};
+const allFeatures = [
+  "Unlimited pet profiles",
+  "Unlimited household members",
+  "Daily task tracking",
+  "Conflict Detection",
+  "Household streaks",
+  "Home screen widgets",
+  "Smart reminders",
+  "Full care history",
+  "Custom task types",
+  "Priority support",
+];
 
-const premiumPlan = {
-  name: "Premium",
-  price: "$3.99",
-  period: "/month",
-  yearlyPrice: "$24.99/year — billed annually",
-  description: "Unlock the full Pawlo experience.",
-  features: [
-    "Everything in Free, plus:",
-    "Unlimited pet profiles",
-    "Home screen widgets",
-    "Smart reminders",
-    "Full care history",
-    "Custom task types",
-    "Priority support",
-  ],
-  cta: "Try Premium Free for 7 Days",
-  highlight: true,
-};
+const plans = [
+  {
+    name: "Monthly",
+    price: "$3.99",
+    period: "/month",
+    note: null,
+    cta: "Try Free for 7 Days",
+    highlight: false,
+    badge: null,
+    id: "pricing-monthly-cta",
+  },
+  {
+    name: "Yearly",
+    price: "$24.99",
+    period: "/year",
+    note: "Save 48%",
+    cta: "Try Free for 7 Days",
+    highlight: true,
+    badge: "Best Value",
+    id: "pricing-yearly-cta",
+  },
+  {
+    name: "Lifetime",
+    price: "$199.99",
+    period: "one-time",
+    note: "Pay once, own forever",
+    cta: "Lock in Lifetime Access",
+    highlight: false,
+    badge: "🚀 Launch Special",
+    id: "pricing-lifetime-cta",
+  },
+];
 
 export default function PricingSection() {
   return (
@@ -46,60 +56,59 @@ export default function PricingSection() {
       <div className="container">
         <AnimatedSection>
           <div className="section-header">
-            <h2>Free for your whole household.</h2>
-            <p>No hidden fees. No ads. Start managing pet care today.</p>
+            <h2>One plan. Full access.</h2>
+            <p>
+              7-day free trial on all plans. No commitment. Cancel anytime.
+            </p>
           </div>
         </AnimatedSection>
         <div className={styles.cards}>
-          <AnimatedSection delay={100}>
-            <div className={styles.card}>
-              <div className={styles.cardHeader}>
-                <h3 className={styles.planName}>{freePlan.name}</h3>
-                <div className={styles.priceWrap}>
-                  <span className={styles.price}>{freePlan.price}</span>
-                  <span className={styles.period}>{freePlan.period}</span>
+          {plans.map((plan, idx) => (
+            <AnimatedSection key={plan.name} delay={100 + idx * 150}>
+              <div
+                className={`${styles.card} ${plan.highlight ? styles.cardHighlight : ""} ${plan.name === "Lifetime" ? styles.cardLifetime : ""}`}
+              >
+                {plan.badge && (
+                  <div
+                    className={
+                      plan.name === "Lifetime"
+                        ? styles.launchBadge
+                        : styles.popularBadge
+                    }
+                  >
+                    {plan.badge}
+                  </div>
+                )}
+                <div className={styles.cardHeader}>
+                  <h3 className={styles.planName}>{plan.name}</h3>
+                  <div className={styles.priceWrap}>
+                    <span className={styles.price}>{plan.price}</span>
+                    <span className={styles.period}>{plan.period}</span>
+                  </div>
+                  {plan.note && (
+                    <p className={styles.planNote}>{plan.note}</p>
+                  )}
                 </div>
-                <p className={styles.planDesc}>{freePlan.description}</p>
+                <ul className={styles.featureList}>
+                  {allFeatures.map((f, i) => (
+                    <li key={i}>
+                      <span className={styles.check}>✓</span>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href={APP_STORE_URL}
+                  className={`btn ${plan.highlight ? "btn--primary" : "btn--secondary"} ${styles.planCta}`}
+                  id={plan.id}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {plan.cta}
+                </a>
               </div>
-              <ul className={styles.featureList}>
-                {freePlan.features.map((f, i) => (
-                  <li key={i}>
-                    <span className={styles.check}>✓</span>
-                    {f}
-                  </li>
-                ))}
-              </ul>
-              <a href={APP_STORE_URL} className={`btn btn--secondary ${styles.planCta}`} id="pricing-free-cta" target="_blank" rel="noopener noreferrer">
-                {freePlan.cta}
-              </a>
-            </div>
-          </AnimatedSection>
-
-          <AnimatedSection delay={250}>
-            <div className={`${styles.card} ${styles.cardHighlight}`}>
-              <div className={styles.popularBadge}>Most Popular</div>
-              <div className={styles.cardHeader}>
-                <h3 className={styles.planName}>{premiumPlan.name}</h3>
-                <div className={styles.priceWrap}>
-                  <span className={styles.price}>{premiumPlan.price}</span>
-                  <span className={styles.period}>{premiumPlan.period}</span>
-                </div>
-                <p className={styles.yearlyPrice}>{premiumPlan.yearlyPrice} — save 30%</p>
-                <p className={styles.planDesc}>{premiumPlan.description}</p>
-              </div>
-              <ul className={styles.featureList}>
-                {premiumPlan.features.map((f, i) => (
-                  <li key={i}>
-                    <span className={styles.check}>✓</span>
-                    {f}
-                  </li>
-                ))}
-              </ul>
-              <a href={APP_STORE_URL} className={`btn btn--primary ${styles.planCta}`} id="pricing-premium-cta" target="_blank" rel="noopener noreferrer">
-                {premiumPlan.cta}
-              </a>
-            </div>
-          </AnimatedSection>
+            </AnimatedSection>
+          ))}
         </div>
       </div>
     </section>

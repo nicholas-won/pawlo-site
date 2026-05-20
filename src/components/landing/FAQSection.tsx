@@ -21,9 +21,9 @@ const faqs = [
       "Pawlo syncs completions instantly across all household members. The moment someone marks 'Morning Feed' done, everyone in the household sees it — preventing a second person from feeding the pet again.",
   },
   {
-    question: "Is Pawlo free to use?",
+    question: "How much does Pawlo cost?",
     answer:
-      "Yes. The Free plan covers one pet with unlimited household members. Pawlo Premium ($3.99/month or $24.99/year) unlocks unlimited pets, home screen widgets, smart reminders, and full care history.",
+      "Pawlo offers three plans: Monthly ($3.99/month), Yearly ($24.99/year — save 48%), and Lifetime ($199.99 one-time — launch offer). All plans include full access to every feature and start with a 7-day free trial.",
   },
 ];
 

@@ -70,8 +70,7 @@ export default function TermsPage() {
           <section>
             <h2>Subscriptions &amp; Billing</h2>
             <p>
-              Pawlo offers both free and premium subscription plans. Premium
-              subscriptions are billed through Apple&apos;s App Store and are subject
+              Pawlo offers subscription plans with a 7-day free trial period. Plans are available as monthly ($3.99/month), yearly ($24.99/year), or lifetime ($199.99 one-time) subscriptions. Subscriptions are billed through Apple&apos;s App Store and are subject
               to Apple&apos;s terms and conditions for in-app purchases.
             </p>
             <ul>

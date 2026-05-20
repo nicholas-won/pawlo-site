@@ -54,7 +54,7 @@ export default function HeroSection() {
                 />
               </a>
               <p className={styles.formNote}>
-                Free to download. No credit card required.
+                Try free for 7 days. No commitment. Cancel anytime.
               </p>
             </div>
           </AnimatedSection>

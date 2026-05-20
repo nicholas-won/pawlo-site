@@ -36,7 +36,7 @@ export default function FinalCTASection() {
                 </a>
 
                 <p className={styles.ctaNote}>
-                  Free to download · No credit card required
+                  Try free for 7 days · Cancel anytime
                 </p>
               </div>
             </div>
