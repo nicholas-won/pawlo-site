@@ -6,28 +6,94 @@ import Footer from "@/components/Footer";
 import { getAllPosts, formatDate } from "@/lib/blog";
 import styles from "./page.module.css";
 
+const siteUrl = "https://getpawlo.app";
+const blogDescription =
+  "Practical guides on shared pet care, dog feeding schedules, pet medication tracking, and coordinating pets between couples, families, and roommates.";
+
+function stringifyJsonLd(data: unknown) {
+  return JSON.stringify(data).replace(/</g, "\\u003c");
+}
+
 export const metadata: Metadata = {
-  title: "Blog — Pawlo Pet Care Tips & Guides",
-  description:
-    "Practical guides on shared pet care, dog feeding schedules, pet medication tracking, and coordinating pet care between couples, families, and roommates.",
+  title: "Shared Pet Care Blog | Pawlo Pet Care Tips & Guides",
+  description: blogDescription,
+  keywords: [
+    "shared pet care",
+    "pet care app",
+    "dog feeding tracker",
+    "pet medication tracker",
+    "pet care app for couples",
+    "pet care app for roommates",
+    "family pet care app",
+  ],
   alternates: {
-    canonical: "https://getpawlo.app/blog",
+    canonical: `${siteUrl}/blog`,
   },
   openGraph: {
-    title: "Blog — Pawlo Pet Care Tips & Guides",
+    title: "Shared Pet Care Blog | Pawlo Pet Care Tips & Guides",
     description:
       "Practical guides on shared pet care for households — feeding schedules, medication tracking, and coordination tips.",
-    url: "https://getpawlo.app/blog",
+    url: `${siteUrl}/blog`,
     siteName: "Pawlo",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shared Pet Care Blog | Pawlo Pet Care Tips & Guides",
+    description:
+      "Practical guides on shared pet care for couples, families, roommates, and multi-pet households.",
   },
 };
 
 export default function BlogPage() {
   const posts = getAllPosts();
   const [featured, ...rest] = posts;
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": `${siteUrl}/blog#blog`,
+    name: "Pawlo Blog",
+    description: blogDescription,
+    url: `${siteUrl}/blog`,
+    publisher: {
+      "@type": "Organization",
+      name: "Pawlo",
+      url: siteUrl,
+    },
+    inLanguage: "en-US",
+    blogPost: posts.map((post) => ({
+      "@type": "BlogPosting",
+      headline: post.title,
+      url: `${siteUrl}/blog/${post.slug}`,
+      datePublished: post.date,
+      dateModified: post.modifiedDate,
+      articleSection: post.category,
+      keywords: post.keywords.join(", "),
+    })),
+  };
+
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Pawlo shared pet care guides",
+    itemListElement: posts.map((post, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${siteUrl}/blog/${post.slug}`,
+      name: post.title,
+    })),
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: stringifyJsonLd(blogSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: stringifyJsonLd(itemListSchema) }}
+      />
       <Header />
       <main className={styles.main}>
         <div className={styles.hero}>

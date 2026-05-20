@@ -11,7 +11,12 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   display: "swap",
 });
 
+function stringifyJsonLd(data: unknown) {
+  return JSON.stringify(data).replace(/</g, "\\u003c");
+}
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://getpawlo.app"),
   title: "Pawlo — Shared Pet Care App for Couples, Families & Roommates",
   description:
     "Pawlo is the shared pet care app that keeps your whole household in sync. Track feeding, walks, and medication together — so your pet is never double-fed or missed. Perfect for couples, families, and roommates. Available now on iOS.",
@@ -108,7 +113,7 @@ export default function RootLayout({
           <script
             key={i}
             type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+            dangerouslySetInnerHTML={{ __html: stringifyJsonLd(schema) }}
           />
         ))}
       </head>

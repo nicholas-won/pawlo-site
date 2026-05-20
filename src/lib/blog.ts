@@ -1,12 +1,21 @@
 export type Post = {
   slug: string;
   title: string;
+  seoTitle: string;
   description: string;
   date: string;
+  modifiedDate: string;
   readTime: string;
   category: string;
+  keywords: string[];
+  searchIntent: string;
   image: string;
   imageAlt: string;
+  faqs: {
+    question: string;
+    answer: string;
+  }[];
+  relatedSlugs: string[];
   content: string;
 };
 
@@ -14,13 +23,47 @@ const posts: Post[] = [
   {
     slug: "best-pet-care-apps-2026",
     title: "The 5 Best Pet Care Apps in 2026 (Tested & Compared)",
+    seoTitle: "Best Pet Care Apps for Shared Households in 2026",
     description:
       "We tested the most popular pet care apps to find the best options for tracking feeding, walks, medication, and shared household coordination.",
     date: "2026-05-20",
+    modifiedDate: "2026-05-20",
     readTime: "8 min read",
     category: "App Reviews",
-    image: "/blog/best-pet-care-apps-2026.png",
-    imageAlt: "Comparison of pet care apps on iPhone screens",
+    keywords: [
+      "best pet care app",
+      "shared pet care app",
+      "pet care tracker app",
+      "dog feeding tracker app",
+      "pet medication tracker app",
+      "pet care app for families",
+      "pet care app for roommates",
+    ],
+    searchIntent: "Compare pet care apps for household task tracking",
+    image: "/blog/best-pet-care-apps-2026.jpg",
+    imageAlt: "Person using a phone camera to capture a dog, representing pet care apps",
+    faqs: [
+      {
+        question: "What is the best pet care app for multiple people?",
+        answer:
+          "Pawlo is built for multi-person households because every feeding, walk, medication, and care task updates in real time for partners, roommates, families, and pet sitters.",
+      },
+      {
+        question: "What should I look for in a pet care tracking app?",
+        answer:
+          "Look for real-time sync, task attribution, medication reminders, multi-pet support, shared household access, and a clear history of who completed each pet care task.",
+      },
+      {
+        question: "Can one pet care app work for dogs and cats?",
+        answer:
+          "Yes. Pawlo supports any pet, including dogs and cats, so mixed-pet households can track feeding, walks, litter, medication, and recurring care tasks in one shared place.",
+      },
+    ],
+    relatedSlugs: [
+      "did-someone-feed-the-dog-app",
+      "pet-medication-tracker-never-miss-dose",
+      "best-shared-pet-care-apps-couples-2026",
+    ],
     content: `
 <p>There are dozens of pet care apps on the App Store in 2026, but most of them solve the wrong problem. They're great for storing digital copies of vet records, but terrible at answering the daily question: <em>"Did someone feed the dog?"</em></p>
 
@@ -91,13 +134,47 @@ const posts: Post[] = [
   {
     slug: "did-someone-feed-the-dog-app",
     title: "Did Someone Feed the Dog? Here's the App That Finally Solves It",
+    seoTitle: "Did Someone Feed the Dog? Shared Feeding Tracker App",
     description:
       "The most common argument in pet-owning households has a surprisingly simple fix. Here's why a dedicated shared pet care app beats texting, sticky notes, and group chats.",
     date: "2026-05-01",
+    modifiedDate: "2026-05-20",
     readTime: "5 min read",
     category: "Pet Care Tips",
-    image: "/screenshots/home.png",
-    imageAlt: "Pawlo app home screen showing pet feeding tasks for a household",
+    keywords: [
+      "did someone feed the dog app",
+      "dog feeding tracker",
+      "shared dog feeding app",
+      "app to track dog feeding",
+      "pet care app for couples",
+      "prevent double feeding dog",
+      "household pet care tracker",
+    ],
+    searchIntent: "Find an app to know whether a dog has been fed",
+    image: "/blog/did-someone-feed-the-dog-app.jpg",
+    imageAlt: "Small dog waiting while a person measures food above a bowl",
+    faqs: [
+      {
+        question: "How can I tell if someone already fed the dog?",
+        answer:
+          "Use a shared pet care tracker where each household member marks feeding complete. Pawlo shows the completed task, timestamp, and person who handled it in real time.",
+      },
+      {
+        question: "Why is texting a bad way to track dog feeding?",
+        answer:
+          "Texts get buried and rely on someone remembering to send an update. A shared feeding tracker keeps a persistent task history that everyone can check at any time.",
+      },
+      {
+        question: "Can Pawlo help prevent double-feeding?",
+        answer:
+          "Yes. When one person marks a feeding task done, everyone else in the household sees it immediately, which removes the guesswork that leads to accidental second meals.",
+      },
+    ],
+    relatedSlugs: [
+      "dog-feeding-schedule-whole-household",
+      "who-walked-the-dog-app",
+      "coordinate-pet-care-with-roommate",
+    ],
     content: `
 <p>You've had the conversation a hundred times. One person is sure they fed the dog. The other is equally sure they didn't. The dog is looking up at you with those eyes — the eyes that have secured him a second breakfast more mornings than you'd like to admit.</p>
 
@@ -153,13 +230,47 @@ const posts: Post[] = [
   {
     slug: "best-shared-pet-care-apps-couples-2026",
     title: "The Best Shared Pet Care Apps for Couples in 2026",
+    seoTitle: "Best Shared Pet Care Apps for Couples in 2026",
     description:
       "If you and your partner share a pet, a generic to-do app isn't going to cut it. Here are the best options in 2026 — and what to actually look for before you commit.",
     date: "2026-05-03",
+    modifiedDate: "2026-05-20",
     readTime: "6 min read",
     category: "App Reviews",
-    image: "/screenshots/task-done.png",
-    imageAlt: "Pawlo app showing shared pet task list for Max and Luna",
+    keywords: [
+      "pet care app for couples",
+      "shared pet care app",
+      "shared dog care app",
+      "couples pet care tracker",
+      "pet task app for partners",
+      "dog feeding app for couples",
+      "pet care schedule app",
+    ],
+    searchIntent: "Compare shared pet care apps for partners",
+    image: "/blog/best-shared-pet-care-apps-couples-2026.jpg",
+    imageAlt: "Couple sitting in a living room with their dog",
+    faqs: [
+      {
+        question: "What is the best pet care app for couples?",
+        answer:
+          "For couples who share daily pet care, Pawlo is designed around real-time shared tasks, completion history, and household reminders rather than single-user record keeping.",
+      },
+      {
+        question: "Do couples need a dedicated pet care app?",
+        answer:
+          "A dedicated pet care app helps when both partners feed, walk, medicate, or check on the same pet. It prevents missed tasks, double-feeding, and unclear responsibility.",
+      },
+      {
+        question: "Can Pawlo include dog walkers or family members too?",
+        answer:
+          "Yes. Pawlo households can include partners, roommates, family members, and outside helpers so everyone works from the same shared care status.",
+      },
+    ],
+    relatedSlugs: [
+      "new-pet-tips-couples-roommates",
+      "pet-care-invisible-labor-households",
+      "did-someone-feed-the-dog-app",
+    ],
     content: `
 <p>Sharing a pet with your partner is wonderful. Sharing the mental load of pet care is significantly less wonderful — especially when neither of you can remember who last gave the cat her flea medication.</p>
 
@@ -229,13 +340,47 @@ const posts: Post[] = [
   {
     slug: "coordinate-pet-care-with-roommate",
     title: "How to Coordinate Pet Care With Your Roommate (Without the Passive-Aggressive Texts)",
+    seoTitle: "How to Coordinate Pet Care With a Roommate",
     description:
       "Sharing pet care with a roommate is one of those things that sounds easy and isn't. Here's a practical guide to getting on the same page — and an app that does the heavy lifting.",
     date: "2026-05-06",
+    modifiedDate: "2026-05-20",
     readTime: "5 min read",
     category: "Pet Care Tips",
-    image: "/screenshots/home.png",
-    imageAlt: "Pawlo showing household member task coordination on the home screen",
+    keywords: [
+      "pet care app for roommates",
+      "coordinate pet care with roommate",
+      "shared pet care app",
+      "roommate dog care schedule",
+      "shared pet chores",
+      "pet task tracker for roommates",
+      "dog feeding app roommates",
+    ],
+    searchIntent: "Coordinate pet chores between roommates",
+    image: "/blog/coordinate-pet-care-with-roommate.jpg",
+    imageAlt: "Two people sharing a living room with a dog while coordinating from laptops",
+    faqs: [
+      {
+        question: "How do roommates split pet care fairly?",
+        answer:
+          "Roommates should agree on recurring tasks, track completions in a shared place, and review who handled feeding, walks, litter, and medication over time.",
+      },
+      {
+        question: "What is the easiest way to coordinate dog care with a roommate?",
+        answer:
+          "A shared pet care app like Pawlo gives both roommates the same live task list, so each person can see what has been done and what still needs attention.",
+      },
+      {
+        question: "Can Pawlo show who completed each pet task?",
+        answer:
+          "Yes. Pawlo records the person and time for each completed task, which helps prevent duplicated care and makes the workload easier to discuss.",
+      },
+    ],
+    relatedSlugs: [
+      "who-walked-the-dog-app",
+      "pet-care-invisible-labor-households",
+      "dog-feeding-schedule-whole-household",
+    ],
     content: `
 <p>Sharing pet care with a roommate starts with the best intentions. You'll split it evenly. You'll communicate. It'll be fine.</p>
 
@@ -293,13 +438,47 @@ const posts: Post[] = [
   {
     slug: "dog-feeding-schedule-whole-household",
     title: "Dog Feeding Schedule: How to Build One Your Whole Household Actually Follows",
+    seoTitle: "Dog Feeding Schedule for Multi-Person Households",
     description:
       "A consistent dog feeding schedule is critical for your dog's health and behavior. Here's how to build one that every member of your household will actually stick to.",
     date: "2026-05-08",
+    modifiedDate: "2026-05-20",
     readTime: "6 min read",
     category: "Dog Care",
-    image: "/screenshots/home.png",
-    imageAlt: "Pawlo app showing dog feeding tasks and daily progress for a household",
+    keywords: [
+      "dog feeding schedule",
+      "dog feeding tracker",
+      "dog feeding app",
+      "shared dog feeding schedule",
+      "family dog feeding schedule",
+      "prevent double feeding dog",
+      "dog care routine app",
+    ],
+    searchIntent: "Create a reliable dog feeding schedule for a household",
+    image: "/blog/dog-feeding-schedule-whole-household.jpg",
+    imageAlt: "Person pouring food into a dog bowl at home",
+    faqs: [
+      {
+        question: "How often should most adult dogs be fed?",
+        answer:
+          "Most adult dogs do well with two meals per day, usually morning and evening, but your veterinarian can recommend the right timing and portion size for your dog.",
+      },
+      {
+        question: "How do you prevent double-feeding in a family?",
+        answer:
+          "Use one shared feeding log that updates immediately when anyone feeds the dog. Pawlo shows the completed feeding task, who did it, and the timestamp.",
+      },
+      {
+        question: "Should feeding schedules be tracked by task or by person?",
+        answer:
+          "Track the completed feeding task first, then show who handled it. That gives the whole household a clear answer without forcing one person to own every meal.",
+      },
+    ],
+    relatedSlugs: [
+      "did-someone-feed-the-dog-app",
+      "best-pet-care-apps-2026",
+      "pet-medication-tracker-never-miss-dose",
+    ],
     content: `
 <p>Dogs thrive on routine. A consistent feeding schedule improves digestion, supports a healthy weight, makes housetraining easier, and reduces anxiety-driven behaviors. Most dog owners know this. Implementing it in a multi-person household — where two, three, or four people share feeding responsibility — is where things tend to break down.</p>
 
@@ -359,13 +538,47 @@ const posts: Post[] = [
   {
     slug: "pet-medication-tracker-never-miss-dose",
     title: "Pet Medication Tracker: How to Make Sure Your Pet Never Misses a Dose",
+    seoTitle: "Pet Medication Tracker for Shared Households",
     description:
       "Missing a pet medication dose can have real health consequences. Here's how to build a reliable tracking system for households where multiple people share care responsibility.",
     date: "2026-05-09",
+    modifiedDate: "2026-05-20",
     readTime: "5 min read",
     category: "Pet Health",
-    image: "/screenshots/task-done.png",
-    imageAlt: "Pawlo app showing pet medication task tracking including Heartworm Meds",
+    keywords: [
+      "pet medication tracker",
+      "dog medication tracker",
+      "cat medication tracker",
+      "pet medication reminder app",
+      "shared pet medication tracker",
+      "pet meds app",
+      "track pet medication doses",
+    ],
+    searchIntent: "Track pet medication doses across multiple caregivers",
+    image: "/blog/pet-medication-tracker-never-miss-dose.jpg",
+    imageAlt: "Veterinarian preparing equipment during a dog health check",
+    faqs: [
+      {
+        question: "What is the safest way to track pet medication in a household?",
+        answer:
+          "Use a shared tracker that records each dose with a timestamp and the person who gave it, then alerts the household when a scheduled dose has not been completed.",
+      },
+      {
+        question: "Can Pawlo track monthly flea, tick, or heartworm medication?",
+        answer:
+          "Yes. Pawlo can track recurring daily, weekly, or monthly medication tasks and show the history to everyone in the household.",
+      },
+      {
+        question: "What should I do if I am not sure whether my pet got a dose?",
+        answer:
+          "Contact your veterinarian before giving another dose, especially for prescription medication or preventatives. A timestamped tracker helps avoid that uncertainty.",
+      },
+    ],
+    relatedSlugs: [
+      "dog-feeding-schedule-whole-household",
+      "best-pet-care-apps-2026",
+      "new-pet-tips-couples-roommates",
+    ],
     content: `
 <p>Pet medications are unforgiving in a way that feeding schedules aren't. Miss a morning meal and your dog is hungry but fine. Miss a heartworm prevention dose at the wrong time and you've created a gap in protection. Give a double dose of certain medications and you've created a more immediate problem.</p>
 
@@ -428,13 +641,47 @@ const posts: Post[] = [
   {
     slug: "new-pet-tips-couples-roommates",
     title: "Just Got a Pet Together? How to Set Up Shared Care Before It Becomes a Problem",
+    seoTitle: "New Pet Tips for Couples and Roommates Sharing Care",
     description:
       "The first few weeks with a new pet are exciting — and surprisingly easy to mess up if you and your household aren't coordinated from day one. Here's how to start right.",
     date: "2026-05-14",
+    modifiedDate: "2026-05-20",
     readTime: "5 min read",
     category: "Pet Care Tips",
-    image: "/screenshots/home.png",
-    imageAlt: "Pawlo app showing a new household set up for a puppy named Bruno",
+    keywords: [
+      "new pet tips",
+      "new pet checklist",
+      "shared pet care",
+      "new dog checklist couples",
+      "pet care app for couples",
+      "pet care app for roommates",
+      "first week with new pet",
+    ],
+    searchIntent: "Set up shared pet care for a new pet",
+    image: "/blog/new-pet-tips-couples-roommates.jpg",
+    imageAlt: "Smiling couple cuddling a new dog outdoors",
+    faqs: [
+      {
+        question: "What should couples do first after getting a pet together?",
+        answer:
+          "Couples should agree on daily care tasks, create a shared feeding and walking routine, and use one visible place to track who completed each task.",
+      },
+      {
+        question: "What should roommates track for a new pet?",
+        answer:
+          "Roommates should track feeding, walks or litter, fresh water, medication, flea and tick prevention, and any training or care routines that need consistency.",
+      },
+      {
+        question: "When should a household start using a pet care tracker?",
+        answer:
+          "Start in the first week. It is easier to build a shared tracking habit before missed tasks, double-feeding, or unclear responsibility becomes normal.",
+      },
+    ],
+    relatedSlugs: [
+      "best-shared-pet-care-apps-couples-2026",
+      "coordinate-pet-care-with-roommate",
+      "dog-feeding-schedule-whole-household",
+    ],
     content: `
 <p>Getting a pet together is one of those milestones that sounds straightforward until you're standing in your kitchen at 7am, both of you holding a bag of dog food, each absolutely certain the other one forgot to feed him.</p>
 
@@ -492,13 +739,47 @@ const posts: Post[] = [
   {
     slug: "who-walked-the-dog-app",
     title: "Who Walked the Dog? The App That Ends the Daily Guessing Game",
+    seoTitle: "Who Walked the Dog? Shared Dog Walking Tracker App",
     description:
       "If your household has ever stood in the hallway asking who last walked the dog, there's a better solution than texting. Here's why a shared pet care app is the answer.",
     date: "2026-05-11",
+    modifiedDate: "2026-05-20",
     readTime: "4 min read",
     category: "Pet Care Tips",
-    image: "/screenshots/streak.png",
-    imageAlt: "Pawlo app showing a completed walk task with attribution and timestamp",
+    keywords: [
+      "who walked the dog app",
+      "dog walking tracker",
+      "shared dog walking app",
+      "dog walk tracker for families",
+      "pet care app for roommates",
+      "shared pet care app",
+      "dog care tracker",
+    ],
+    searchIntent: "Track whether someone walked the dog",
+    image: "/blog/who-walked-the-dog-app.jpg",
+    imageAlt: "Three people standing on a grassy hill with a dog on a leash",
+    faqs: [
+      {
+        question: "How can I track who walked the dog?",
+        answer:
+          "Use a shared dog walking tracker that records each completed walk with the person and time. Pawlo makes that status visible to the whole household immediately.",
+      },
+      {
+        question: "Can a dog walking tracker help families and roommates?",
+        answer:
+          "Yes. It gives every caregiver the same answer about whether a walk happened, which prevents skipped walks, duplicated walks, and last-minute confusion.",
+      },
+      {
+        question: "Does Pawlo track other tasks besides walks?",
+        answer:
+          "Yes. Pawlo tracks walks, feeding, medication, fresh water, litter, and custom pet care tasks for dogs, cats, and other pets.",
+      },
+    ],
+    relatedSlugs: [
+      "coordinate-pet-care-with-roommate",
+      "did-someone-feed-the-dog-app",
+      "pet-care-invisible-labor-households",
+    ],
     content: `
 <p>"Who walked the dog?" is one of the most reliably annoying questions in a shared household. Not because anyone is being irresponsible — but because a ten-minute walk leaves no trace, and memory in a busy household is unreliable.</p>
 
@@ -545,13 +826,47 @@ const posts: Post[] = [
   {
     slug: "pet-care-invisible-labor-households",
     title: "The Invisible Labor Problem in Pet Care (And How to Fix It)",
+    seoTitle: "How to Make Shared Pet Care Fair in Busy Households",
     description:
       "In most households, one person does significantly more pet care than the other — and neither of them has receipts to prove it. Here's why that happens and what actually helps.",
     date: "2026-05-08",
+    modifiedDate: "2026-05-20",
     readTime: "5 min read",
     category: "Household Tips",
-    image: "/screenshots/task-done.png",
-    imageAlt: "Pawlo app showing weekly contribution summary between two household members",
+    keywords: [
+      "shared pet care",
+      "pet chores",
+      "pet care tracker",
+      "pet care app for families",
+      "pet care app for couples",
+      "fair pet care household",
+      "pet responsibility tracker",
+    ],
+    searchIntent: "Make shared pet care responsibilities visible and fair",
+    image: "/blog/pet-care-invisible-labor-households.jpg",
+    imageAlt: "Person hand feeding a dog as part of daily pet care",
+    faqs: [
+      {
+        question: "Why does pet care feel unfair in shared households?",
+        answer:
+          "Pet care tasks are frequent and often invisible, so one person can do more feeding, walking, and medication without anyone having a clear record of the workload.",
+      },
+      {
+        question: "How can a household make pet care more balanced?",
+        answer:
+          "Track completed tasks by person, agree on morning and evening responsibilities, and review patterns before resentment builds.",
+      },
+      {
+        question: "Does Pawlo show who does each pet care task?",
+        answer:
+          "Yes. Pawlo records task completion by person and time, which helps couples, families, and roommates see the actual care pattern instead of relying on memory.",
+      },
+    ],
+    relatedSlugs: [
+      "best-shared-pet-care-apps-couples-2026",
+      "coordinate-pet-care-with-roommate",
+      "pet-medication-tracker-never-miss-dose",
+    ],
     content: `
 <p>In most households that share a pet, one person does more of the day-to-day care than the other. This is almost universal — and it almost never gets acknowledged until it becomes a problem.</p>
 
@@ -597,7 +912,7 @@ const posts: Post[] = [
 ];
 
 export function getAllPosts(): Post[] {
-  return posts.sort(
+  return [...posts].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 }

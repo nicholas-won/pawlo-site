@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 import styles from "./Header.module.css";
 
@@ -46,16 +48,22 @@ export default function Header() {
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <div className={styles.inner}>
-        <a href="/" className={styles.logo}>
-          <img src="/logo.png" alt="Pawlo" className={styles.logoPawImg} />
+        <Link href="/" className={styles.logo}>
+          <Image
+            src="/logo.png"
+            alt="Pawlo"
+            width={36}
+            height={36}
+            className={styles.logoPawImg}
+          />
           Pawlo
-        </a>
+        </Link>
 
         <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ""}`}>
-          <a href="/#features" onClick={() => setMenuOpen(false)}>Features</a>
-          <a href="/#how-it-works" onClick={() => setMenuOpen(false)}>How it works</a>
-          <a href="/#pricing" onClick={() => setMenuOpen(false)}>Pricing</a>
-          <a href="/blog" onClick={() => setMenuOpen(false)}>Blog</a>
+          <Link href="/#features" onClick={() => setMenuOpen(false)}>Features</Link>
+          <Link href="/#how-it-works" onClick={() => setMenuOpen(false)}>How it works</Link>
+          <Link href="/#pricing" onClick={() => setMenuOpen(false)}>Pricing</Link>
+          <Link href="/blog" onClick={() => setMenuOpen(false)}>Blog</Link>
           <a
             href={APP_STORE_URL}
             className={styles.headerCta}

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import styles from "./Footer.module.css";
 
@@ -84,10 +85,10 @@ export default function Footer() {
           <h4 className={styles.linkHeading}>Product</h4>
           <ul className={styles.linkList}>
             <li>
-              <a href="/#features">Features</a>
+              <Link href="/#features">Features</Link>
             </li>
             <li>
-              <a href="/#pricing">Pricing</a>
+              <Link href="/#pricing">Pricing</Link>
             </li>
             <li>
               <a
@@ -99,10 +100,10 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="/blog">Blog</a>
+              <Link href="/blog">Blog</Link>
             </li>
             <li>
-              <a href="/support">Support</a>
+              <Link href="/support">Support</Link>
             </li>
           </ul>
         </div>
@@ -111,13 +112,13 @@ export default function Footer() {
           <h4 className={styles.linkHeading}>Company</h4>
           <ul className={styles.linkList}>
             <li>
-              <a href="/creators">Creators</a>
+              <Link href="/creators">Creators</Link>
             </li>
             <li>
-              <a href="/privacy">Privacy Policy</a>
+              <Link href="/privacy">Privacy Policy</Link>
             </li>
             <li>
-              <a href="/terms">Terms of Service</a>
+              <Link href="/terms">Terms of Service</Link>
             </li>
           </ul>
         </div>
