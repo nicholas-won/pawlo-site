@@ -909,6 +909,1060 @@ const posts: Post[] = [
 <p>Invisible labor is hard to address when it's invisible. The first step is making it visible.</p>
     `.trim(),
   },
+  {
+    slug: "first-week-puppy-schedule",
+    title: "The Realistic First-Week Puppy Schedule for Busy Households",
+    seoTitle: "First Week Puppy Schedule: Realistic Routine for Busy Households",
+    description:
+      "Bringing home a new puppy is chaotic. Here's an honest, hour-by-hour puppy schedule for the first week that actually works when two people share the responsibility.",
+    date: "2026-05-20",
+    modifiedDate: "2026-05-20",
+    readTime: "9 min read",
+    category: "Dog Care",
+    keywords: [
+      "puppy schedule",
+      "first week puppy routine",
+      "new puppy checklist",
+      "puppy routine for couples",
+      "new puppy schedule",
+      "puppy first week home",
+      "puppy care schedule",
+    ],
+    searchIntent: "Build a realistic daily schedule for a new puppy",
+    image: "/blog/first-week-puppy-schedule.webp",
+    imageAlt: "Cute puppy standing on a light wooden floor inside a home",
+    faqs: [
+      {
+        question: "What should a puppy's daily schedule look like in the first week?",
+        answer:
+          "A first-week puppy schedule should include feeding 3–4 times per day, a potty trip outside every 1–2 hours while awake, short supervised play sessions, and consistent nap times in a crate or pen.",
+      },
+      {
+        question: "How do two people share puppy care responsibilities?",
+        answer:
+          "Split the day into morning and evening shifts, track each feeding and potty trip in a shared app like Pawlo, and agree in advance who handles overnight wake-ups.",
+      },
+      {
+        question: "How often does an 8-week-old puppy need to go outside?",
+        answer:
+          "Every 1–2 hours while awake, plus immediately after waking from a nap and within 15 minutes of eating. Puppies have tiny bladders and cannot hold it for long.",
+      },
+      {
+        question: "How long should a puppy sleep in the first week?",
+        answer:
+          "Puppies 8–12 weeks old typically sleep 16–20 hours per day. Short active windows followed by long nap periods is completely normal.",
+      },
+    ],
+    relatedSlugs: [
+      "new-pet-tips-couples-roommates",
+      "dog-feeding-schedule-whole-household",
+      "pet-medication-tracker-never-miss-dose",
+    ],
+    content: `
+<p>You searched for a puppy schedule and found twelve versions that all assume you have nothing else going on in your life. One of them has a color-coded spreadsheet. Another suggests a 5 AM morning routine like that's going to happen.</p>
+
+<p>This is not that. This is what the first week actually looks like for a working household — two people, a real job, and a small furry creature who has no concept of your calendar.</p>
+
+<h2>What Week One Is Actually About</h2>
+
+<p>The first week isn't about training your puppy. It's about three things: keeping them safe, establishing basic rhythms, and not completely destroying your own sleep. That's it. Everything else — sit, stay, leash manners — comes later when your puppy has had a chance to decompress.</p>
+
+<p>Puppies arriving at a new home are overwhelmed. New smells, new sounds, new people, no littermates. The kindest thing you can do in week one is keep things calm, consistent, and predictable. Big social events, trips to pet stores, and showing the puppy off to the whole extended family can wait until week two.</p>
+
+<h2>The Honest Daily Framework</h2>
+
+<p>Here's a realistic structure built around a household where both people work. It's not perfectly color-coded, but it works.</p>
+
+<h3>Early Morning (6:00–7:30 AM)</h3>
+<ul>
+  <li><strong>Immediate potty trip outside.</strong> The very first thing, before coffee, before anything. Puppies have no bladder control in the morning. Take them out within sixty seconds of waking.</li>
+  <li><strong>First meal of the day.</strong> After the potty trip, feed breakfast. Measure the portion — don't eyeball it, especially if two people are sharing feeding duties.</li>
+  <li><strong>Potty trip again 10–15 minutes after eating.</strong> Puppies almost always need to go shortly after a meal.</li>
+  <li><strong>Short supervised play.</strong> 15–20 minutes of light play before the puppy tires out. Puppies this age fatigue quickly.</li>
+  <li><strong>Nap in crate.</strong> After play, put the puppy in their crate or pen. They'll sleep for 1–2 hours.</li>
+</ul>
+
+<h3>Mid-Morning (9:00–11:00 AM)</h3>
+<ul>
+  <li><strong>Potty trip immediately when they wake.</strong> Don't wait for them to signal — assume they need to go.</li>
+  <li><strong>Second meal (for puppies under 12 weeks, 3–4 meals per day is standard).</strong></li>
+  <li><strong>Another potty trip after eating.</strong></li>
+  <li><strong>Short play, then back to the crate for another nap.</strong></li>
+</ul>
+
+<h3>Midday (12:00–2:00 PM)</h3>
+<p>If both people are working, this is the trickiest window. Options:</p>
+<ul>
+  <li>Come home on a lunch break if possible.</li>
+  <li>Have a neighbor, friend, or dog walker check in.</li>
+  <li>Use a puppy pen with puppy pads as backup if no one can make it.</li>
+</ul>
+<p>A puppy under 10 weeks should not be crated for more than 2 hours at a time during the day. If your work situation makes this genuinely impossible right now, consider delaying the pickup date or arranging coverage for the first few weeks.</p>
+
+<h3>Afternoon (3:00–5:00 PM)</h3>
+<ul>
+  <li>Potty trip, third meal, potty trip again.</li>
+  <li>Slightly longer play session — by the afternoon your puppy will have more energy after solid naps.</li>
+  <li>Begin light crate training practice: short intervals in the crate with the door closed while you're in the room, building comfort gradually.</li>
+</ul>
+
+<h3>Evening (6:00–9:00 PM)</h3>
+<ul>
+  <li>Fourth meal if your puppy is under 12 weeks.</li>
+  <li>Potty trip.</li>
+  <li>Family time — let the puppy decompress around you in the living room with supervision. This is a good time for gentle handling: touching paws, ears, looking in mouth. Get them used to being touched all over now, before it matters.</li>
+  <li>Final potty trip right before crating for bed.</li>
+</ul>
+
+<h3>Overnight</h3>
+<p>The hard truth: puppies 8–12 weeks old will likely wake once or twice overnight needing a potty trip. This is normal and will improve by weeks 3–4 as their bladder capacity grows. Plan who handles which overnight wake-up before you go to sleep — not at 2 AM when you're both exhausted and resentful.</p>
+
+<h2>The Shared Household Complication</h2>
+
+<p>When two people share puppy care, the schedule above only works if both people are working from the same information. The three most common first-week failures in shared households:</p>
+
+<p><strong>Double feeding.</strong> Person A feeds the puppy at 7 AM and leaves for work. Person B wakes up later, doesn't know, and feeds the puppy again. An overfed puppy is uncomfortable and hard to housetrain — a full stomach triggers the need to go almost immediately.</p>
+
+<p><strong>Missed potty trips.</strong> Each person assumes the other took the puppy out. The crate gets soiled. The puppy learns that their den isn't a safe space to keep clean, which sets back housetraining significantly.</p>
+
+<p><strong>Inconsistent crate timing.</strong> One person lets the puppy out of the crate when they cry. The other holds firm. The puppy learns that crying works, which makes crate training take three times as long.</p>
+
+<p>The solution to all three is shared visibility. You need a system where both people can see, in real time, what's been done and when — without texting each other every hour.</p>
+
+<p><strong>Pawlo</strong> is the easiest way to do this. Set up feeding, potty, and crate tasks in the app. When one person completes a task, it's immediately visible to the other with a timestamp. No more "did you feed her?" — the answer is always one tap away. During the first week especially, that kind of clarity matters.</p>
+
+<h2>Puppy Supplies to Have Ready Before Day One</h2>
+
+<p>This checklist applies to the first week specifically — not an exhaustive lifetime puppy supply list:</p>
+
+<ul>
+  <li><strong>Crate (appropriately sized).</strong> Just big enough for your puppy to stand, turn around, and lie down. Too large and they'll use a corner as a bathroom.</li>
+  <li><strong>Enzymatic cleaner.</strong> There will be accidents. Regular cleaners don't break down the odor compounds that attract puppies back to the same spot.</li>
+  <li><strong>Puppy-appropriate food.</strong> Whatever your breeder or shelter was feeding. Switching food immediately can cause digestive upset — if you're changing brands, transition gradually over a week.</li>
+  <li><strong>Measuring cup.</strong> Not a guess. Not a scoop from the bag. An actual measured portion, especially if two people are feeding.</li>
+  <li><strong>Treat pouch.</strong> You'll be rewarding a lot of outdoor potty success in week one. Have something small and high-value ready.</li>
+  <li><strong>Baby gates or exercise pen.</strong> Limiting your puppy to one or two rooms is not mean — it's management. A puppy who can access the whole house will find places to have accidents that you won't discover for days.</li>
+</ul>
+
+<h2>What to Skip in Week One</h2>
+
+<p><strong>Formal training classes.</strong> Most trainers won't accept puppies younger than 12–16 weeks anyway due to vaccination requirements. Week one is not the time.</p>
+
+<p><strong>Dog parks.</strong> Your puppy's vaccine series isn't complete. Avoid dog parks and high-traffic dog areas entirely for the first several weeks.</p>
+
+<p><strong>Letting the puppy "cry it out" without a plan.</strong> Some fussing in the crate is normal. Sustained panicked crying is not. The goal is a gradual, positive introduction to the crate — not a first night of trauma that you spend three weeks recovering from.</p>
+
+<p><strong>Too much freedom too fast.</strong> The most common week-one mistake is giving the puppy access to too much space before they've learned the rules. Earn freedom through clean track records in small spaces.</p>
+
+<h2>The Metric That Actually Matters in Week One</h2>
+
+<p>Every time your puppy successfully goes outside, it's a win. Every indoor accident is just information — not failure. In week one, success means outdoor trips are happening every 1–2 hours while the puppy is awake, and each one is rewarded immediately.</p>
+
+<p>By the end of week one, you won't have a perfectly trained dog. You will have a puppy who is starting to associate outside with good things, sleeping in a crate without total panic, and learning the shape of your household's daily rhythm. That's enough. Build from there.</p>
+
+<h2>Tracking It All Together</h2>
+
+<p>If your household runs on two different schedules and two different phones, a shared tracker is worth setting up before the puppy arrives. Pawlo lets you track feedings, potty trips, and any other recurring task with one tap — and shows both household members the same real-time status. In a week where you're sleep-deprived and trying to remember if the puppy ate at 7 or 9, that shared log is genuinely useful. Start the free 7-day trial before pickup day, get your tasks set up, and the first week coordination problem essentially solves itself.</p>
+    `.trim(),
+  },
+  {
+    slug: "pet-sitter-instructions-checklist",
+    title: "Pet Sitter Instructions Checklist: What to Leave Before You Travel",
+    seoTitle: "Pet Sitter Instructions Checklist: Feeding, Meds, Walks, and Emergency Info",
+    description:
+      "Leaving your pet with a sitter is only stress-free if they have the right information. Here's a complete checklist of everything to leave behind before you travel.",
+    date: "2026-05-20",
+    modifiedDate: "2026-05-20",
+    readTime: "8 min read",
+    category: "Pet Care Tips",
+    keywords: [
+      "pet sitter instructions",
+      "dog sitter checklist",
+      "cat sitter instructions",
+      "pet care instructions template",
+      "what to tell pet sitter",
+      "pet sitter information sheet",
+      "dog sitter instructions",
+    ],
+    searchIntent: "Create a complete instructions sheet for a pet sitter before traveling",
+    image: "/blog/pet-sitter-instructions-checklist.webp",
+    imageAlt: "Person gently petting a dog on a cozy rug at home",
+    faqs: [
+      {
+        question: "What information should I leave for a pet sitter?",
+        answer:
+          "Leave feeding schedule and portions, medication details with exact timing, walk routine, emergency vet contact, behavioral notes, household access instructions, and a way to reach you.",
+      },
+      {
+        question: "How do I make sure a pet sitter doesn't miss medications?",
+        answer:
+          "Write down the medication name, dose, timing, and how to administer it. Set up a shared tracker like Pawlo so both you and the sitter can see whether each dose was completed.",
+      },
+      {
+        question: "Should I leave my pet sitter access to a pet care app?",
+        answer:
+          "Yes. Apps like Pawlo let you add a sitter to your household temporarily so you can see exactly when they fed, walked, or medicated your pet — from wherever you are.",
+      },
+    ],
+    relatedSlugs: [
+      "pet-medication-tracker-never-miss-dose",
+      "dog-feeding-schedule-whole-household",
+      "coordinate-pet-care-with-roommate",
+    ],
+    content: `
+<p>The anxiety of traveling while leaving a pet behind has a direct cure: information. Not a wall of text on the counter that no one reads, but clear, organized instructions covering every scenario your sitter might face.</p>
+
+<p>Most pet owners under-prepare. They leave a bag of food, a phone number, and an "she's pretty easy, just feed her twice a day." Then they spend the first two days of vacation answering texts about where the leash is and whether the dog is supposed to have that much food.</p>
+
+<p>Over-preparing takes thirty minutes and saves everyone a vacation's worth of anxiety. Here's what to include.</p>
+
+<h2>Part 1: Feeding</h2>
+
+<p>Feeding instructions are the most important and the most commonly messed up. Be specific:</p>
+
+<ul>
+  <li><strong>Food location.</strong> Where is it stored? If it's in a sealed container, where is the scoop?</li>
+  <li><strong>Exact portion size.</strong> "A cup and a half" is better than "fill the bowl." Better still: measure it yourself and show them the amount once before you leave.</li>
+  <li><strong>Feeding times.</strong> Not "morning and evening" but "7 AM and 6 PM." Your pet's digestive system runs on a clock.</li>
+  <li><strong>Any food restrictions.</strong> Allergies, no table scraps, no rawhide, not allowed to beg at the table. Be explicit — your sitter doesn't know your house rules.</li>
+  <li><strong>Water.</strong> Where is the bowl? Does it need to be refilled daily? Does your pet have a fountain that needs to be kept filled?</li>
+  <li><strong>Treats.</strong> Are they allowed? How many per day? Any treats that are off-limits?</li>
+</ul>
+
+<p>If you have multiple pets, write separate feeding notes for each. Multi-pet feeding is complicated enough when you live there — it's genuinely confusing for someone who doesn't know your animals.</p>
+
+<h2>Part 2: Medications</h2>
+
+<p>Medication instructions deserve their own section, not a line buried in the feeding notes. For each medication:</p>
+
+<ul>
+  <li><strong>Name of the medication.</strong> Both the brand name and the generic if you know it.</li>
+  <li><strong>What it's for.</strong> This matters — a sitter who knows it's a seizure medication will treat a missed dose differently than one who doesn't know what the pill does.</li>
+  <li><strong>Dose.</strong> How many tablets, what volume of liquid, which sized pill.</li>
+  <li><strong>Timing.</strong> Exact time. Twice daily means 12 hours apart, not "morning and evening whenever."</li>
+  <li><strong>How to administer it.</strong> In food? In a pill pocket? Directly? Does your pet resist? What trick actually works?</li>
+  <li><strong>What to do if a dose is missed.</strong> Some medications require a call to the vet before re-dosing. Others can be given when remembered. Write the specific guidance, or call your vet ahead of time and write down what they say.</li>
+  <li><strong>Storage requirements.</strong> Some medications need refrigeration. Some need to be kept dry. Don't assume your sitter will check.</li>
+</ul>
+
+<p>For sitters you trust but don't know well, consider using <strong>Pawlo</strong> to add them as a household member temporarily. They can log each medication dose as they give it, and you can see from your phone whether doses are being completed — without having to text them every day to check. It also creates a timestamped record you can share with your vet if needed.</p>
+
+<h2>Part 3: Walks and Exercise</h2>
+
+<ul>
+  <li><strong>How many walks per day and roughly when.</strong> Be honest about your dog's actual needs, not a best-case scenario. If your dog needs three solid walks a day, say so.</li>
+  <li><strong>Walk length.</strong> "Around the block" is very different from "30 minutes." Be specific.</li>
+  <li><strong>Leash behavior notes.</strong> Does your dog pull? Lunge at other dogs? Get reactive on the leash? Warn them — being surprised by a reactive dog is how sitters and dogs both get hurt.</li>
+  <li><strong>Usual route or acceptable areas.</strong> Some dogs do better on familiar routes. If there are dog parks, off-leash areas, or specific paths you allow or avoid, say so.</li>
+  <li><strong>Potty cues.</strong> What does your dog do when they need to go? Sniffing circles, pacing, heading to the door? First-time sitters won't know.</li>
+  <li><strong>Harness or collar?</strong> Which one is the walking equipment? Where is it?</li>
+</ul>
+
+<p>For cats: outdoor access, if any — does your cat go outside? Is there a schedule? A cat door? If strictly indoor, write that explicitly. Cats are escape artists and a sitter who isn't warned may accidentally let them out.</p>
+
+<h2>Part 4: Behavioral Notes</h2>
+
+<p>This is the section most people skip and most sitters need. Your pet has quirks that you navigate automatically without thinking. Your sitter is encountering them without context.</p>
+
+<ul>
+  <li><strong>Anxiety triggers.</strong> Thunderstorms? Fireworks? Men with hats? People arriving at the door? Let the sitter know what sets your pet off and what helps.</li>
+  <li><strong>Food guarding or resource guarding.</strong> If your dog growls around their bowl or toy, say so clearly. This is a safety issue.</li>
+  <li><strong>Where they sleep.</strong> Are they allowed on furniture? Do they sleep in a crate? Does the crate door stay closed?</li>
+  <li><strong>Separation anxiety signals.</strong> Will they bark for hours? Destroy things? Or settle quickly? What typically helps?</li>
+  <li><strong>Interaction preferences.</strong> Does your cat hate being picked up? Does your dog get overstimulated by extended play? Does your pet need a quiet period after activity?</li>
+  <li><strong>Other pet dynamics.</strong> If you have multiple animals, note any that don't get along, can't be fed together, or need to be separated at certain times.</li>
+</ul>
+
+<h2>Part 5: Emergency Information</h2>
+
+<p>This section is the one your sitter hopes they never need and will be extremely grateful to have if they do.</p>
+
+<ul>
+  <li><strong>Your vet's name, address, and phone number.</strong></li>
+  <li><strong>After-hours or emergency vet.</strong> Know this before you leave. Don't make your sitter google it at midnight.</li>
+  <li><strong>Your phone number and the best times to reach you.</strong> If you're crossing time zones, note what "after 9 PM" means in which time zone.</li>
+  <li><strong>A backup contact.</strong> Someone local who knows your pet and can step in if your sitter has an emergency.</li>
+  <li><strong>Known health issues.</strong> Anything the vet would need to know in an emergency — prior surgeries, current conditions, known allergies to medications.</li>
+  <li><strong>Authorization for emergency care.</strong> In writing, state that your sitter has authority to authorize veterinary treatment up to a specific dollar amount without reaching you. This removes a painful decision from an already stressful moment.</li>
+</ul>
+
+<h2>Part 6: Household Logistics</h2>
+
+<p>The practical stuff that gets forgotten:</p>
+
+<ul>
+  <li><strong>Wi-Fi password.</strong></li>
+  <li><strong>Alarm code, if applicable.</strong> Which doors set it off? What's the grace period?</li>
+  <li><strong>Trash day.</strong> If they're staying multiple days, this matters.</li>
+  <li><strong>Mail/packages.</strong> Do they need to bring anything in?</li>
+  <li><strong>Any household rules.</strong> No shoes inside? Guest bathroom only? Lock the back gate?</li>
+  <li><strong>Parking.</strong> Where do they park if they're staying or coming multiple times per day?</li>
+</ul>
+
+<h2>The Shared Tracker Advantage</h2>
+
+<p>A written instructions sheet covers the setup. What it doesn't solve is ongoing visibility — knowing, from wherever you are, whether your pet has been fed today, whether the medication was given, whether the walk happened.</p>
+
+<p>The cleanest solution is adding your sitter to your Pawlo household before you leave. Share an invite link, show them the task list once, and from that point you can check the app from your hotel room and see exactly what's been completed and when. No texts needed. No daily check-ins. If something's overdue, you'll see it. If everything's done, you can actually relax.</p>
+
+<p>After the trip, remove them from the household — it takes one tap. The history of their care is saved if you ever need it.</p>
+
+<h2>How to Leave the Instructions</h2>
+
+<p>Print a physical copy and leave it somewhere visible — on the counter, on the fridge, near the food. Also send the same information digitally so they can search it on their phone. Cover both formats.</p>
+
+<p>Walk through the instructions with your sitter in person before you leave, ideally at least a day ahead so there's time for questions. Don't brief them at the door while you're loading the car. The thirty minutes you spend on a proper handoff is worth more than any checklist.</p>
+
+<p>The goal is a sitter who never has to guess. Every question they don't have to text you is a vacation you actually get to have.</p>
+    `.trim(),
+  },
+  {
+    slug: "feed-multiple-pets-without-chaos",
+    title: "How to Feed Multiple Pets Without Food Stealing or Chaos",
+    seoTitle: "How to Feed Multiple Pets Without One Eating Everyone's Food",
+    description:
+      "Multi-pet feeding is one of those problems that sounds simple and definitely isn't. Here's what actually works to keep every pet eating their own food, on their own schedule.",
+    date: "2026-05-20",
+    modifiedDate: "2026-05-20",
+    readTime: "9 min read",
+    category: "Pet Care Tips",
+    keywords: [
+      "feed multiple cats",
+      "multi pet feeding schedule",
+      "cat eating other cat food",
+      "automatic feeder alternative",
+      "feeding multiple pets",
+      "dog eating cat food",
+      "multi cat feeding station",
+    ],
+    searchIntent: "Solve multi-pet food stealing and feeding coordination problems",
+    image: "/blog/feed-multiple-pets-without-chaos.webp",
+    imageAlt: "Close-up of three cats eating from bowls indoors",
+    faqs: [
+      {
+        question: "How do you stop one cat from eating another cat's food?",
+        answer:
+          "The most reliable methods are feeding in separate rooms with closed doors, using microchip-activated feeders, or timed sequential feeding where you supervise until each pet finishes.",
+      },
+      {
+        question: "Can cats and dogs eat together?",
+        answer:
+          "Not usually without management. Dog food and cat food have different nutritional profiles, and dogs will typically eat cat food if given access. Feeding cats on elevated surfaces dogs can't reach is a common solution.",
+      },
+      {
+        question: "How do you track feeding for multiple pets?",
+        answer:
+          "A shared app like Pawlo lets you set up separate feeding tasks per pet. Any household member can mark each pet's meal complete, so everyone knows which pets have been fed.",
+      },
+      {
+        question: "Are automatic feeders a good solution for multi-pet homes?",
+        answer:
+          "They help with timing but don't solve the food-stealing problem on their own. Microchip-activated feeders that only open for one specific pet are the most effective automated solution.",
+      },
+    ],
+    relatedSlugs: [
+      "dog-feeding-schedule-whole-household",
+      "did-someone-feed-the-dog-app",
+      "pet-medication-tracker-never-miss-dose",
+    ],
+    content: `
+<p>If you have one pet, feeding is a non-event. You put food down. They eat it. Done.</p>
+
+<p>If you have two or more pets, feeding is a twice-daily logistics operation that can involve territorial behavior, dietary conflicts, a 15-pound tabby who has decided that whatever is in the other cat's bowl is definitely better, and a dog who has learned that the cat's elevated feeding station is actually reachable if she jumps just right.</p>
+
+<p>Multi-pet feeding is one of the most common questions in pet owner communities, and the answers that get repeated most often are either oversimplified or require equipment most households don't want to buy. Here's what actually works, in order of effort.</p>
+
+<h2>Why Multi-Pet Feeding Goes Wrong</h2>
+
+<p>Before the solutions, it's worth naming the actual problems, because they're not all the same:</p>
+
+<p><strong>Food theft.</strong> One pet eats fast and then moves to the next bowl. Or one animal is simply more food-motivated and will always push the other aside.</p>
+
+<p><strong>Dietary conflicts.</strong> Dogs need dog food. Cats need cat food. These are not interchangeable — cat food is significantly higher in protein and fat, and dogs who eat it regularly can develop pancreatitis and other issues. Cat food is also typically higher in calories, which can accelerate weight gain in dogs who sneak it regularly.</p>
+
+<p><strong>Medical dietary requirements.</strong> One pet is on prescription food. Another needs a low-phosphorus diet. A third is on a weight management formula. Mixing these up isn't just a waste of money — it can actively undermine a pet's health management.</p>
+
+<p><strong>Pace mismatches.</strong> One pet grazes slowly. Another inhales their bowl in ninety seconds and then immediately investigates the slower eater's food. Free-feeding works for the grazer but creates chaos the moment a second animal is involved.</p>
+
+<p><strong>Tracking confusion.</strong> With multiple pets, it's genuinely hard to know which animal has been fed and which hasn't — especially in a multi-person household where different people feed on different shifts.</p>
+
+<h2>Method 1: Separate Rooms</h2>
+
+<p>The simplest and most reliable solution for most households. Feed each pet in a separate room with the door closed until they finish. When everyone is done, bowls come up and doors open.</p>
+
+<p><strong>Why it works:</strong> There's literally no way to steal food from behind a closed door. It also works for dietary separation regardless of species or food type.</p>
+
+<p><strong>Downsides:</strong> Requires you to be present and supervising. Takes a few extra minutes at each meal. Some pets don't like being isolated and will scratch at the door rather than eat.</p>
+
+<p><strong>Best for:</strong> Households with 2–3 pets who have clear individual dietary needs, or one pet who guards their food. This is the method most veterinarians recommend as a starting point.</p>
+
+<h2>Method 2: Elevated Feeding for Cats</h2>
+
+<p>If your problem is specifically a dog raiding the cat's bowl (extremely common), a cat feeding station on a counter, shelf, or elevated surface the dog can't access solves it without separating rooms. Cats prefer elevated positions anyway — many cats will actually eat more reliably from a height.</p>
+
+<p><strong>Why it works:</strong> Cats are climbers. Most medium and large dogs can't follow them up. This also allows cats to eat at their own pace without feeling rushed.</p>
+
+<p><strong>Downsides:</strong> Doesn't work if your dog is athletic or if your cat is elderly or arthritic and can't comfortably jump. Doesn't address cat-to-cat food stealing.</p>
+
+<p><strong>Best for:</strong> Dog-and-cat households where the dog is the food thief.</p>
+
+<h2>Method 3: Microchip-Activated or Collar-Activated Feeders</h2>
+
+<p>These feeders contain a lid that opens only when the assigned pet's microchip (or an RFID collar tag) is detected. Approach with the wrong pet, and the lid stays closed. Only the assigned animal can access their food.</p>
+
+<p><strong>Why it works:</strong> It's the most technically complete solution to the food-stealing problem. Each pet can eat on their own timeline without you needing to supervise or separate them physically.</p>
+
+<p><strong>Downsides:</strong> Cost — quality microchip feeders run $50–$150 per unit. You need one per pet. Some pets take time to learn how to use them. Doesn't work well for wet food (lids can seal in smell, some models aren't designed for wet food). Requires your pet to be microchipped, or adding RFID collar tags.</p>
+
+<p><strong>Best for:</strong> Cat-only households with free-feeders who steal each other's food, especially where one cat is on prescription or weight-management food. Less practical for large dogs or mixed-species homes.</p>
+
+<h2>Method 4: Timed Sequential Feeding (Supervised)</h2>
+
+<p>Put all bowls down at the same time. Stay present and supervise. The moment any pet finishes their bowl, pick it up — don't let them move to another bowl. Slow eaters get protected time. When the slowest eater finishes, meal time is over and all remaining food comes up.</p>
+
+<p><strong>Why it works:</strong> Doesn't require equipment or room separation. Works well when the issue is one fast eater poaching from one slow eater.</p>
+
+<p><strong>Downsides:</strong> Requires you to be present for every meal. Not practical if you're not home during midday feedings. Stressful if you have a pet who guards their bowl aggressively.</p>
+
+<p><strong>Best for:</strong> Households where the problem is pace mismatch rather than dietary restriction, and where at least one person is home for all meals.</p>
+
+<h2>Method 5: Scheduled Meal Feeding (Not Free Feeding)</h2>
+
+<p>This one sounds obvious but it's worth saying explicitly: if you're free-feeding (leaving food out all day), multi-pet feeding is much harder. Switching to scheduled meals — twice daily, food down for 15–20 minutes and then up — dramatically simplifies management for all other methods.</p>
+
+<p>Scheduled feeding also tells you which pet isn't eating, which is valuable health information. A cat who skips two meals is a cat worth monitoring. You'd never know that on free-feeding.</p>
+
+<p><strong>The tradeoff:</strong> Some pets genuinely do better grazing, particularly cats, and some cats will not eat reliably under meal pressure. Know your animals.</p>
+
+<h2>The Multi-Person Household Layer</h2>
+
+<p>All of the above gets more complicated when multiple people are responsible for feeding. The food-stealing problem is hard enough — add a partner or roommate who doesn't know which cat was already fed, and you've added another failure mode on top.</p>
+
+<p>In a multi-person household with multiple pets, you need a system for tracking not just when each meal happened but which pet was fed. "I fed them" doesn't tell you whether both cats got their correct food.</p>
+
+<p><strong>Pawlo</strong> handles this by letting you create individual feeding tasks per pet. "Luna — Morning Feed" and "Mochi — Morning Feed" are separate tasks. When one person marks Luna's meal done, it stays visible to the other household member — so they know not to feed Luna again, but can see that Mochi's bowl still needs to go down. For households with special dietary needs, the task can include a note with the specific food and portion.</p>
+
+<p>This becomes especially important with medical diets. If one cat is on kidney-support food at $90 a bag, knowing exactly who fed what prevents expensive mistakes — and your vet will thank you for having a complete feeding history.</p>
+
+<h2>Common Scenarios and What Works</h2>
+
+<h3>"My cat keeps eating my other cat's food"</h3>
+<p>Start with separate rooms. If that's not practical, microchip feeders are the cleanest solution. If one cat has a medical diet, separate rooms are non-negotiable — the stakes are too high for equipment to be optional.</p>
+
+<h3>"My dog eats the cat food"</h3>
+<p>Elevated feeding station for the cat. This is usually the fastest fix with the least friction for anyone involved.</p>
+
+<h3>"I have a cat who grazes and a dog who inhales everything"</h3>
+<p>Separate rooms every meal, or a microchip feeder for the cat so they can graze safely. Free-feeding a cat while also having a dog means your dog will eventually find that bowl.</p>
+
+<h3>"One of my pets has a prescription diet and I'm worried about mix-ups"</h3>
+<p>Separate rooms, every meal, no exceptions. Use color-coded bowls to reduce confusion. Track each meal individually in Pawlo or a similar shared tracker so both household members have a record of what was served when.</p>
+
+<h3>"My pets eat fine but I can never remember who I fed"</h3>
+<p>Pure coordination problem. A shared tracker solves this immediately. No behavioral modification needed — just visibility.</p>
+
+<h2>Building a Feeding Routine That Actually Holds</h2>
+
+<p>Whatever method you choose, the routine holds because everyone in the household knows what it is and does it the same way. That means:</p>
+
+<ul>
+  <li>Written-down rules for which food goes where and in what amount.</li>
+  <li>A shared system for logging completions so neither person doubles up.</li>
+  <li>A clear plan for who handles which meal on which day.</li>
+</ul>
+
+<p>Multi-pet feeding isn't glamorous. But a consistent system that runs smoothly twice a day is genuinely one of the better investments you can make in your pets' health — and in the daily peace of your household.</p>
+    `.trim(),
+  },
+  {
+    slug: "how-often-walk-your-dog",
+    title: "How Often Should You Walk Your Dog? A Realistic Guide for Busy Owners",
+    seoTitle: "How Often Should You Walk Your Dog? A Realistic Guide for Busy Households",
+    description:
+      "The answer depends on your dog's age, breed, and health — but also on your actual schedule. Here's an honest guide to dog walking frequency, with solutions for households that share the responsibility.",
+    date: "2026-05-20",
+    modifiedDate: "2026-05-20",
+    readTime: "9 min read",
+    category: "Dog Care",
+    keywords: [
+      "how often walk dog",
+      "dog walking schedule",
+      "dog walking routine",
+      "who walked the dog",
+      "how many walks does a dog need",
+      "dog walk frequency",
+      "shared dog walking app",
+    ],
+    searchIntent: "Find out how often to walk a dog and build a household walking schedule",
+    image: "/blog/how-often-walk-your-dog.webp",
+    imageAlt: "Joyful dog on a leash enjoying a walk with its owner on a wooden boardwalk",
+    faqs: [
+      {
+        question: "How often should you walk your dog?",
+        answer:
+          "Most adult dogs need at least 2–3 walks per day. High-energy breeds or younger dogs may need 4 or more. A good rule of thumb: two daily walks of 20–30 minutes, plus one shorter relief trip.",
+      },
+      {
+        question: "Is one walk a day enough for a dog?",
+        answer:
+          "One walk a day is generally not enough for most dogs. Dogs need both physical exercise and the mental stimulation of outside smells and environments. Most dogs benefit from at least 2–3 outings per day.",
+      },
+      {
+        question: "How do couples or roommates track who walked the dog?",
+        answer:
+          "A shared pet care app like Pawlo lets anyone in the household mark a walk complete, with a timestamp visible to everyone. This eliminates the daily guessing about whether the dog has been out.",
+      },
+      {
+        question: "What happens if a dog doesn't get walked enough?",
+        answer:
+          "Under-exercised dogs often show behavioral problems: destructive behavior, excessive barking, anxiety, and restlessness. Regular walks also support physical health, joint function, and weight management.",
+      },
+    ],
+    relatedSlugs: [
+      "who-walked-the-dog-app",
+      "coordinate-pet-care-with-roommate",
+      "dog-feeding-schedule-whole-household",
+    ],
+    content: `
+<p>The most common answer you'll find online is "at least twice a day." The most honest answer is: it depends, and the gap between what your dog needs and what you're actually doing is worth understanding.</p>
+
+<p>Dog walking frequency is one of those topics that generates strong opinions, genuine guilt, and a lot of Reddit threads from dog owners asking if they're ruining their dog. Most of them aren't. But most dogs would benefit from more than they're getting — and most households struggle less with the frequency itself than with the coordination of actually making it happen consistently.</p>
+
+<h2>The Baseline: What Dogs Actually Need</h2>
+
+<p>Before the household logistics, let's start with the animal's actual requirements.</p>
+
+<h3>By Life Stage</h3>
+
+<p><strong>Puppies (8 weeks – 6 months):</strong> Frequent but short. Puppies can't sustain long walks on developing joints, but they need to go outside constantly — both for housetraining and for exposure to the world. The rule of thumb: five minutes of structured exercise per month of age, up to twice a day. So a four-month-old puppy can handle roughly 20 minutes of walking per session. Potty trips add to this but are shorter and more purpose-driven.</p>
+
+<p><strong>Adolescent dogs (6 months – 2 years):</strong> High energy, high need. This is the stage most owners find most challenging — dogs are physically capable of significant exercise and behaviorally need it to avoid destructive outlets. Three to four walks per day is not unreasonable for many breeds in this stage.</p>
+
+<p><strong>Adult dogs (2–7 years, varies by breed):</strong> Two to three walks per day for most breeds, with at least one longer outing (30 minutes or more) per day. High-energy breeds like border collies, huskies, and vizslas need significantly more. Brachycephalic breeds (bulldogs, pugs) overheat easily and need shorter, more frequent trips.</p>
+
+<p><strong>Senior dogs (7+ years, varies):</strong> Shorter but still regular. Senior dogs need less intense exercise but more frequent short outings for joint health and to accommodate decreased bladder capacity. A dog that could hold it eight hours at age three may need to go out every four hours at age ten.</p>
+
+<h3>By Breed</h3>
+
+<p>Breed is arguably the bigger variable. A greyhound can be perfectly happy with two moderate walks a day and will sleep the rest of the time. A working-breed dog — your Australian shepherds, your Siberian huskies, your Belgian malinois — were bred to work all day and will not be satisfied with a stroll around the block twice a day. They'll redecorate your couch instead.</p>
+
+<p>Know your breed's original purpose. Herding breeds need to move and think. Sporting breeds need to run. Companion breeds are more flexible. If you're getting a dog whose energy level genuinely doesn't match your lifestyle, that's a conversation worth having before adoption, not after.</p>
+
+<h2>The Reality: What Most Owners Are Actually Doing</h2>
+
+<p>Surveys of dog owners consistently show a gap between recommended walk frequency and actual practice. Busy schedules, weather, shared responsibility confusion, and the genuine friction of a twice-daily commitment create a pattern where many dogs get less outdoor time than they need — not because their owners don't care, but because the system breaks down.</p>
+
+<p>The three most common failure patterns:</p>
+
+<p><strong>The morning rush skip.</strong> Work is early. The walk gets cut to a quick potty trip and a promise that the evening walk will be longer. The evening walk also gets shortened because it's been a long day.</p>
+
+<p><strong>The shared household assumption gap.</strong> Two people share walking responsibility. Each assumes the other handled a midday walk. No one actually went. The dog has been inside for ten hours.</p>
+
+<p><strong>The weekday/weekend split.</strong> Dogs get long walks on weekends and inadequate outings during the week. This is better than nothing but creates a pattern of under-exercise followed by over-exercise that can actually cause injury.</p>
+
+<h2>Building a Walking Schedule That Holds</h2>
+
+<p>The best walking schedule is the one that consistently happens, not the aspirational one that relies on everything going perfectly. Start from your actual week, not your ideal week.</p>
+
+<h3>The Two-Person Household Model</h3>
+
+<p>If two people share a dog, the most durable division is by time of day, not by day of the week. Whoever is home in the morning handles morning walks. Whoever is home in the evening handles evening walks. Midday — if needed — is a shared negotiation or a dog walker.</p>
+
+<p>This approach is more resilient than a weekday/person split because it doesn't collapse when one person travels, works late, or has an unusual day.</p>
+
+<h3>Minimum vs. Target</h3>
+
+<p>For planning purposes, define two numbers for your dog: a minimum acceptable walk day, and a target day. On a minimum day, your dog gets two 15-minute outings — enough for elimination and basic stimulation, not enough for real exercise. On a target day, they get a 30-minute morning walk, a midday relief trip, and a 30-minute evening walk.</p>
+
+<p>Tracking this over a week gives you an honest picture. If you're hitting minimums consistently, that's a livable baseline. If you're consistently below minimums, that's a behavioral and health problem in the making.</p>
+
+<h2>Solutions for Busy Households</h2>
+
+<h3>Dog Walkers and Daycare</h3>
+
+<p>If your work schedule genuinely prevents adequate midday walks, a professional walker or a few days per week of doggy daycare is worth the expense. Treat it as a cost of responsible dog ownership for your specific lifestyle, not a luxury. Many dogs with adequate weekday exercise are dramatically calmer and better-behaved than dogs who are under-stimulated five days a week.</p>
+
+<h3>Mental Exercise as a Supplement</h3>
+
+<p>Physical walks are irreplaceable, but mental exercise — training sessions, puzzle feeders, nose work — can supplement when walks are shorter than usual. A ten-minute training session that makes a dog think is not a substitute for a walk, but it does take the edge off a high-energy dog waiting for their people to get home.</p>
+
+<h3>The Coordination Problem</h3>
+
+<p>In multi-person households, the frequency problem is often secondary to the coordination problem. You're not walking the dog less because you don't have time — you're walking the dog less because neither person is sure whether it happened, so the default is to assume it did.</p>
+
+<p>This is exactly what <strong>Pawlo</strong> solves. When one person completes a walk, they tap it in the app. Everyone in the household sees it immediately: "Evening Walk — completed by Jamie at 6:47 PM." The "did someone walk him?" question stops being asked because the answer is always visible. That visibility alone closes most of the gap between what households intend to do and what actually happens.</p>
+
+<p>Pawlo's leaderboard also surfaces something useful: who's actually doing most of the walking over time. It tends to be less surprising than you'd hope, but it gives both people the same data — which makes it a conversation about logistics rather than a fight about effort.</p>
+
+<h2>Signs Your Dog Isn't Getting Enough Walking</h2>
+
+<p>Your dog will usually tell you before the vet does:</p>
+
+<ul>
+  <li><strong>Destructive behavior.</strong> Chewing things they've ignored for years, digging, rearranging the furniture with their nose. Pent-up energy goes somewhere.</li>
+  <li><strong>Restlessness and pacing.</strong> A dog who can't settle, paces the house, or follows you from room to room is often an under-exercised dog.</li>
+  <li><strong>Excessive attention-seeking.</strong> Nudging, whining, bringing you toys constantly — a dog's way of initiating interaction when what they really want is out.</li>
+  <li><strong>Weight gain.</strong> Less obvious as a short-term signal, but chronic under-exercise combined with normal feeding amounts is a reliable path to an overweight dog.</li>
+  <li><strong>Reactivity.</strong> Dogs who are under-exercised often become more reactive on leash — more barking, more pulling, more difficulty focusing. Exercise doesn't fix reactivity, but inadequate exercise reliably makes it worse.</li>
+</ul>
+
+<h2>The Honest Answer</h2>
+
+<p>How often should you walk your dog? More than you probably are, for most dogs. The target for most adult dogs is at least two solid walks per day, with a short midday trip making three — but the number matters less than the consistency and the actual time outside.</p>
+
+<p>A dog who gets two reliable 25-minute walks every single day will be healthier and better-behaved than a dog who gets an ambitious 90-minute trail hike on weekends and sporadic rushed outings on weekdays. Routine beats occasional intensity every time.</p>
+
+<p>Set a realistic schedule. Split the responsibility clearly if you share a dog. Track completions so the coordination gap closes. And when the answer to "did someone walk the dog?" is always one tap away, you'll find it gets asked a lot less often.</p>
+    `.trim(),
+  },
+  {
+    slug: "dog-cat-feeding-schedule-shared-home",
+    title: "Dog and Cat Feeding Schedules: What Actually Works in a Shared Home",
+    seoTitle: "Dog and Cat Feeding Schedules: What Actually Works in a Shared Home",
+    description:
+      "Feeding a dog and a cat in the same household involves different nutritional needs, different rhythms, and a dog who definitely knows the cat food is up there. Here's what actually works.",
+    date: "2026-05-20",
+    modifiedDate: "2026-05-20",
+    readTime: "9 min read",
+    category: "Pet Care Tips",
+    keywords: [
+      "puppy feeding schedule",
+      "cat feeding schedules",
+      "dog and cat feeding schedule",
+      "feeding dog and cat same household",
+      "cat and dog food schedule",
+      "multi pet feeding routine",
+      "pet feeding schedule shared home",
+    ],
+    searchIntent: "Build a reliable feeding schedule for dogs and cats living in the same household",
+    image: "/blog/dog-cat-feeding-schedule-shared-home.webp",
+    imageAlt: "A cat and dog posing together on a blanket indoors",
+    faqs: [
+      {
+        question: "Can dogs and cats eat at the same time?",
+        answer:
+          "They can, but rarely should. Dogs will typically eat their food and then investigate the cat's bowl. Feeding them simultaneously but in separate spaces, or using an elevated feeding station for the cat, prevents cross-eating.",
+      },
+      {
+        question: "Why can't dogs eat cat food?",
+        answer:
+          "Cat food is formulated for cats' higher protein and taurine requirements. Dogs who eat cat food regularly can develop digestive upset, weight gain, and pancreatitis over time.",
+      },
+      {
+        question: "How many times a day should you feed a cat?",
+        answer:
+          "Most adult cats do well with two meals per day, roughly 12 hours apart. Kittens need 3–4 smaller meals. Unlike dogs, some cats tolerate free-feeding, but this becomes problematic in multi-pet households.",
+      },
+      {
+        question: "How do you track feedings for multiple pets with different schedules?",
+        answer:
+          "A shared app like Pawlo lets you set up separate feeding tasks per pet. Each task is logged individually with a timestamp, so everyone in the household can see which animal has been fed.",
+      },
+    ],
+    relatedSlugs: [
+      "feed-multiple-pets-without-chaos",
+      "dog-feeding-schedule-whole-household",
+      "did-someone-feed-the-dog-app",
+    ],
+    content: `
+<p>Dogs and cats have entirely different nutritional needs, different eating styles, and entirely different opinions about whether the rules apply to them. Getting their feeding schedules to coexist in the same household — without one animal raiding the other's bowl, without anyone accidentally swapping foods, and without the people involved losing track of who has been fed — is a practical problem that doesn't get discussed enough.</p>
+
+<p>Here's how to build a feeding schedule that works for both species, and a household where more than one person shares the responsibility.</p>
+
+<h2>Why Dogs and Cats Can't Just Share a Feeding Routine</h2>
+
+<p>It's tempting to simplify: put both bowls down at the same time twice a day and call it done. This works only if your dog has no interest in the cat's food and your cat eats quickly. In most households, neither of those things is true.</p>
+
+<p><strong>The nutritional problem.</strong> Cat food is significantly higher in protein and fat than dog food. It's formulated for cats' unique metabolic requirements, including taurine — an amino acid cats can't synthesize themselves. Dogs who eat cat food regularly can develop pancreatitis, weight gain, and digestive problems. It's not an immediate emergency if your dog steals a bite, but it's not a habit you want to let develop.</p>
+
+<p>The reverse is equally problematic. Dog food lacks the taurine and arachidonic acid cats need. A cat who is regularly eating dog food instead of cat food will develop nutritional deficiencies over time — particularly taurine deficiency, which causes serious cardiac and vision problems in cats.</p>
+
+<p><strong>The behavior problem.</strong> Dogs are opportunistic. Most dogs, given access to a cat's food, will eat it. Cats are more particular, but a hungry cat will eat dog food when their own isn't available. The behaviors that make both animals interesting companions make them reliably terrible at respecting each other's bowls without physical separation.</p>
+
+<p><strong>The pace mismatch.</strong> Most dogs eat quickly. Many cats graze slowly or eat in multiple sessions. This means a dog can finish their meal and still be in "food mode" when the cat is halfway through theirs.</p>
+
+<h2>The Dog Side: Building a Reliable Schedule</h2>
+
+<p>For most adult dogs, twice-daily feeding works well: morning and evening, roughly 10–12 hours apart. Here's what makes a dog feeding schedule actually hold:</p>
+
+<h3>Specific Times, Not Windows</h3>
+<p>"Morning" is a window. "7:00 AM" is a commitment. Dogs have strong internal clocks and will start anticipating meals — their digestive system literally prepares for food at consistent times. That preparation improves digestion and supports stable energy throughout the day. Feeding at inconsistent times within a broad window disrupts this.</p>
+
+<h3>Measured Portions</h3>
+<p>In a multi-person household, measured portions do double work: they ensure your dog gets the right amount of food, and they prevent accidental double-feeding. If one person uses a measuring cup and the other eyeballs it, your dog's caloric intake is unpredictable. Agree on a specific measurement before the schedule starts.</p>
+
+<h3>Food Up After Meals</h3>
+<p>If you're feeding scheduled meals rather than free-feeding, take the bowl up when the dog is done — or after 15–20 minutes if they're a slow eater. This keeps the dog food out of reach of your cat and builds a cleaner feeding habit overall. It also makes it obvious whether your dog ate that meal or not, which is useful health information.</p>
+
+<h3>Puppy Adjustments</h3>
+<p>Puppies under 6 months need 3–4 meals per day. Their stomachs are small and their blood sugar regulation is still developing. If you've brought a puppy into a household that already has a cat, you're now managing three feeding events per day (two cat meals plus a midday puppy meal) rather than two. Make sure both people in the household understand the puppy schedule — the midday meal is the one that most often gets missed.</p>
+
+<h2>The Cat Side: What Cats Actually Need</h2>
+
+<p>Cat feeding is more flexible than dog feeding, but it creates more complicated dynamics in a shared household.</p>
+
+<h3>Scheduled vs. Free Feeding</h3>
+<p>Many cats can free-feed — food left out all day — without overeating. But free-feeding in a dog household is almost always a disaster. The dog will find the bowl. If you have a dog and a cat, scheduled meals for the cat are non-negotiable unless the cat's food is physically inaccessible to the dog at all times.</p>
+
+<p>Twice-daily meals work well for most adult cats: once in the morning and once in the evening. Kittens, like puppies, need more frequent meals — 3–4 times per day for cats under 6 months.</p>
+
+<h3>Wet vs. Dry</h3>
+<p>Whether you feed wet, dry, or a combination is a conversation to have with your vet, not a scheduling question — but it has schedule implications. Wet food left out too long goes bad and attracts the dog. If you're feeding wet food, put it down, give the cat 20–30 minutes, and take up whatever's left. Dry food is more forgiving for scheduled meals but still needs to be protected from your dog.</p>
+
+<h3>Stress-Free Eating</h3>
+<p>Cats are sensitive to stress around mealtimes. A dog hovering nearby, even without stealing food, can cause a cat to eat less or more quickly than is comfortable. Wherever you feed your cat, it should be a place where they feel safe and unrushed. Elevated surfaces work well. A separate room with the door closed is the most reliable option.</p>
+
+<h2>The Separation Question: What Actually Works</h2>
+
+<p>Given the nutritional stakes, the most reliable solution for dog-and-cat households is physical separation at mealtimes. The three common approaches:</p>
+
+<p><strong>Separate rooms with closed doors.</strong> The simplest, most reliable method. Dog eats in one room, cat eats in another. Both doors stay closed until everyone is done. No equipment needed, no behavior modification required. The main cost is a few minutes of attention at each meal.</p>
+
+<p><strong>Elevated feeding for the cat.</strong> A cat feeding station on a counter, shelf, or surface the dog can't access. Works well for households where the dog is the primary threat. Doesn't address cat-to-cat dynamics if you have multiple cats. Doesn't work if your dog is a jumper or your cat is elderly and can't easily climb.</p>
+
+<p><strong>Microchip-activated feeders.</strong> A lid that opens only for the assigned pet's microchip. The cleanest technological solution, but costs $50–$150 per unit. Most useful in cat-only households or when one pet has a special diet that absolutely cannot be shared.</p>
+
+<h2>The Shared Household Coordination Layer</h2>
+
+<p>Separate feeding schedules for a dog and a cat mean more tasks per meal period, not just more animals. In a household where two people share feeding responsibilities, the risk of confusion compounds:</p>
+
+<ul>
+  <li>Did someone feed the dog this morning?</li>
+  <li>Did someone feed the cat?</li>
+  <li>Did the cat get wet food or dry food today?</li>
+  <li>Did the dog get the correct portion or did someone use the old bag before we switched foods?</li>
+</ul>
+
+<p>Each of these questions is a potential failure point. Without a system, they get answered by memory — which is unreliable at 7 AM on a Tuesday.</p>
+
+<p>The most practical solution is a shared tracker where each animal has their own feeding task. In <strong>Pawlo</strong>, you can set up "Luna — Morning Feed" and "Mochi — Morning Feed" as separate tasks. When one person completes a task, the other household member sees it immediately with a timestamp. If both are still open when the second person comes downstairs, they know both animals need to be fed. If one is marked done, they know which animal still needs attention.</p>
+
+<p>For households with a dog on a three-meal puppy schedule plus a cat on a two-meal adult schedule, that visibility becomes the difference between a system that works and a system that requires constant verbal coordination.</p>
+
+<h2>Building the Full Schedule</h2>
+
+<p>Here's what a functioning dog-and-cat feeding schedule looks like in a typical shared household:</p>
+
+<p><strong>Morning (7:00–7:30 AM)</strong></p>
+<ul>
+  <li>Cat eats in their room or on their elevated surface (wet or dry food, measured portion).</li>
+  <li>Dog eats in kitchen or separate area (measured portion, door closed if needed).</li>
+  <li>Both bowls come up after 15–20 minutes.</li>
+  <li>Person who fed marks both tasks in Pawlo.</li>
+</ul>
+
+<p><strong>Midday (12:00–1:00 PM) — if applicable</strong></p>
+<ul>
+  <li>Puppies or kittens under 6 months get a midday meal.</li>
+  <li>Adult pets generally skip midday feeding unless on a veterinarian-recommended three-meal schedule.</li>
+</ul>
+
+<p><strong>Evening (6:00–6:30 PM)</strong></p>
+<ul>
+  <li>Same as morning routine for both animals.</li>
+  <li>Wet food for the cat (if feeding wet evening meals).</li>
+  <li>Dog meal at consistent time.</li>
+</ul>
+
+<p>The schedule looks obvious written out. The part that breaks it down is the informal, day-to-day execution in a household where two people are both busy and neither always knows what the other person has or hasn't done yet. That's the problem a shared tracker fixes: not the schedule itself, but the visibility into whether the schedule ran today.</p>
+
+<h2>When to Revisit the Schedule</h2>
+
+<p>Feeding schedules aren't permanent. Revisit when:</p>
+<ul>
+  <li>Your puppy turns 6 months — transition from 3–4 meals to twice daily.</li>
+  <li>Your cat transitions from kitten food to adult food (usually around 12 months).</li>
+  <li>Either pet starts gaining or losing weight — portion size may need adjustment.</li>
+  <li>A vet prescribes a dietary change — new food, new timing, or a prescription formula that must stay separate.</li>
+  <li>You add another pet to the household and need to restructure the separation logistics.</li>
+</ul>
+
+<p>Get the schedule right once, build the tracking habit, and most households find it becomes automatic within a few weeks. The goal is a system that runs quietly in the background — not one that requires active management every meal.</p>
+    `.trim(),
+  },
+  {
+    slug: "missed-pet-medication-dose",
+    title: "Missed a Pet Medication Dose? What to Do Next and How to Prevent It",
+    seoTitle: "Missed a Pet Medication Dose? What to Do and How to Prevent It",
+    description:
+      "Realizing you missed a heartworm pill, fluoxetine dose, or monthly flea treatment is stressful. Here's exactly what to do — and the system that makes it stop happening.",
+    date: "2026-05-20",
+    modifiedDate: "2026-05-20",
+    readTime: "9 min read",
+    category: "Pet Health",
+    keywords: [
+      "missed heartworm dose",
+      "missed fluoxetine dose dog",
+      "dog medication automation",
+      "missed pet medication",
+      "what to do missed pet dose",
+      "pet medication reminder",
+      "missed flea treatment dog",
+    ],
+    searchIntent: "Find out what to do after missing a pet medication dose and how to prevent it",
+    image: "/blog/missed-pet-medication-dose.webp",
+    imageAlt: "Veterinarian examining a German Shepherd in a clinic",
+    faqs: [
+      {
+        question: "What should I do if I missed my dog's heartworm pill?",
+        answer:
+          "Give the dose as soon as you remember if you're within a few days of the scheduled date. If you're unsure how much time has passed, call your vet before giving it. Never double up doses of monthly preventatives without veterinary guidance.",
+      },
+      {
+        question: "What happens if I miss a dose of my dog's fluoxetine?",
+        answer:
+          "Give it as soon as you remember, unless it's almost time for the next dose. Never double up. Fluoxetine takes weeks to build to therapeutic levels, so a single missed dose is unlikely to cause a behavioral crisis, but consistent gaps will reduce its effectiveness.",
+      },
+      {
+        question: "Is it okay to give two doses of flea and tick prevention if one was missed?",
+        answer:
+          "No. Never double up on topical or oral flea and tick preventatives. The products are dosed for a full month's protection — giving two doses can cause toxicity. Call your vet if the gap concerns you.",
+      },
+      {
+        question: "How do I make sure my pet never misses a medication dose?",
+        answer:
+          "The most reliable system for multi-person households is a shared tracker where each dose is logged with a timestamp and visible to everyone. Apps like Pawlo let any household member mark a medication task complete so no one accidentally skips or doubles a dose.",
+      },
+    ],
+    relatedSlugs: [
+      "pet-medication-tracker-never-miss-dose",
+      "pet-sitter-instructions-checklist",
+      "dog-feeding-schedule-whole-household",
+    ],
+    content: `
+<p>You remember on a Thursday that the heartworm pill was supposed to happen last Monday. Or you realize at 10 PM that the fluoxetine dose that was supposed to happen at 8 AM never happened. Or you and your partner both thought the other one gave the flea treatment three weeks ago and now neither of you is sure.</p>
+
+<p>The panic that follows is real and proportionate — pet medications are not all the same, and what to do next depends entirely on which medication it is. Here's a guide to the most common scenarios, plus the system that stops missed doses from happening in the first place.</p>
+
+<h2>The Most Important Rule: Never Guess</h2>
+
+<p>Before getting into specific medications: if you are genuinely uncertain whether a dose was given, and the medication is one where doubling a dose carries real risk, call your vet before giving anything. A two-minute phone call is always worth it. Most vets and veterinary practices have after-hours lines for exactly these situations.</p>
+
+<p>What you should not do: give a second dose because you're not sure and decide to "err on the side of caution." For certain medications, a double dose is not cautious — it's dangerous. When in doubt, the safe choice is no dose until you have guidance.</p>
+
+<h2>Missed Heartworm Prevention</h2>
+
+<p>Heartworm prevention (products like Heartgard, Interceptor, or Sentinel) is monthly. The stakes feel high because heartworm disease is serious. Here's the actual guidance:</p>
+
+<p><strong>If you're within a day or two of the scheduled date:</strong> Give the dose as soon as you remember. Continue on the original monthly schedule as if nothing happened.</p>
+
+<p><strong>If you're a week or more late:</strong> Give the dose now and restart the monthly schedule from today's date. You've created a gap in coverage, which means your dog had a window of unprotected time. This matters more if you're in a high-mosquito-activity area during warm months. Mention it to your vet at the next appointment — they may recommend a preventative heartworm test before the next refill, depending on the length of the gap and your geographic risk.</p>
+
+<p><strong>What not to do:</strong> Do not give two doses to "make up for it." Monthly heartworm prevention is dosed for a single month's coverage — doubling it does not extend protection and can cause adverse effects depending on the product.</p>
+
+<p><strong>The uncertainty problem:</strong> If you're in a multi-person household and genuinely can't determine when the last dose was given, call your vet. They'll tell you whether a test is warranted before resuming prevention.</p>
+
+<h2>Missed Flea and Tick Prevention</h2>
+
+<p>Topical treatments (Frontline, K9 Advantix) and oral preventatives (NexGard, Bravecto, Simparica) are typically monthly or quarterly. The guidance is similar to heartworm prevention:</p>
+
+<p><strong>Apply or give the missed dose as soon as you remember.</strong> Your pet has been unprotected since the last dose wore off. Getting coverage back on is the priority.</p>
+
+<p><strong>Restart your schedule from today.</strong> Don't try to catch up to the original date — just treat today as the new Day 1 and mark your calendar 30 days out.</p>
+
+<p><strong>Never double up.</strong> This is especially important for topical treatments. The active ingredients in flea and tick products are pesticides — they're safe at the right dose and potentially toxic at double the dose. If you apply a topical and then find out your partner applied one two days ago, call your vet immediately.</p>
+
+<p><strong>If there was a long gap:</strong> Check your pet for ticks thoroughly, especially if they've been in wooded or grassy areas. A gap in tick prevention during peak season means a real exposure window.</p>
+
+<h2>Missed Behavioral Medication (Fluoxetine, Trazodone, Clomipramine)</h2>
+
+<p>Dogs with anxiety, separation distress, or compulsive behaviors are increasingly managed with daily psychiatric medications. These have different rules than preventatives.</p>
+
+<p><strong>Fluoxetine (Prozac for dogs):</strong> Give the missed dose as soon as you remember. If it's almost time for the next dose, skip the missed one and resume the regular schedule. Never give two doses to compensate. Fluoxetine has a long half-life — a single missed dose won't abruptly destabilize your dog, but it's worth noting that these medications take 4–6 weeks to build to therapeutic levels. Consistent gaps over time erode their effectiveness.</p>
+
+<p><strong>Trazodone:</strong> Often used situationally (before vet visits, thunderstorm season) rather than daily. If you're using it daily and missed a dose, same rule applies — give it if you remember within a reasonable window, skip if you're close to the next dose. If you're using it situationally and forgot before a specific event, that event will just be harder for your dog today.</p>
+
+<p><strong>Clomipramine (Clomicalm):</strong> Similar guidance to fluoxetine — give the missed dose if remembered early, skip if you're near the next scheduled time. Consistent administration matters more than occasional misses.</p>
+
+<p><strong>When to call the vet:</strong> If your dog is on behavioral medication for a serious condition (severe aggression, extreme separation anxiety) and has missed multiple days in a row, contact your vet. Some dogs show rebound symptoms after gaps in behavioral medication — knowing what to watch for is worth a conversation.</p>
+
+<h2>Missed Daily Medication for Chronic Conditions</h2>
+
+<p>Dogs and cats on daily medication for thyroid disease, diabetes, epilepsy, Cushing's disease, kidney disease, or heart conditions are in a different category. These medications are managing an active condition — gaps aren't just a coverage issue, they're a health management issue.</p>
+
+<p><strong>Epilepsy medications (phenobarbital, potassium bromide):</strong> These are the most critical to not miss. Consistent blood levels are essential for seizure control. If you realize you missed a dose, give it as soon as possible. If you've missed more than one dose, or if your dog has had a seizure since the missed dose, contact your vet immediately — do not wait for the next scheduled appointment.</p>
+
+<p><strong>Diabetes (insulin):</strong> This is a call-your-vet situation every time. Insulin dosing is precise, and what to do after a missed injection depends on your pet's current blood glucose and how much time has passed. Your vet should have given you a protocol for this scenario when the diagnosis was made. If they didn't, ask for one at the next visit.</p>
+
+<p><strong>Thyroid medication (methimazole for cats, levothyroxine for dogs):</strong> Give the missed dose if you remember on the same day. If you realize it was missed the day before, give the next scheduled dose on time and don't double up. Long-term gaps cause symptom return, but a single missed day is rarely an emergency.</p>
+
+<p><strong>Heart medications:</strong> Call your vet. The answer depends heavily on which medication and what stage of disease your pet is in.</p>
+
+<p><strong>The consistent theme:</strong> For chronic condition medications, always have a "what if we miss a dose" protocol in writing from your vet, ideally established at the time of diagnosis. This is information most practices will happily provide and most owners never think to ask for until they're in a panic at 11 PM.</p>
+
+<h2>Why Missed Doses Keep Happening in Multi-Person Households</h2>
+
+<p>Missed pet medication in a shared household is almost never caused by negligence. It's caused by a coordination failure — the same failure pattern that causes double-feeding and missed walks. Two people, each reasonably assuming the other handled something that left no visible trace.</p>
+
+<p>The three specific failure modes for medication:</p>
+
+<p><strong>"I thought you did it."</strong> Both people believe the other person gave the medication. Neither did. This is most common with daily medications given at a time when both household members are present but distracted.</p>
+
+<p><strong>"I'll give it when I get home" + the same thought in two heads.</strong> Both people intended to give the medication on their way home. One of them did. The other also did. Now you have a double dose problem instead of a missed dose problem.</p>
+
+<p><strong>The monthly blind spot.</strong> Monthly medications require someone to remember a specific day 30 days out, which means the task depends entirely on whoever set the calendar reminder — and that person's phone being on, and them being the one home on that day.</p>
+
+<h2>The System That Actually Prevents It</h2>
+
+<p>A calendar reminder on one person's phone is a single point of failure in a multi-person household. A shared medication tracker that logs each dose with a timestamp and makes that completion visible to everyone eliminates all three failure modes above.</p>
+
+<p><strong>Pawlo</strong> handles this through its shared task system. Set up each medication as a recurring task — daily, weekly, or monthly. When any household member gives the medication, they tap the task in the app. The dose is logged with their name and a timestamp, immediately visible to every other member of the household. Double-dosing becomes impossible because the completion is always visible. Missed doses get caught because an incomplete task at the end of the day is visible to both people, not just the one who forgot.</p>
+
+<p>For monthly medications specifically, Pawlo's smart reminders (Premium) send a push notification to everyone in the household if a task hasn't been completed by a specified time. That covers the scenario where the person who usually handles it is traveling and their partner doesn't realize the monthly dose is due.</p>
+
+<p>The longer you have a pet on medication, the more important the tracking system becomes. A once-a-year flea treatment is easy to remember. A daily fluoxetine dose, a monthly heartworm pill, and a twice-weekly ear medication for a pet with chronic ear disease — that's a medication schedule that genuinely requires a system.</p>
+
+<h2>The Timestamped Record Your Vet Will Love</h2>
+
+<p>There's a secondary benefit to logging every dose: you always have a complete medication history to share with your vet. When your vet asks "when was the last heartworm prevention?" you can tell them exactly — not "I think last month?" When they ask whether the fluoxetine was given consistently before the behavioral consultation, you have data. When a new vet needs to know what medications your pet has been on, you have a timestamped record.</p>
+
+<p>This sounds like a small thing until the moment you need it.</p>
+    `.trim(),
+  },
+  {
+    slug: "split-pet-care-fairly-partner-roommate",
+    title: "How to Split Pet Care Fairly With a Partner or Roommate",
+    seoTitle: "How to Split Pet Care Fairly With a Partner or Roommate",
+    description:
+      "In most shared households, one person ends up doing more pet care than they signed up for. Here's why it happens and what actually fixes it — without the passive-aggressive scorekeeping.",
+    date: "2026-05-20",
+    modifiedDate: "2026-05-20",
+    readTime: "9 min read",
+    category: "Household Tips",
+    keywords: [
+      "roommate not feeding dog",
+      "roommate dog walking conflict",
+      "split pet care fairly",
+      "partner not doing pet care",
+      "how to divide pet care",
+      "pet care responsibilities couple",
+      "shared pet care agreement",
+    ],
+    searchIntent: "Divide pet care responsibilities fairly in a shared household",
+    image: "/blog/split-pet-care-fairly-partner-roommate.webp",
+    imageAlt: "Happy couple on the floor with their dog",
+    faqs: [
+      {
+        question: "How do couples split pet care fairly?",
+        answer:
+          "The most durable split is by time of day rather than by individual task — one person owns morning responsibilities, the other owns evenings. This is fewer decisions and more resilient to disruption.",
+      },
+      {
+        question: "What should I do if my roommate isn't doing their share of pet care?",
+        answer:
+          "Start with a direct, non-accusatory conversation using shared data rather than feelings. A tracking app like Pawlo creates a task history both people can see, which makes the conversation about logistics rather than blame.",
+      },
+      {
+        question: "What is the best app for splitting pet care between two people?",
+        answer:
+          "Pawlo is built specifically for multi-person pet care — it tracks who completed each task, when, and shows both people the same real-time status. The contribution history makes workload distribution visible.",
+      },
+      {
+        question: "How do you handle pet care when one person travels?",
+        answer:
+          "Establish a default rule in advance: when one person is away, the other person owns all care, or you arrange outside help. Don't negotiate this when someone is about to leave — agree on the protocol when you're both present.",
+      },
+    ],
+    relatedSlugs: [
+      "coordinate-pet-care-with-roommate",
+      "pet-care-invisible-labor-households",
+      "who-walked-the-dog-app",
+    ],
+    content: `
+<p>Scroll through any relationship advice subreddit for ten minutes and you'll find them: the threads about pet care. The partner who never walks the dog. The roommate who feeds the cat sporadically or not at all. The person who "helps" but only when reminded, every single time, which means the other person is carrying both the task and the cognitive load of managing the reminder.</p>
+
+<p>These threads are not really about pets. They're about fairness, visibility, and the low-grade resentment that builds when one person's effort is invisible and unacknowledged. Pets make it worse because their needs are daily, non-negotiable, and leave no evidence when completed.</p>
+
+<p>Here's how to actually fix it — without the scorekeeping turning into its own problem.</p>
+
+<h2>Why It Almost Always Gets Uneven</h2>
+
+<p>The imbalance isn't usually malicious. It's structural. When two people take on shared responsibility for something without a clear system, a few predictable things happen:</p>
+
+<p><strong>Default behavior emerges.</strong> One person starts handling a task consistently — not because they agreed to own it, but because they were the first one to do it and it just kept falling to them. The other person, not realizing a pattern has formed, stops thinking of it as their task at all. This happens gradually and invisibly.</p>
+
+<p><strong>Initiation energy is unequal.</strong> Doing a task and noticing that a task needs doing are different cognitive loads. One person might be doing 50% of the actual feeding but 100% of the "realizing it's feeding time" thinking. The noticer carries more weight than the task split suggests.</p>
+
+<p><strong>Pet care is invisible.</strong> A fed dog looks exactly like an unfed dog for several hours. A completed walk is invisible thirty minutes later. A cat who got her medication looks no different from a cat who didn't. There's no artifact. No evidence. The work disappears the moment it's done, which means the person doing more has no way to show it and the person doing less has no way to see it.</p>
+
+<p><strong>Mismatched urgency perception.</strong> If one person is more anxious about the pet's wellbeing, they'll default to handling things rather than waiting to see if the other person does it. Over time this person builds resentment. The other person, who would have "gotten to it eventually," doesn't understand why there's tension.</p>
+
+<h2>The Conversation You Need to Have</h2>
+
+<p>Before any system, there needs to be an honest conversation about what both people expect and what they've actually been experiencing. A few principles for making this conversation productive rather than defensive:</p>
+
+<p><strong>Make it about logistics, not character.</strong> "I've been handling most of the morning care" lands differently than "you never feed the dog." The first is a logistics observation. The second is an accusation. You want a problem-solving conversation, not a defensive one.</p>
+
+<p><strong>Come with data if possible.</strong> "I feel like I'm doing more" is easy to dispute. "I've walked the dog 18 times in the last three weeks and you've walked him 4 times" is harder to argue with. This is one reason a tracking app is valuable even before any conflict emerges — it makes the conversation start from shared facts.</p>
+
+<p><strong>Focus on the future structure, not the past accounting.</strong> Even if the historical imbalance is real and clearly documented, relitigating every incident accomplishes nothing. What you want out of the conversation is an agreement about going forward. Get there quickly.</p>
+
+<p><strong>Name the invisible labor specifically.</strong> Remind your partner or roommate that "caring for the pet" includes noticing what needs to be done, tracking whether medications are due, scheduling vet appointments, and managing supplies. If one person is doing more of this mental work, that's real labor even if they're not the one physically filling the bowl.</p>
+
+<h2>The Division of Labor That Actually Holds</h2>
+
+<p>The most durable split isn't by task — it's by time of day.</p>
+
+<p>Assigning "morning care" to one person and "evening care" to the other is more resilient than negotiating individual tasks because:</p>
+
+<ul>
+  <li>It's fewer decisions. The morning person doesn't ask "whose job is feeding today?" They just own mornings.</li>
+  <li>It handles disruptions naturally. If the morning person is sick, the evening person can cover without a negotiation. There's a clear default to deviate from.</li>
+  <li>It distributes both effort and noticing. Each person is responsible for everything in their window — they can't not-notice that the walk needs to happen because it's their window.</li>
+</ul>
+
+<p>A typical morning/evening split for a dog-owning household:</p>
+
+<p><strong>Morning person:</strong> Feeding, morning walk, fresh water, any daily morning medication.</p>
+<p><strong>Evening person:</strong> Feeding, evening walk, any evening medication, checking on supplies (food, treats, medications running low).</p>
+
+<p>Both people share responsibility for: vet appointments, monthly medications (tracked explicitly), weekend variations, and covering when the other person is unavailable.</p>
+
+<h2>For Roommate Situations Specifically</h2>
+
+<p>Roommate pet care dynamics have some additional complications. Unlike partners, roommates may have less emotional investment in the pet's wellbeing and fewer social consequences for dropping the ball. They may also have genuinely different schedules that make a 50/50 split unrealistic.</p>
+
+<p>A few things that help in roommate setups specifically:</p>
+
+<p><strong>Write down the agreement.</strong> "We discussed it" is much weaker than "we have it in writing." It doesn't need to be a legal document — a shared note that both people have read and acknowledged is enough. Include specific tasks, frequency, and who handles what. Reference it if the conversation comes up again.</p>
+
+<p><strong>Tie pet care to financial contribution where appropriate.</strong> If one person is doing significantly more care than the other, consider whether that should be reflected in how costs are split — vet bills, food, supplies. This isn't punitive; it's a recognition that care and money are both contributions to the pet's wellbeing.</p>
+
+<p><strong>Establish an escalation path.</strong> What happens if a roommate consistently misses their tasks? At what point does that become a roommate problem rather than a pet care problem? Knowing this in advance — ideally before moving in together — makes the situation less fraught when it comes up.</p>
+
+<p><strong>Consider whether the pet can rely on this living situation.</strong> Harsh but important: if your roommate has demonstrated that they won't reliably handle pet care even with a clear agreement and a tracking system, that's information about whether this is a sustainable arrangement for an animal who needs consistent care.</p>
+
+<h2>Making the Invisible Visible</h2>
+
+<p>The single most effective thing a shared household can do is make pet care tasks visible to both people in real time. Not in retrospect, not in a weekly review — in the moment, as tasks are completed or left undone.</p>
+
+<p><strong>Pawlo</strong> was built for exactly this. Set up a shared household, add your pet and their tasks, and both people see the same live task list with completion history. When the morning person feeds the dog, the evening person sees it before they even get out of bed — time-stamped, attributed, done. The evening walk shows up as done or not done when the morning person gets home. There's no guessing. The data is just there.</p>
+
+<p>The contribution tracker shows each person's task completion over time. Most households who start using this find one of two things: either the workload is more balanced than they thought (and one person's perception of imbalance was partly anxiety, not reality), or the data confirms the gap and gives both people a non-emotional starting point for addressing it.</p>
+
+<p>The goal is not to create a leaderboard that causes resentment. The goal is to replace vague feelings of unfairness — which are hard to act on — with concrete information that both people can work from. "You've walked him 4 times this month and I've walked him 19 times" is a different kind of conversation than "I feel like I do everything."</p>
+
+<h2>When One Person Cares More Than the Other</h2>
+
+<p>This one is worth naming directly, because it comes up constantly in the Reddit threads and doesn't get said plainly enough: sometimes the imbalance is real, persistent, and not fixable with a better system.</p>
+
+<p>If one person wanted this pet and the other agreed reluctantly, the person who wanted it will probably always care more. If one person's schedule is genuinely more demanding, they may simply have less capacity for pet care. If one person's emotional connection to the pet is stronger, their follow-through will be more reliable.</p>
+
+<p>None of these things are automatically a problem. They become a problem when the higher-caring person expected an equal partnership and isn't getting one, or when the lower-caring person agreed to a responsibility level they're not actually meeting.</p>
+
+<p>The solution in these cases isn't a better app. It's an honest conversation about whether the arrangement is working — and if it isn't, what adjustments are possible. That might mean one person formally takes on more responsibility with a reduction in other shared costs. It might mean hiring outside help (a dog walker, a pet sitter) to fill the gap. It might mean a harder conversation about the pet's living situation.</p>
+
+<p>A tracking system gives you data. The data can inform the conversation. But the conversation still has to happen.</p>
+
+<h2>The Routine That Makes Fairness Automatic</h2>
+
+<p>Fairness in pet care is easiest when it's structural rather than negotiated day by day. Clear ownership of time windows, a shared tracker so both people work from the same information, and an established protocol for disruptions and travel.</p>
+
+<p>Once that structure exists and both people are actually using it, the question of who's doing their fair share stops being a source of friction. The data is there. The tasks are visible. The pattern either looks fair or it doesn't — and if it doesn't, you have something specific to address instead of something vague to argue about.</p>
+
+<p>Pets are great. Arguing about whether the dog got walked is not. The goal is a household where the pet's needs get met without anyone having to chase, remind, or silently resent. That's achievable — it just requires a few decisions and a shared system to back them up.</p>
+    `.trim(),
+  },
 ];
 
 export function getAllPosts(): Post[] {
