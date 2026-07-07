@@ -4,65 +4,72 @@
 
 /* Font loaded via next/font/google in layout.tsx — no external @import needed */
 
-/* --- CSS Custom Properties --- */
+/* --- CSS Custom Properties ---
+   Palette mirrors the shipped iOS app (Assets.xcassets / marketing/src/brand.ts):
+   cream #F5EFE4 · paper #FFFCF7 · ink #161A15 · mustard #E0B254 / #C68829 ·
+   coral #D9603F / #B14524 · streak #F4A523 */
 :root {
   /* Surface Hierarchy (layered paper feel) */
-  --surface: #f9f9ff;
-  --surface-dim: #cadaff;
-  --surface-bright: #f9f9ff;
-  --surface-container-lowest: #ffffff;
-  --surface-container-low: #f1f3ff;
-  --surface-container: #e8edff;
-  --surface-container-high: #e0e8ff;
-  --surface-container-highest: #d7e2ff;
-  --surface-variant: #d7e2ff;
-  --surface-tint: #005cbd;
+  --surface: #faf6ec;
+  --surface-dim: #efdfc6;
+  --surface-bright: #fbf8f1;
+  --surface-container-lowest: #fffcf7;
+  --surface-container-low: #f5efe4;
+  --surface-container: #f0e8d8;
+  --surface-container-high: #eae0cb;
+  --surface-container-highest: #e4d7bc;
+  --surface-variant: #efe6d2;
+  --surface-tint: #c68829;
 
-  /* Primary */
-  --primary: #0059b8;
-  --primary-container: #1171e3;
-  --primary-fixed: #d7e2ff;
-  --primary-fixed-dim: #acc7ff;
-  --on-primary: #ffffff;
-  --on-primary-container: #fefcff;
-  --on-primary-fixed: #001a40;
-  --on-primary-fixed-variant: #004591;
-  --inverse-primary: #acc7ff;
+  /* Primary (mustard family) */
+  --primary: #8a5a0e;
+  --primary-container: #c68829;
+  --primary-bright: #e0b254;
+  --primary-fixed: #f1e2b0;
+  --primary-fixed-dim: #e0b254;
+  --on-primary: #201803;
+  --on-primary-container: #fffcf7;
+  --on-primary-fixed: #2a1f00;
+  --on-primary-fixed-variant: #6b4a08;
+  --inverse-primary: #e0b254;
 
-  /* Secondary */
-  --secondary: #4d5e80;
-  --secondary-container: #c6d7ff;
-  --secondary-fixed: #d7e2ff;
-  --secondary-fixed-dim: #b5c7ee;
+  /* Secondary (warm neutrals) */
+  --secondary: #565a50;
+  --secondary-container: #e9e2d0;
+  --secondary-fixed: #efe8d6;
+  --secondary-fixed-dim: #d8cfb8;
   --on-secondary: #ffffff;
-  --on-secondary-container: #4c5d7f;
-  --on-secondary-fixed: #071b39;
-  --on-secondary-fixed-variant: #364767;
+  --on-secondary-container: #3a3f37;
+  --on-secondary-fixed: #161a15;
+  --on-secondary-fixed-variant: #454a40;
 
-  /* Tertiary (warm accents) */
-  --tertiary: #685e36;
-  --tertiary-container: #b8ab7d;
+  /* Tertiary (coral + sand accents) */
+  --tertiary: #9c3d1f;
+  --tertiary-container: #d9603f;
   --tertiary-fixed: #f1e2b0;
   --tertiary-fixed-dim: #d4c696;
   --on-tertiary: #ffffff;
-  --on-tertiary-container: #483f1b;
+  --on-tertiary-container: #fff4ef;
   --on-tertiary-fixed: #221b00;
   --on-tertiary-fixed-variant: #504621;
 
+  /* Celebration */
+  --streak: #f4a523;
+
   /* Text Colors */
-  --on-surface: #071b39;
-  --on-surface-variant: #414753;
-  --on-background: #071b39;
+  --on-surface: #161a15;
+  --on-surface-variant: #3a3f37;
+  --on-background: #161a15;
 
   /* Utility Colors */
-  --error: #ba1a1a;
-  --error-container: #ffdad6;
+  --error: #b14524;
+  --error-container: #f9ded5;
   --on-error: #ffffff;
-  --on-error-container: #93000a;
-  --outline: #727785;
-  --outline-variant: #c1c6d6;
-  --inverse-surface: #1f3050;
-  --inverse-on-surface: #edf0ff;
+  --on-error-container: #8a2e12;
+  --outline: #6d6a5e;
+  --outline-variant: #d8d2c2;
+  --inverse-surface: #2a2e28;
+  --inverse-on-surface: #f5efe4;
 
   /* Typography */
   --font-primary: var(--font-plus-jakarta-sans), 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
@@ -101,11 +108,11 @@
   --border-radius-2xl: 4rem;
   --border-radius-full: 9999px;
 
-  /* Shadows — Ambient Depth (no harsh drop shadows) */
-  --shadow-editorial: 0 40px 80px -20px rgba(7, 27, 57, 0.06);
-  --shadow-ambient: 0 20px 60px -15px rgba(7, 27, 57, 0.05);
-  --shadow-soft: 0 10px 40px -10px rgba(7, 27, 57, 0.04);
-  --shadow-glow-primary: 0 8px 30px rgba(0, 89, 184, 0.20);
+  /* Shadows — Ambient Depth (warm ink tint, no harsh drop shadows) */
+  --shadow-editorial: 0 40px 80px -20px rgba(60, 47, 24, 0.08);
+  --shadow-ambient: 0 20px 60px -15px rgba(60, 47, 24, 0.07);
+  --shadow-soft: 0 10px 40px -10px rgba(60, 47, 24, 0.06);
+  --shadow-glow-primary: 0 8px 30px rgba(198, 136, 41, 0.28);
 
   /* Transitions */
   --transition-fast: 150ms ease;
@@ -240,14 +247,14 @@ button {
 }
 
 .btn--primary {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 100%);
+  background: linear-gradient(135deg, var(--primary-bright) 0%, var(--primary-container) 100%);
   color: var(--on-primary);
   box-shadow: var(--shadow-glow-primary);
 }
 
 .btn--primary:hover {
   transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 12px 40px rgba(0, 89, 184, 0.3);
+  box-shadow: 0 12px 40px rgba(198, 136, 41, 0.38);
   color: var(--on-primary);
 }
 

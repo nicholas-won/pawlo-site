@@ -249,7 +249,7 @@
 
 .ctaBtn {
   display: inline-block;
-  background: var(--primary);
+  background: linear-gradient(135deg, var(--primary-bright) 0%, var(--primary-container) 100%);
   color: var(--on-primary);
   font-weight: 700;
   font-size: var(--font-size-base);
@@ -303,7 +303,7 @@
 }
 
 .relatedCard:hover {
-  box-shadow: 0 12px 40px rgba(7, 27, 57, 0.08);
+  box-shadow: 0 12px 40px rgba(60, 47, 24, 0.08);
   transform: translateY(-2px);
 }
 

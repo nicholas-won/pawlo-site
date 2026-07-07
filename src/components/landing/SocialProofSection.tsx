@@ -1,64 +1,62 @@
 import AnimatedSection from "@/components/AnimatedSection";
 import styles from "./SocialProofSection.module.css";
 
-const testimonials = [
+const households = [
   {
-    quote:
-      "Pawlo saved our lab from getting three breakfasts every single morning. The conflict alerts are literal lifesavers.",
-    name: "Sarah Jenkins",
-    role: "Human to Buster",
-    avatar: "👩",
+    emoji: "💑",
+    title: "For couples",
+    scenario: "“Did you feed her?” — asked from two rooms away, every night.",
+    solution:
+      "One shared checklist, synced in real time. When one of you marks dinner done, the other sees it instantly — no texts, no double-feeding.",
   },
   {
-    quote:
-      "The cleanest UI I've ever seen for a pet app. It doesn't feel like a chore to use—it feels like part of our morning ritual.",
-    name: "David Chen",
-    role: "Human to Mochi",
-    avatar: "👨",
+    emoji: "🏠",
+    title: "For roommates",
+    scenario: "Three people, one dog, and nobody sure whose turn it is.",
+    solution:
+      "Every walk and feeding is attributed by name and time, so the whole apartment can see what's done — and who's been carrying the load.",
     offset: true,
   },
   {
-    quote:
-      "Finally, I can see exactly when the dog was walked without having to text my roommate three times. Absolute game changer.",
-    name: "Alex Rivera",
-    role: "Human to Duke",
-    avatar: "🧔",
+    emoji: "👨‍👩‍👧",
+    title: "For families",
+    scenario: "The kids swear they fed the cat. The cat disagrees.",
+    solution:
+      "Simple enough for kids to tap, clear enough for parents to trust. Meds and vet tasks get extra safeguards so nothing critical slips.",
   },
 ];
 
 export default function SocialProofSection() {
   return (
-    <section className={styles.section} id="testimonials">
+    <section className={styles.section} id="households">
       <div className={styles.inner}>
         <AnimatedSection>
           <div className={styles.header}>
-            <span className="label-tag">Real households</span>
+            <span className="label-tag">Who it&apos;s for</span>
             <h2 className={styles.heading}>
-              What pet parents{" "}
-              <span className={styles.accent}>are saying</span>
+              Built for every kind of{" "}
+              <span className={styles.accent}>household.</span>
             </h2>
             <p className={styles.subtitle}>
-              Trusted by families who treat pets like royalty.
+              94 million U.S. households own a pet — and most share the care
+              between two or more people.
             </p>
           </div>
         </AnimatedSection>
 
         <div className={styles.grid}>
-          {testimonials.map((t, i) => (
+          {households.map((h, i) => (
             <AnimatedSection
-              key={i}
+              key={h.title}
               delay={i * 100}
-              className={`${styles.card} ${t.offset ? styles.cardOffset : ""}`}
+              className={`${styles.card} ${h.offset ? styles.cardOffset : ""}`}
             >
-              <div className={styles.stars}>★★★★★</div>
-              <p className={styles.quote}>&ldquo;{t.quote}&rdquo;</p>
-              <div className={styles.author}>
-                <div className={styles.avatar}>{t.avatar}</div>
-                <div>
-                  <p className={styles.name}>{t.name}</p>
-                  <p className={styles.role}>{t.role}</p>
-                </div>
+              <div>
+                <div className={styles.avatar}>{h.emoji}</div>
+                <p className={styles.name}>{h.title}</p>
+                <p className={styles.quote}>{h.scenario}</p>
               </div>
+              <p className={styles.solution}>{h.solution}</p>
             </AnimatedSection>
           ))}
         </div>

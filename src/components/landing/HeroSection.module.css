@@ -182,7 +182,7 @@
   background: var(--on-surface);
   border-radius: 46px;
   padding: 12px;
-  box-shadow: 0 40px 80px rgba(7, 27, 57, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: 0 40px 80px rgba(42, 32, 10, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.08);
   position: relative;
   width: 260px;
   flex-shrink: 0;

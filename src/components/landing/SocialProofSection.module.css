@@ -51,27 +51,19 @@
   transform: translateY(var(--space-8));
 }
 
-.stars {
-  display: flex;
-  gap: 2px;
-  margin-bottom: var(--space-4);
-  color: #f59e0b;
-  font-size: 14px;
-  letter-spacing: 1px;
-}
-
 .quote {
   font-size: var(--font-size-xl);
   line-height: 1.6;
   font-style: italic;
   color: var(--on-surface);
-  margin-bottom: var(--space-10);
+  margin-bottom: var(--space-8);
 }
 
-.author {
-  display: flex;
-  align-items: center;
-  gap: var(--space-4);
+.solution {
+  font-size: var(--font-size-base);
+  line-height: 1.7;
+  color: var(--on-surface-variant);
+  padding-top: var(--space-6);
 }
 
 .avatar {
@@ -83,17 +75,14 @@
   align-items: center;
   justify-content: center;
   font-size: 24px;
+  margin-bottom: var(--space-4);
 }
 
 .name {
-  font-weight: 700;
+  font-weight: 800;
+  font-size: var(--font-size-lg);
   color: var(--on-surface);
-}
-
-.role {
-  font-size: var(--font-size-sm);
-  color: var(--on-surface-variant);
-  opacity: 0.6;
+  margin-bottom: var(--space-3);
 }
 
 /* Responsive */

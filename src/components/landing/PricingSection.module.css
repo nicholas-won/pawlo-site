@@ -41,7 +41,7 @@
   top: -14px;
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 100%);
+  background: linear-gradient(135deg, var(--primary-bright) 0%, var(--primary-container) 100%);
   color: var(--on-primary);
   padding: var(--space-1) var(--space-4);
   border-radius: var(--border-radius-full);

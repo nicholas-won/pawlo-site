@@ -134,7 +134,7 @@
   background: var(--surface-container-lowest);
   padding: var(--space-3) var(--space-4);
   border-radius: var(--border-radius-lg);
-  box-shadow: 0 10px 30px rgba(7, 27, 57, 0.12);
+  box-shadow: 0 10px 30px rgba(60, 47, 24, 0.12);
   display: flex;
   align-items: center;
   gap: var(--space-3);

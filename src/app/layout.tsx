@@ -40,6 +40,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://getpawlo.app",
   },
+  itunes: {
+    appId: "6762538892",
+  },
   openGraph: {
     title: "Pawlo — Shared Pet Care App for Couples, Families & Roommates",
     description:

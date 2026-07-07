@@ -59,7 +59,7 @@
 }
 
 .cardPrimary {
-  background: var(--primary);
+  background: linear-gradient(135deg, var(--primary-bright) 0%, var(--primary-container) 100%);
 }
 
 .cardPrimary .cardTitle,
@@ -68,12 +68,12 @@
 }
 
 .cardPrimary .cardDesc {
-  color: var(--primary-fixed);
-  opacity: 0.8;
+  color: var(--on-primary);
+  opacity: 0.75;
 }
 
 .cardPrimary .iconBox {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 252, 247, 0.35);
 }
 
 /* Card with image */
@@ -134,7 +134,7 @@
 .cardFooter {
   margin-top: var(--space-8);
   padding-top: var(--space-8);
-  border-top: 1px solid rgba(7, 27, 57, 0.05);
+  border-top: 1px solid rgba(60, 47, 24, 0.05);
   display: flex;
   justify-content: space-between;
   align-items: center;
