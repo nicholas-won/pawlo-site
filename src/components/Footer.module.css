@@ -8,7 +8,7 @@
   margin: 0 auto;
   padding: 0 var(--space-8);
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: var(--space-12);
 }
 

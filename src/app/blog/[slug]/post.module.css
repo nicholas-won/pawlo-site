@@ -358,3 +358,40 @@
     height: 260px;
   }
 }
+
+/* Comparison tables inside post content */
+.prose :global(.table-wrap) {
+  overflow-x: auto;
+  margin: var(--space-6) 0;
+}
+
+.prose :global(table) {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  background: var(--surface-container-lowest);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+
+.prose :global(th) {
+  text-align: left;
+  font-weight: 800;
+  padding: 0.85rem 1rem;
+  background: var(--surface-container-low);
+  color: var(--on-surface);
+  white-space: nowrap;
+}
+
+.prose :global(td) {
+  padding: 0.8rem 1rem;
+  border-top: 1px solid var(--surface-container);
+  color: var(--on-surface-variant);
+  vertical-align: top;
+}
+
+.prose :global(td:first-child) {
+  font-weight: 700;
+  color: var(--on-surface);
+}

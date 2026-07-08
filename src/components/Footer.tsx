@@ -109,6 +109,21 @@ export default function Footer() {
         </div>
 
         <div className={styles.linkCol}>
+          <h4 className={styles.linkHeading}>Who it&apos;s for</h4>
+          <ul className={styles.linkList}>
+            <li>
+              <Link href="/pet-care-app-for-couples">For couples</Link>
+            </li>
+            <li>
+              <Link href="/pet-care-app-for-roommates">For roommates</Link>
+            </li>
+            <li>
+              <Link href="/pet-care-app-for-families">For families</Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className={styles.linkCol}>
           <h4 className={styles.linkHeading}>Company</h4>
           <ul className={styles.linkList}>
             <li>

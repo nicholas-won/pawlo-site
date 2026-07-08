@@ -21,6 +21,111 @@ export type Post = {
 
 const posts: Post[] = [
   {
+    slug: "pawlo-vs-did-i-feed-the-dog-vs-who-fed-the-dog",
+    title: "Pawlo vs. “Did I Feed the Dog?” vs. “Who Fed the Dog?”: An Honest Comparison",
+    seoTitle: "Pawlo vs Did I Feed the Dog vs Who Fed the Dog (2026)",
+    description:
+      "Three apps promise to end the “did anyone feed the dog?” problem. Here's an honest look at what the simple feeding toggles do well, where they stop, and when you need more.",
+    date: "2026-07-07",
+    modifiedDate: "2026-07-07",
+    readTime: "7 min read",
+    category: "App Reviews",
+    keywords: [
+      "did i feed the dog app",
+      "who fed the dog app",
+      "pawlo vs did i feed the dog",
+      "dog feeding tracker for households",
+      "app to track who fed the dog",
+      "shared pet care app comparison",
+    ],
+    searchIntent: "Compare Pawlo with Did I Feed the Dog and Who Fed the Dog",
+    image: "/blog/pawlo-vs-feeding-tracker-apps.jpg",
+    imageAlt:
+      "Comparison graphic: simple fed/walked/meds question cards next to the Pawlo home screen",
+    faqs: [
+      {
+        question: "What's the difference between Pawlo and Did I Feed the Dog?",
+        answer:
+          "Did I Feed the Dog? is built around one question — whether the dog was fed this morning or evening. Pawlo covers the whole shared routine: feeding, walks, medication, litter, and custom tasks, each stamped with who did it and when, synced across the household.",
+      },
+      {
+        question: "Is a simple feeding toggle app enough for my household?",
+        answer:
+          "If feeding is genuinely your only coordination problem, a simple toggle app can be enough. If your household also shares walks, medication, or sitter handoffs — or argues about who does more — you'll outgrow a feeding-only tracker quickly.",
+      },
+      {
+        question: "Does Pawlo have a free trial?",
+        answer:
+          "Yes. Pawlo comes with a 7-day free trial with full access, then costs $3.99/month, $24.99/year, or a one-time lifetime purchase. One subscription covers unlimited household members.",
+      },
+    ],
+    relatedSlugs: [
+      "did-someone-feed-the-dog-app",
+      "best-pet-care-apps-2026",
+      "dog-feeding-schedule-whole-household",
+    ],
+    content: `
+<p>If you've ever typed “did I feed the dog” into the App Store, you found apps literally named after the question. <em>Did I Feed the Dog?</em> and <em>Who Fed the Dog?</em> both exist because one problem is nearly universal in multi-person households: nobody can remember whether the dog ate.</p>
+
+<p>Pawlo gets compared to both, so here's an honest breakdown — including the cases where the simpler apps are the better pick.</p>
+
+<h2>The short version</h2>
+
+<p>All three apps answer “did anyone feed the dog?” The difference is what happens after that question. The toggle apps treat feeding as the whole problem. Pawlo treats it as the first of many: walks, medication, litter, sitter handoffs, and the “I always do everything” argument that follows a household everywhere.</p>
+
+<div class="table-wrap">
+<table>
+<tr><th>What you need</th><th>Did I Feed the Dog?</th><th>Who Fed the Dog?</th><th>Pawlo</th></tr>
+<tr><td>Feeding check-offs shared with the household</td><td>Yes — its entire purpose</td><td>Yes — its entire purpose</td><td>Yes</td></tr>
+<tr><td>Walks, litter &amp; custom tasks</td><td>No — feeding only</td><td>No — feeding focused</td><td>Yes, full routine</td></tr>
+<tr><td>Medication tracking with double-dose warnings</td><td>No</td><td>No</td><td>Yes</td></tr>
+<tr><td>“Done by who, at what time” history</td><td>Limited</td><td>Limited</td><td>Every task, every time</td></tr>
+<tr><td>Household streaks &amp; home-screen widgets</td><td>—</td><td>—</td><td>Yes</td></tr>
+<tr><td>Sitter handoff (share the routine, not a sticky note)</td><td>No</td><td>No</td><td>Yes</td></tr>
+</table>
+</div>
+
+<p><em>Based on public App Store listings as of July 2026 — features change, so double-check anything that's a dealbreaker for you.</em></p>
+
+<h2>What the simple toggle apps get right</h2>
+
+<p>Credit where due: <strong>Did I Feed the Dog?</strong> is a genuinely clever piece of design. It strips the problem down to a board of morning/evening toggles that anyone in the house can flip — including the grandparent who will never learn a “real” app. There's almost nothing to set up and nothing to get wrong.</p>
+
+<p><strong>Who Fed the Dog?</strong> follows the same playbook: a lightweight, feeding-first tracker for households that want a shared yes/no answer.</p>
+
+<p>If your household's <em>only</em> shared responsibility is feeding — one pet, no medications, walks handled by whoever feels like it — a toggle app may honestly be all you need. We'd rather tell you that than oversell you.</p>
+
+<h2>Where the toggle stops working</h2>
+
+<p>The trouble is that “did you feed him?” is rarely the only question. It's just the loudest one. The same household that double-feeds the dog also:</p>
+
+<ul>
+<li><strong>Forgets whose turn the evening walk is</strong> — and the dog pays for the standoff.</li>
+<li><strong>Loses track of monthly flea and heartworm meds</strong> — where a missed dose is bad and a double dose can mean an emergency vet call.</li>
+<li><strong>Has the “I do everything around here” fight</strong> — unwinnable when there's no record of who actually did what.</li>
+<li><strong>Hands the sitter a sticky note</strong> — and spends the weekend answering texts about which bowl is whose.</li>
+</ul>
+
+<p>A feeding toggle can't help with any of that, because it only ever knew about one task. This is the gap Pawlo was built for: the <em>whole</em> routine, shared across the whole household, with every check-off attributed and synced in real time.</p>
+
+<h2>The attribution difference</h2>
+
+<p>The deeper difference isn't the number of task types — it's accountability. In Pawlo, every completed task reads like a receipt: <em>Morning Feed — done by Alex at 8:12 AM</em>. Over a week, that history quietly settles arguments that used to run on vibes — the double-feed question gets answered, but so does the fairness one.</p>
+
+<p>Pawlo also actively protects against the scariest failure mode: if a task is already done, it warns the next person before they repeat it, and critical medications get an extra confirmation hold.</p>
+
+<h2>Pricing</h2>
+
+<p>Pawlo is $3.99/month, $24.99/year, or a one-time lifetime purchase — after a 7-day free trial with full access. One subscription covers unlimited household members, so a couple, a family, or a whole apartment pays once. The toggle apps are cheaper or free with lighter functionality; check their current listings for details.</p>
+
+<h2>The bottom line</h2>
+
+<p>Pick <strong>Did I Feed the Dog?</strong> or <strong>Who Fed the Dog?</strong> if feeding is truly your household's only shared task and you want the simplest possible toggle.</p>
+
+<p>Pick <strong>Pawlo</strong> if your household shares more than feeding — walks, meds, multiple pets, a sitter now and then — or if “who actually does more” is a live question in your house. That's not a niche upgrade; it's the difference between answering one question and running the whole routine together.</p>
+    `.trim(),
+  },
+  {
     slug: "best-pet-care-apps-2026",
     title: "The 5 Best Pet Care Apps in 2026 (Tested & Compared)",
     seoTitle: "Best Pet Care Apps for Shared Households in 2026",
