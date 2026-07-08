@@ -1,0 +1,162 @@
+.main {
+  min-height: 72vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 2rem 6rem;
+  background: var(--surface);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.blob1 {
+  position: absolute;
+  top: -140px;
+  right: -100px;
+  width: 560px;
+  height: 560px;
+  border-radius: 60% 40% 70% 30% / 50% 60% 40% 50%;
+  background: var(--primary-fixed);
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.blob2 {
+  position: absolute;
+  bottom: -100px;
+  left: -80px;
+  width: 400px;
+  height: 400px;
+  border-radius: 40% 60% 30% 70% / 60% 40% 50% 50%;
+  background: var(--tertiary-fixed);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Wandering paw prints */
+.paw1,
+.paw2,
+.paw3 {
+  position: absolute;
+  opacity: 0.18;
+  pointer-events: none;
+  user-select: none;
+}
+
+.paw1 {
+  top: 18%;
+  left: 12%;
+  font-size: 2.2rem;
+  transform: rotate(-24deg);
+}
+
+.paw2 {
+  top: 38%;
+  left: 22%;
+  font-size: 1.7rem;
+  transform: rotate(12deg);
+}
+
+.paw3 {
+  bottom: 20%;
+  right: 14%;
+  font-size: 2.6rem;
+  transform: rotate(38deg);
+}
+
+.inner {
+  max-width: 620px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.dog {
+  font-size: 5rem;
+  line-height: 1;
+  position: relative;
+  animation: dig 2.6s ease-in-out infinite;
+}
+
+.dirt {
+  position: absolute;
+  right: -2.4rem;
+  bottom: -0.4rem;
+  font-size: 2.4rem;
+}
+
+@keyframes dig {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(-8deg) translateY(4px);
+  }
+  60% {
+    transform: rotate(6deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dog {
+    animation: none;
+  }
+}
+
+.heading {
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.12;
+  color: var(--on-surface);
+}
+
+.highlight {
+  background: linear-gradient(135deg, var(--primary), var(--primary-container));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.copy {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.65;
+  color: var(--on-surface-variant);
+  max-width: 480px;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.75rem;
+}
+
+.popular {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--on-surface-variant);
+}
+
+.popular a {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 6rem 1.25rem 4rem;
+  }
+
+  .blob1,
+  .blob2 {
+    display: none;
+  }
+}
