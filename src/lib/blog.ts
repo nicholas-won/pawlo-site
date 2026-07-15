@@ -21,6 +21,409 @@ export type Post = {
 
 const posts: Post[] = [
   {
+    slug: "how-much-to-feed-dog",
+    title: "How Much Should You Feed Your Dog? A Practical Portion Guide",
+    seoTitle: "How Much to Feed a Dog: Portions by Weight (Practical Guide)",
+    description:
+      "How much food does your dog actually need? A practical guide to portions by weight, reading the bag correctly, body-condition checks, and the household mistake that quietly ruins portion control.",
+    date: "2026-07-15",
+    modifiedDate: "2026-07-15",
+    readTime: "8 min read",
+    category: "Feeding",
+    keywords: [
+      "how much to feed a dog",
+      "dog feeding chart",
+      "how much food should I feed my dog",
+      "dog portion size by weight",
+      "how many cups of dog food",
+      "dog feeding guide",
+    ],
+    searchIntent: "Find out the right amount of food for a dog",
+    image: "/blog/how-much-to-feed-dog.jpg",
+    imageAlt: "Dog waiting eagerly in the kitchen while a meal is prepared",
+    faqs: [
+      {
+        question: "How much food should I feed my dog per day?",
+        answer:
+          "Start with the feeding chart on your dog's food bag for their target weight, then adjust based on body condition. Most adult dogs eat between roughly 200 and 1,350 calories a day depending on size and activity — a 10 lb dog needs far less than most people pour. Your vet can give you an exact calorie target.",
+      },
+      {
+        question: "Why is my dog gaining weight on the recommended amount?",
+        answer:
+          "The most common culprits: treats not being counted (they should stay under about 10% of daily calories), portions measured by eye instead of a measuring cup, and — in multi-person households — the dog being fed twice because nobody realized someone else already fed them.",
+      },
+      {
+        question: "Should I feed my dog once or twice a day?",
+        answer:
+          "Most adult dogs do best with two meals about 8–12 hours apart. Puppies need three to four smaller meals. A consistent schedule matters as much as the amount — it keeps digestion steady and makes appetite changes (an early illness signal) much easier to spot.",
+      },
+    ],
+    relatedSlugs: [
+      "dog-feeding-schedule-whole-household",
+      "why-is-my-dog-not-eating",
+      "feed-multiple-pets-without-chaos",
+    ],
+    content: `
+<p>"How much should I feed my dog?" sounds like it should have a one-line answer. It doesn't — the honest answer is "it depends on weight, age, activity, and the food itself." But it's absolutely possible to get to the <em>right number for your dog</em> in about ten minutes. Here's how.</p>
+
+<h2>Start with calories, not cups</h2>
+
+<p>Dog food portions are usually discussed in cups, but cups are nearly meaningless on their own — a cup of one kibble can contain nearly twice the calories of another. The number that matters is <strong>kcal per day</strong>, and every bag lists its kcal per cup.</p>
+
+<p>Rough daily calorie ranges for typical <em>adult, neutered, moderately active</em> dogs:</p>
+
+<div class="table-wrap">
+<table>
+<tr><th>Dog's weight</th><th>Approx. daily calories</th></tr>
+<tr><td>10 lb</td><td>200–275 kcal</td></tr>
+<tr><td>20 lb</td><td>325–475 kcal</td></tr>
+<tr><td>35 lb</td><td>500–700 kcal</td></tr>
+<tr><td>50 lb</td><td>700–900 kcal</td></tr>
+<tr><td>70 lb</td><td>900–1,100 kcal</td></tr>
+<tr><td>90 lb</td><td>1,100–1,350 kcal</td></tr>
+</table>
+</div>
+
+<p><em>These are ballparks, not prescriptions.</em> Puppies, working dogs, and intact dogs need more; seniors and couch specialists need less. Your vet can calculate a precise resting-energy target — worth asking for at your next visit, it takes them thirty seconds.</p>
+
+<h2>Then divide by the bag's kcal per cup</h2>
+
+<p>Find "kcal/cup" on the bag (usually near the ingredients). If your 50 lb dog needs ~800 kcal and the food is 400 kcal/cup, that's <strong>2 cups a day — total</strong>, not per meal. Split it into two meals, and use an actual measuring cup. Studies of owner-poured portions consistently find people over-pour by 20–50% when eyeballing.</p>
+
+<h2>The 10% treat rule</h2>
+
+<p>Treats, dental chews, training rewards, and the crust of your sandwich all count. Keep them under about 10% of daily calories — for a 20 lb dog, that's roughly 40 kcal, which is <em>one</em> medium biscuit. If treats run higher (training weeks, generous grandparents), subtract from the bowl accordingly.</p>
+
+<h2>Check the dog, not just the chart</h2>
+
+<p>Charts get you close; your dog's body tells you if you're right. The quick body-condition check:</p>
+
+<ul>
+<li><strong>Ribs:</strong> you should feel them easily under a thin layer, like the back of your hand — not see them sharply, not have to press through padding</li>
+<li><strong>Waist:</strong> visible tuck behind the ribs when viewed from above</li>
+<li><strong>Belly:</strong> slopes up from chest to hips from the side</li>
+</ul>
+
+<p>Recheck monthly. If the padding is growing, cut portions by about 10% and reassess in three or four weeks; if ribs are getting sharp, do the reverse — and mention either trend to your vet.</p>
+
+<h2>The portion killer nobody talks about: your household</h2>
+
+<p>Here's the mistake that quietly wrecks more feeding plans than any chart error: <strong>the dog gets fed twice.</strong> In multi-person households, "did anyone feed him?" is answered with a shrug and a second scoop. The dog — who would never volunteer this information — eats 200% of his portion, and three months later the vet is talking about weight management.</p>
+
+<p>The fix is boring but effective: one shared record of who fed the dog and when. Some households use a whiteboard or group chat; the failure mode of both is that they depend on everyone remembering to update and check them. (This exact problem is why we built <a href="/">Pawlo</a> — a shared checklist where a feeding, once checked off, is instantly visible to the whole household, with a warning if someone tries to feed again.)</p>
+
+<h2>When to change the amount</h2>
+
+<ul>
+<li><strong>After spay/neuter:</strong> energy needs drop noticeably — many dogs need 20–30% fewer calories than before</li>
+<li><strong>Season and activity:</strong> a hiking-season dog and a January dog are different animals</li>
+<li><strong>Age:</strong> senior dogs generally need fewer calories but often more protein — ask your vet</li>
+<li><strong>New food:</strong> recalculate from the new bag's kcal/cup; never carry cups over from the old food</li>
+</ul>
+
+<p><em>This article is general guidance, not veterinary advice. For a dog with a medical condition, significant weight change, or a sudden appetite shift, talk to your vet.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "how-long-leave-dog-alone",
+    title: "How Long Can You Leave a Dog Home Alone? (By Age, Honestly)",
+    seoTitle: "How Long Can You Leave a Dog Home Alone? Age-by-Age Guide",
+    description:
+      "Realistic limits for leaving a dog home alone — by age and bladder, not wishful thinking. Plus how working households make 8-hour days work without guilt.",
+    date: "2026-07-15",
+    modifiedDate: "2026-07-15",
+    readTime: "7 min read",
+    category: "Care Guides",
+    keywords: [
+      "how long can you leave a dog alone",
+      "leaving dog home alone while at work",
+      "how long can a puppy hold its bladder",
+      "leaving puppy alone",
+      "dog home alone 8 hours",
+    ],
+    searchIntent: "Find out how long a dog can safely stay home alone",
+    image: "/blog/how-long-leave-dog-alone.jpg",
+    imageAlt: "Dog sleeping peacefully on a couch in a sunlit living room",
+    faqs: [
+      {
+        question: "Can I leave my dog alone for 8 hours while I work?",
+        answer:
+          "Most healthy adult dogs can physically manage 8 hours occasionally, but it shouldn't be the default without support — a midday walk (from a household member, neighbor, or walker), exercise before you leave, and enrichment while you're gone make the difference between coping and quietly miserable.",
+      },
+      {
+        question: "How long can a puppy hold its bladder?",
+        answer:
+          "A common rule of thumb: their age in months plus one, in hours — so a 3-month-old puppy needs a break roughly every 3–4 hours, even overnight at first. Expecting more than that isn't training, it's setting the puppy up to fail.",
+      },
+      {
+        question: "How do couples or roommates split midday dog duty?",
+        answer:
+          "The households that make it work assign the midday slot explicitly instead of assuming someone will handle it — a shared task list where the walk is visibly done (or visibly not) prevents both the missed walk and the double walk.",
+      },
+    ],
+    relatedSlugs: [
+      "how-often-walk-your-dog",
+      "pet-sitter-instructions-checklist",
+      "dog-feeding-schedule-whole-household",
+    ],
+    content: `
+<p>Every dog owner with a job has done the guilty math on a workday. Here are honest numbers — by age and bladder, not wishful thinking — plus how multi-person households stretch them without anyone (dog included) suffering for it.</p>
+
+<h2>The limits, by age</h2>
+
+<div class="table-wrap">
+<table>
+<tr><th>Age</th><th>Bathroom limit</th><th>Realistic alone time</th></tr>
+<tr><td>8–10 weeks</td><td>~1 hour</td><td>Almost none — someone should be around</td></tr>
+<tr><td>3 months</td><td>~3–4 hours</td><td>2–3 hours with a setup (pen, pads)</td></tr>
+<tr><td>6 months</td><td>~5–6 hours</td><td>4–5 hours</td></tr>
+<tr><td>Adult (1–7 yrs)</td><td>6–8 hours</td><td>4–6 comfortably; 8 occasionally with support</td></tr>
+<tr><td>Senior</td><td>Varies — often shorter</td><td>Depends on health; ask your vet</td></tr>
+</table>
+</div>
+
+<p>The puppy rule of thumb is <strong>age in months + 1 = hours</strong> they can hold it. It's a ceiling, not a target.</p>
+
+<h2>The bladder isn't the real limit</h2>
+
+<p>A healthy adult dog can physically hold it for a workday. That's not the same as being fine. Dogs sleep a lot of the day, but they're social animals on a boredom budget — past four to six hours, the difference between "napped until you got home" and "systematically ate a couch cushion" is usually what you did before and during the absence:</p>
+
+<ul>
+<li><strong>Exercise first.</strong> A solid walk before you leave buys hours of contented sleep. Ten minutes of sniffing beats thirty of pavement-marching — sniffing is the tiring part.</li>
+<li><strong>Leave work behind.</strong> A frozen stuffed Kong, a puzzle feeder, a scattered handful of kibble in the yard — foraging is nature's television.</li>
+<li><strong>Break up long days.</strong> Past six hours, someone should come by: a household member's lunch break, a neighbor, a dog walker. Even 15 minutes resets the day.</li>
+</ul>
+
+<h2>Signs the current arrangement is too long</h2>
+
+<ul>
+<li>Accidents from a previously house-trained dog</li>
+<li>Destruction concentrated near doors and windows (that's exit-seeking, not naughtiness)</li>
+<li>Neighbors mention barking or howling you never hear</li>
+<li>Frantic, over-the-top greetings that take a long time to settle</li>
+</ul>
+
+<p>If several of these sound familiar — especially the door-scratching and the vocal reports — talk to your vet or a trainer about separation anxiety before it compounds. It's treatable, and earlier is much easier.</p>
+
+<h2>The multi-person household advantage (if you coordinate)</h2>
+
+<p>Two or three people with different schedules can cover a dog's day beautifully — early walk before the first shift, lunch break visit, evening walk after dinner. In practice, most households run this on assumption: <em>someone</em> will do the midday walk. Some days two people show up at noon; some days nobody does, and each person assumed the other went.</p>
+
+<p>The fix is making the schedule visible: assign the slots, and make completion something everyone can see. (This is the exact coordination problem <a href="/">Pawlo</a> exists for — the midday walk is a task on a shared checklist, and the moment someone does it, everyone's phone knows. No double walks, no phantom walks.)</p>
+
+<h2>Going away longer than a workday?</h2>
+
+<p>Overnight and beyond is sitter territory, and the handoff is where things get missed — feeding amounts, med schedules, the quirk about thunderstorms. We wrote a full <a href="/blog/pet-sitter-instructions-checklist">pet sitter instructions checklist</a> for exactly that.</p>
+
+<p><em>General guidance, not veterinary advice — for a dog with separation anxiety, incontinence, or a medical condition, your vet knows your dog's actual limits.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "new-kitten-checklist",
+    title: "New Kitten Checklist: Everything You Need for the First 30 Days",
+    seoTitle: "New Kitten Checklist: Supplies & First 30 Days Guide",
+    description:
+      "Bringing home a kitten? The complete checklist: supplies worth buying, safe-room setup, the first vet visit, feeding schedule by age, and the household rules that prevent chaos.",
+    date: "2026-07-15",
+    modifiedDate: "2026-07-15",
+    readTime: "8 min read",
+    category: "New Pet",
+    keywords: [
+      "new kitten checklist",
+      "bringing home a kitten",
+      "kitten supplies list",
+      "first week with a kitten",
+      "kitten feeding schedule",
+      "what do I need for a kitten",
+    ],
+    searchIntent: "Prepare for bringing home a new kitten",
+    image: "/blog/new-kitten-checklist.jpg",
+    imageAlt: "Curious tabby kitten playing indoors with a toy",
+    faqs: [
+      {
+        question: "What supplies do I need before bringing a kitten home?",
+        answer:
+          "The essentials: litter box (one per cat plus one spare), unscented litter, kitten food (matched to what they're already eating), shallow food and water bowls, a carrier, a scratching post, a few toys, and a cozy sleeping spot in a quiet room.",
+      },
+      {
+        question: "How often should a kitten eat?",
+        answer:
+          "Kittens 8–12 weeks old generally eat about four small meals a day; from 3–6 months, three meals; from around 6 months, most transition to two. Consistency matters — in shared households, agree on who feeds which meal or the kitten will happily eat everyone's version of breakfast.",
+      },
+      {
+        question: "When should a new kitten see the vet?",
+        answer:
+          "Book a checkup within the first week. The vet will check overall health and set up the vaccination series and parasite treatment schedule — kittens need several rounds a few weeks apart, which is exactly the kind of multi-date schedule worth writing down somewhere the whole household can see.",
+      },
+    ],
+    relatedSlugs: [
+      "first-week-puppy-schedule",
+      "dog-cat-feeding-schedule-shared-home",
+      "pet-medication-tracker-never-miss-dose",
+    ],
+    content: `
+<p>Kittens are 90% chaos and 10% sleep, in alternating bursts. The good news: preparing for one is mostly a shopping list and a few household agreements. Here's the whole thing, in order.</p>
+
+<h2>The supply list (before pickup day)</h2>
+
+<ul>
+<li><strong>Litter box + one spare</strong> — the rule is one per cat, plus one. Kittens need low sides.</li>
+<li><strong>Unscented litter</strong> — scented litters put some kittens off the box entirely</li>
+<li><strong>Kitten food</strong> — start with whatever they're eating now, even if you plan to switch; a food change on top of a home change is a stomach upset waiting to happen</li>
+<li><strong>Shallow bowls</strong> — ceramic or stainless; whisker-deep is deep enough</li>
+<li><strong>Carrier</strong> — hard-sided, and leave it out as furniture so it never becomes the scary vet box</li>
+<li><strong>Scratching post</strong> — buy it before they choose your couch; you don't get a revote</li>
+<li><strong>Toys</strong> — a wand toy and a few solo toys; skip the 40-piece bundle, they'll pick a bottle cap anyway</li>
+<li><strong>A quiet room</strong> — more on this next</li>
+</ul>
+
+<h2>Days 1–3: the safe room</h2>
+
+<p>Don't give a kitten the whole house on day one — a single quiet room with the litter box, food and water (kept well apart from the box), bed, and hiding spots is far less overwhelming. Let them decompress and come to you. When they're eating confidently and playing, open the door and let them expand their territory at their own pace — usually a few days.</p>
+
+<p>Kitten-proof while you wait: cords tucked away, breakables shelved, toilet lids down, houseplants checked (lilies especially are seriously toxic to cats — if you have them, rehome the plants, not the kitten).</p>
+
+<h2>Week 1: the vet visit</h2>
+
+<p>Book a checkup within the first week. Expect: a general health check, a fecal test for parasites, and the start of the vaccination series — kittens get several rounds spaced a few weeks apart, plus deworming and flea prevention on their own schedules.</p>
+
+<p>That's suddenly a lot of dates. Write them down somewhere shared, not in one person's head — a missed booster means restarting part of the series, and "I thought you took her" is not a schedule.</p>
+
+<h2>Feeding: small and often</h2>
+
+<div class="table-wrap">
+<table>
+<tr><th>Age</th><th>Meals per day</th></tr>
+<tr><td>8–12 weeks</td><td>~4 small meals</td></tr>
+<tr><td>3–6 months</td><td>3 meals</td></tr>
+<tr><td>6+ months</td><td>2 meals (most cats)</td></tr>
+</table>
+</div>
+
+<p>Kittens are terrible at portion control and excellent at convincing each member of the household, separately, that they have never been fed. Agree on who owns which meal from day one.</p>
+
+<h2>The household agreements (the part everyone skips)</h2>
+
+<p>Most kitten problems in shared homes aren't kitten problems — they're coordination problems. Settle these in the first week:</p>
+
+<ul>
+<li><strong>Who feeds which meal</strong> — four meals a day across two or three people is a double-feed factory without a system</li>
+<li><strong>Who scoops</strong> — daily, and cats will stage a protest you won't enjoy if it slides</li>
+<li><strong>Who tracks the vet series</strong> — boosters, deworming rounds, flea prevention dates</li>
+<li><strong>House rules</strong> — counters or no counters, bedroom doors open or shut; kittens learn whatever the most permissive person teaches</li>
+</ul>
+
+<p>A shared checklist beats memory for all of it. (Households use <a href="/">Pawlo</a> for exactly this — every feeding, scoop, and med is a task everyone can see, checked off with a name and time, so the kitten's four-meal schedule survives contact with three humans.)</p>
+
+<h2>The first month, roughly</h2>
+
+<ul>
+<li><strong>Week 1:</strong> safe room, vet visit, routine established</li>
+<li><strong>Week 2:</strong> full-house access, play schedule (two or three wand sessions a day burns the 2 a.m. zoomies down to manageable)</li>
+<li><strong>Weeks 3–4:</strong> vaccine boosters begin, handling practice (paws, ears, mouth — future-you at nail-trim time says thanks), carrier naps</li>
+</ul>
+
+<p><em>General guidance, not veterinary advice. Your vet is the authority on your kitten's vaccine schedule and health.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "why-is-my-dog-not-eating",
+    title: "Why Is My Dog Not Eating? Common Causes and When to Worry",
+    seoTitle: "Why Is My Dog Not Eating? Causes & When to Call the Vet",
+    description:
+      "A dog skipping meals can mean nothing — or something. The common causes of appetite loss, the household blind spot most owners never check, and the red flags that mean call the vet today.",
+    date: "2026-07-15",
+    modifiedDate: "2026-07-15",
+    readTime: "7 min read",
+    category: "Health",
+    keywords: [
+      "why is my dog not eating",
+      "dog not eating but drinking water",
+      "dog loss of appetite",
+      "dog won't eat his food",
+      "dog skipping meals",
+    ],
+    searchIntent: "Figure out why a dog stopped eating and whether it's serious",
+    image: "/blog/why-dog-not-eating.jpg",
+    imageAlt: "Dog paws next to a full food bowl on a wooden floor",
+    faqs: [
+      {
+        question: "When should I worry about my dog not eating?",
+        answer:
+          "Call your vet if a healthy adult dog refuses all food for more than 24–48 hours, or sooner if there's vomiting, diarrhea, lethargy, or pain. Puppies, seniors, small breeds, and dogs with health conditions can't safely skip meals that long — for them, call the same day.",
+      },
+      {
+        question: "Why is my dog not eating but still drinking water?",
+        answer:
+          "Drinking normally while refusing food often points to nausea, dental pain, or stress rather than serious systemic illness — but it's not a guarantee. If it lasts beyond a day, or comes with any other symptom, have your vet take a look.",
+      },
+      {
+        question: "Could my dog be skipping dinner because someone else fed him?",
+        answer:
+          "It's one of the most common and least-checked explanations in multi-person households. A dog who got a second breakfast, extra treats, or table scraps from another family member isn't sick — he's full. Before worrying, ask everyone in the house what the dog actually ate today.",
+      },
+    ],
+    relatedSlugs: [
+      "how-much-to-feed-dog",
+      "missed-pet-medication-dose",
+      "did-someone-feed-the-dog-app",
+    ],
+    content: `
+<p>A dog ignoring his bowl triggers a very specific spiral of worry — because he can't tell you whether it's nothing or something. Here's a level-headed way through it: the innocent explanations to rule out first, the medical causes, and the red flags that mean stop reading and call the vet.</p>
+
+<h2>First: the red flags (check these before anything else)</h2>
+
+<p>Call your vet promptly — today, not this weekend — if the appetite loss comes with any of:</p>
+
+<ul>
+<li>Vomiting or diarrhea, especially repeated</li>
+<li>Lethargy — genuinely flat, not just relaxed</li>
+<li>Signs of pain: hunched posture, reluctance to move, guarding the belly</li>
+<li>Trying to eat but stopping — pawing the mouth, dropping food (often dental)</li>
+<li>No water intake either</li>
+<li>It's a <strong>puppy, senior, small breed, or a dog with a health condition</strong> — they don't have the reserves to skip meals safely</li>
+</ul>
+
+<p>For an otherwise-normal adult dog acting fine, most vets consider 24–48 hours of true food refusal the line where a checkup stops being optional.</p>
+
+<h2>The innocent explanations (surprisingly common)</h2>
+
+<h3>1. He's already eaten — you just don't know it</h3>
+
+<p>The most under-checked cause in multi-person households: someone else fed the dog. A second breakfast, a generous training session, a grandparent's table diplomacy — and now "he won't eat dinner" is actually "he's full." Before anything else, literally ask everyone in the house what the dog ate today. If nobody's sure, that's its own problem worth fixing (a shared feeding log like <a href="/">Pawlo</a> makes today's intake a fact you look up, not a debate — which also turns out to be the first thing your vet asks for).</p>
+
+<h3>2. It's hot</h3>
+
+<p>Dogs reliably eat less in heat waves. If it's July, he's otherwise normal, and dinner is going half-finished, the weather is a legitimate suspect.</p>
+
+<h3>3. The food changed — or got old</h3>
+
+<p>New bag, new formula, or a bag that's been open long enough to go stale (fats oxidize; dogs notice). Check dates, seal bags properly, and transition foods gradually over a week.</p>
+
+<h3>4. Treat inflation</h3>
+
+<p>Enough treats and chews during the day and the bowl becomes the boring option he can afford to skip. Audit the real daily intake — across every human he's trained to dispense snacks.</p>
+
+<h3>5. Stress and change</h3>
+
+<p>Moves, new pets, new baby, a household member traveling, construction noise — appetite is often the first thing disruption takes. This usually resolves in a few days as the dog recalibrates.</p>
+
+<h3>6. Learned pickiness</h3>
+
+<p>If refusing kibble reliably produces chicken and rice, your dog has not lost his appetite — he has successfully renegotiated the menu. The fix: offer the normal meal for 15–20 minutes, lift it, and offer it again at the next mealtime. A healthy adult dog will not out-stubborn this for long (consistency across the <em>whole</em> household required — one soft-touch defector resets the training).</p>
+
+<h2>The medical causes</h2>
+
+<p>When the innocent list doesn't fit: dental disease (extremely common and underdiagnosed — check for bad breath and one-sided chewing), nausea and GI upset, pain anywhere in the body, infections, medication side effects (did a new med start recently?), and more serious internal illness. This is vet territory — the point of the innocent list is to rule things out quickly, not to delay the call.</p>
+
+<h2>What to bring the vet</h2>
+
+<p>The first questions will be: when did he last eat normally, how much has he actually eaten since, any meds given, anything unusual swallowed? Households with a shared care log can answer all four precisely — "he ate 2/3 of Tuesday dinner, skipped Wednesday breakfast, had his heartworm chew Monday at 6 pm." That precision genuinely changes what the workup looks like.</p>
+
+<p><em>This article is general information, not veterinary advice. When in doubt, call your vet — appetite loss is one of the few symptoms where being over-cautious is never the wrong call.</em></p>
+    `.trim(),
+  },
+  {
     slug: "pawlo-vs-did-i-feed-the-dog-vs-who-fed-the-dog",
     title: "Pawlo vs. “Did I Feed the Dog?” vs. “Who Fed the Dog?”: An Honest Comparison",
     seoTitle: "Pawlo vs Did I Feed the Dog vs Who Fed the Dog (2026)",
