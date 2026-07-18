@@ -127,7 +127,7 @@ export default function RootLayout({
         <Analytics />
         <Script
           src="https://aromatic-caribou-889.convex.site/api/a/am_g7RQKc_UFDyaufnU"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
       </body>
     </html>
