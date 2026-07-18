@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
@@ -124,6 +125,10 @@ export default function RootLayout({
         {children}
         <SpeedInsights />
         <Analytics />
+        <Script
+          src="https://aromatic-caribou-889.convex.site/api/a/am_g7RQKc_UFDyaufnU"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
